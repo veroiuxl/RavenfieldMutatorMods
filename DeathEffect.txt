@@ -1,5 +1,11 @@
 -- Register the behaviour
 behaviour("DeathEffect") -- Thanks https://gist.github.com/nevarman/f8de7de3bd3a0e4bd9196d3504ef530c for the shader
+--[[
+This is a bit messy and has a few problems.
+Problem #1: Because of only changing the mat in the array, every killed actor will have the same "_Cutoff" progress. 
+That means if you kill one actor, it will reset to 0.321 and all dead ragdoll actors will also have the mat applied and therefore be visible.   
+
+]]--
 local gotDefault = false
 local oldMat
 local reddissolveMat
