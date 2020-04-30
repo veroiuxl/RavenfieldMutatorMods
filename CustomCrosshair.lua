@@ -1,4 +1,6 @@
 -- Register the behaviour
+-- Base script by SteelRaven7
+-- I added the Custom Aspect
 behaviour("CustomCrosshair")
 local isEnabled
 local labelsize
