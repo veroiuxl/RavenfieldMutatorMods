@@ -1,6 +1,5 @@
 
 behaviour("MoonGravity")
-local acy
 local timer
 -- gravityScale = -0.55f
 local enabled = false
@@ -9,7 +8,7 @@ local scriptvar
 local onlyForBots = false
 local AntiFall = false
 function MoonGravity:Start()
-	acy = self
+	
 	-- Run when behaviour is created
 	print("[ZG]--MoonGravity by Chryses --")
 	print("<color=#10e33a>Press Y to enable and disable Moon Gravity</color>")
@@ -20,9 +19,7 @@ function MoonGravity:Awake()
 end
 
 function MoonGravity:Update()
-	if acy ~= self then
-		return
-	end
+	
 	if AntiFall == true then
 		
 		Player.actor.balance = 9999
