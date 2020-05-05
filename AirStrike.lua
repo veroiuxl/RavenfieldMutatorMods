@@ -118,18 +118,7 @@ function AirStrike:Update()
 
 		end
 	end
-	if Input.GetKey(KeyCode.Mouse1) then
-		local ray = Ray(PlayerCamera.activeCamera.main.transform.position + PlayerCamera.activeCamera.main.transform.forward * 1, PlayerCamera.activeCamera.main.transform.forward)
-		local raycast = Physics.Raycast(ray,5000, RaycastTarget.ProjectileHit)
-		if raycast ~= nil then
-		RangeFinderText.text = tostring(System.Math.Round(hit.distance,0))
-
-		else
-			RangeFinderText.text = "-"
-
-		end
-
-	end
+	
 
 	
 	if Input.GetKeyDown(KeyCode.Mouse0) and Input.GetKey(KeyCode.Mouse1) and not Player.actor.isDead and not Player.actor.isFallenOver and not Player.actor.isSwimming and not Player.actor.isSeated then
