@@ -1,4 +1,5 @@
 -- Register the behaviour
+-- If you use this in a mod just give me credit somewhere
 behaviour("CustomFlag")
 local customFlagMat
 
