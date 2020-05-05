@@ -1,5 +1,6 @@
 -- Register the behaviour
 -- If you use this in a mod just give me credit somewhere
+-- This is currently really messy, because there is no event for checking if a player is capturing a flag
 behaviour("CustomFlag")
 local customFlagMat
 
