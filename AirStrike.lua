@@ -1,4 +1,4 @@
--- Register the behaviour -- UNCONTINUED PROJECT -- IF YOU USE THIS ATLEAST CREDIT ME
+-- Register the behaviour -- UNCONTINUED PROJECT -- IF YOU USE THIS AT LEAST CREDIT ME
 behaviour("AirStrike")
 local instance
 local TargetPosition
