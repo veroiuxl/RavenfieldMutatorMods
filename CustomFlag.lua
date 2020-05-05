@@ -143,7 +143,7 @@ end
 end
 
 function CustomFlag:SetFlagCurrent()
-	-- It's 2 because I don't want to impact performance, but also want the flag to be overridden by the new mat so the user doesn't see the colored flag often
+	-- It's 2 because I don't want to impact performance, but also want the flag to be overwritten by the new mat so the user doesn't see the colored flag often
 	coroutine.yield(WaitForSeconds(2)) 
 	
 	local sps = ActorManager.spawnPoints
