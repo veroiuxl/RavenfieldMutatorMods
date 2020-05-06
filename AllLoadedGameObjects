@@ -1,1156 +1,1888 @@
-2 floor house 2 -> Scene : Archipelago
-2 floor house -> Scene : Archipelago
-!ftraceLightmaps -> Scene : Archipelago
-_LevelTester -> Scene : Archipelago
-_Managers(Clone) -> Scene : DontDestroyOnLoad
-_Neighbor Manager -> Scene : Archipelago
-_Pathfinding -> Scene : Archipelago
-_Reflection Probe -> Scene : Archipelago
-_Throttle -> Scene : Archipelago
-_TimeOfDay -> Scene : Archipelago
-Access Stairs (1) -> Scene : Archipelago
-Access Stairs (2) -> Scene : Archipelago
-Access Stairs (3) -> Scene : Archipelago
-Access Stairs (4) -> Scene : Archipelago
-Access Stairs -> Scene : Archipelago
-Actor Blip Sightcone(Clone) -> Scene : Archipelago
-Actor Blip(Clone) -> Scene : Archipelago
-Actor Parent -> Scene : Archipelago
-Aileron_L -> Scene : Archipelago
-Aileron_R -> Scene : Archipelago
-Aim Down Sights -> Scene : DontDestroyOnLoad
-Aim Left/Right -> Scene : DontDestroyOnLoad
-Aim Up/Down -> Scene : DontDestroyOnLoad
-Air Avoidance Plateau -> Scene : Archipelago
-Air Avoidance Pyramid -> Scene : Archipelago
-Allow Joystick Binds -> Scene : DontDestroyOnLoad
-Ambience -> Scene : Archipelago
-Anti Air Gun -> Scene : Archipelago
-Anti Air Gun(Clone) -> Scene : Archipelago
-Apc Camera -> Scene : Archipelago
-APC(Clone) -> Scene : Archipelago
-APC_Autocannon -> Scene : Archipelago
-APC_Body -> Scene : Archipelago
-APC_Wheel -> Scene : Archipelago
-Apply Feedback -> Scene : DontDestroyOnLoad
-Archipelago Window 2 (1) -> Scene : Archipelago
-Archipelago Window 2 -> Scene : Archipelago
-Archipelago Window (1) -> Scene : Archipelago
-Archipelago Window (2) -> Scene : Archipelago
-Archipelago Window -> Scene : Archipelago
-Archipelago_House -> Scene : Archipelago
-Archipelago_House_Details -> Scene : Archipelago
-Arm_L_001 -> Scene : Archipelago
-Arm_L_002 -> Scene : Archipelago
-Arm_L_003 -> Scene : Archipelago
-Arm_R_001 -> Scene : Archipelago
-Arm_R_002 -> Scene : Archipelago
-Arm_R_003 -> Scene : Archipelago
-Armament Hitbox -> Scene : Archipelago
-Armature -> Scene : Archipelago
-Arrow -> Scene : DontDestroyOnLoad
-Attack Boat(Clone) -> Scene : Archipelago
-Audio Listener -> Scene : Archipelago
-Auto Load Vehicle Mod -> Scene : DontDestroyOnLoad
-Auto Reload -> Scene : DontDestroyOnLoad
-Autocannon Independent Rotation Parent -> Scene : Archipelago
-Autocannon Parent 2 -> Scene : Archipelago
-Autocannon Parent -> Scene : Archipelago
-Autocannon Third Person Camera -> Scene : Archipelago
-Autocannon Tower Parent -> Scene : Archipelago
-Autocannon_Barrel -> Scene : Archipelago
-Autocannon_Tower -> Scene : Archipelago
-Back_Wheel -> Scene : Archipelago
-Background -> Scene : Archipelago
-Background -> Scene : DontDestroyOnLoad
-Background Camera -> Scene : Archipelago
-Background Panel -> Scene : Archipelago
-Backlight -> Scene : Archipelago
-Balcony -> Scene : Archipelago
-Battle Game Mode(Clone) -> Scene : Archipelago
-Bearing -> Scene : Archipelago
-Bearing Parent -> Scene : Archipelago
-Blackhawk -> Scene : Archipelago
-Blackhawk(Clone) -> Scene : Archipelago
-Blackhawk_001 -> Scene : Archipelago
-Blast_Door_003 -> Scene : Archipelago
-Blast_Door_Interior_Frame -> Scene : Archipelago
-Bloom -> Scene : DontDestroyOnLoad
-Blue Flag -> Scene : Archipelago
-Blue Flag Label -> Scene : Archipelago
-Blue Side -> Scene : Archipelago
-Blue Splat Decal Drawer -> Scene : DontDestroyOnLoad
-Blurred Rotor (1) -> Scene : Archipelago
-Blurred Rotor -> Scene : Archipelago
-Boat Vehicle Spawner (6) -> Scene : Archipelago
-Boat Vehicle Spawner (7) -> Scene : Archipelago
-Boat Vehicle Spawner (8) -> Scene : Archipelago
-Boat Vehicle Spawner (9) -> Scene : Archipelago
-Boat_Hull -> Scene : Archipelago
-Boat_Hull_001 -> Scene : Archipelago
-Boat_Propeller -> Scene : Archipelago
-Boat_Propeller_001 -> Scene : Archipelago
-Bomb Camera -> Scene : Archipelago
-Bomb Dropper -> Scene : Archipelago
-Bomber(Clone) -> Scene : Archipelago
-Bone -> Scene : Archipelago
-Bone_001 -> Scene : Archipelago
-Bone_002 -> Scene : Archipelago
-Bone_003 -> Scene : Archipelago
-Bone_004 -> Scene : Archipelago
-Bot Names -> Scene : DontDestroyOnLoad
-Box Collider (3) -> Scene : Archipelago
-Box Collider (4) -> Scene : Archipelago
-Box Collider -> Scene : Archipelago
-Box Men Models -> Scene : DontDestroyOnLoad
-Brake Audio (1) -> Scene : Archipelago
-Brake Audio -> Scene : Archipelago
-Bridge Parent (1) -> Scene : Archipelago
-Bridge Parent (2) -> Scene : Archipelago
-Bridge Parent (3) -> Scene : Archipelago
-Bridge Parent (4) -> Scene : Archipelago
-Bridge Parent -> Scene : Archipelago
-Bridge Ramp (1) -> Scene : Archipelago
-Bridge Ramp -> Scene : Archipelago
-Bridge Segment (1) -> Scene : Archipelago
-Bridge Segment (2) -> Scene : Archipelago
-Bridge Segment -> Scene : Archipelago
-Bullet Flyby Sound -> Scene : Archipelago
-Button Panel -> Scene : Archipelago
-Camera -> Scene : Archipelago
-Camera Aim -> Scene : Archipelago
-Camera Idle -> Scene : Archipelago
-Camera Idle Bearing -> Scene : Archipelago
-Camera Idle Pitch -> Scene : Archipelago
-Camera Parent -> Scene : Archipelago
-Canvas -> Scene : Archipelago
-Capsule Collider (1) -> Scene : Archipelago
-Capsule Collider -> Scene : Archipelago
-Capture Point Airstrip -> Scene : Archipelago
-Capture Point Harbor -> Scene : Archipelago
-Capture Point Landing -> Scene : Archipelago
-Capture Point Outpost -> Scene : Archipelago
-Capture Point Ship Exterior -> Scene : Archipelago
-Capture Point Tiny Island -> Scene : Archipelago
-Car Forward/Backward -> Scene : DontDestroyOnLoad
-Car Left/Right -> Scene : DontDestroyOnLoad
-Catwalk2 -> Scene : Archipelago
-Catwalk -> Scene : Archipelago
-Catwalk_Interior -> Scene : Archipelago
-Center -> Scene : Archipelago
-Center Label -> Scene : Archipelago
-Checkmark -> Scene : Archipelago
-Checkmark -> Scene : DontDestroyOnLoad
-Close Button -> Scene : Archipelago
-Cloth Physics -> Scene : DontDestroyOnLoad
-Cockpit Hitbox -> Scene : Archipelago
-Collider -> Scene : Archipelago
-Collider Back -> Scene : Archipelago
-Collider Beams (1) -> Scene : Archipelago
-Collider Beams (2) -> Scene : Archipelago
-Collider Beams (3) -> Scene : Archipelago
-Collider Beams -> Scene : Archipelago
-Collider Cockpit -> Scene : Archipelago
-Collider Console -> Scene : Archipelago
-Collider Engine -> Scene : Archipelago
-Collider Floor -> Scene : Archipelago
-Collider Floor Hull (1) -> Scene : Archipelago
-Collider Floor Hull -> Scene : Archipelago
-Collider Front (1) -> Scene : Archipelago
-Collider Front (2) -> Scene : Archipelago
-Collider Front -> Scene : Archipelago
-Collider Left -> Scene : Archipelago
-Collider Left Diagonal -> Scene : Archipelago
-Collider Nose -> Scene : Archipelago
-Collider Right -> Scene : Archipelago
-Collider Right Diagonal -> Scene : Archipelago
-Collider Roof -> Scene : Archipelago
-Collider Side (1) -> Scene : Archipelago
-Collider Side (2) -> Scene : Archipelago
-Collider Side (3) -> Scene : Archipelago
-Collider Side -> Scene : Archipelago
-Collider Tail 2 -> Scene : Archipelago
-Collider Tail 3 -> Scene : Archipelago
-Collider Tail -> Scene : Archipelago
-Collider Top -> Scene : Archipelago
-Collision Box Wing (1) -> Scene : Archipelago
-Collision Box Wing (2) -> Scene : Archipelago
-Collision Box Wing (3) -> Scene : Archipelago
-Collision Box Wing (4) -> Scene : Archipelago
-Collision Box Wing (5) -> Scene : Archipelago
-Collision Box Wing (6) -> Scene : Archipelago
-Collision Box Wing -> Scene : Archipelago
-Collision Capsule (1) -> Scene : Archipelago
-Collision Capsule (2) -> Scene : Archipelago
-Collision Capsule (3) -> Scene : Archipelago
-Collision Capsule (4) Piercable -> Scene : Archipelago
-Collision Capsule -> Scene : Archipelago
-Collision Capsule Engine (1) -> Scene : Archipelago
-Collision Capsule Engine -> Scene : Archipelago
-Collision Sphere Piercable -> Scene : Archipelago
-Collision_Volume -> Scene : Archipelago
-Color Correction -> Scene : DontDestroyOnLoad
-Color Fade Image -> Scene : Archipelago
-Container -> Scene : Archipelago
-Content -> Scene : Archipelago
-Content -> Scene : DontDestroyOnLoad
-Contested Spawnpoint Container -> Scene : Archipelago
-Countermeasure Flares Left -> Scene : Archipelago
-Countermeasure Flares Right -> Scene : Archipelago
-Countermeasure Particles -> Scene : Archipelago
-Countermeasures Audio -> Scene : Archipelago
-Cover Point -> Scene : Archipelago
-Crosshair -> Scene : Archipelago
-Crouch -> Scene : DontDestroyOnLoad
-Cube -> Scene : Archipelago
-Cube_001 -> Scene : Archipelago
-Cube_002 -> Scene : Archipelago
-Cube_003 -> Scene : Archipelago
-Cube_004 -> Scene : Archipelago
-Cube_005 -> Scene : Archipelago
-Cube_006 -> Scene : Archipelago
-Cube_007 -> Scene : Archipelago
-Cube_009 -> Scene : Archipelago
-Cube_014 -> Scene : Archipelago
-Cube_018 -> Scene : Archipelago
-Cube_019 -> Scene : Archipelago
-Cube_020 -> Scene : Archipelago
-Cube_022 -> Scene : Archipelago
-Current Ammo Text -> Scene : Archipelago
-Custom Bot Names Info -> Scene : DontDestroyOnLoad
-Cylinder -> Scene : Archipelago
-Damage Indicator Mask -> Scene : Archipelago
-Damage Particle System (1) -> Scene : Archipelago
-Damage Particle System -> Scene : Archipelago
-Damage Vignette -> Scene : Archipelago
-Day -> Scene : Archipelago
-Deck_Markings -> Scene : Archipelago
-Deck_Markings_2 -> Scene : Archipelago
-Deploy Button -> Scene : Archipelago
-Deployment Button -> Scene : Archipelago
-Description text -> Scene : DontDestroyOnLoad
-Details -> Scene : Archipelago
-Difficulty -> Scene : DontDestroyOnLoad
-Direction -> Scene : Archipelago
-Dirt Barrier (1) -> Scene : Archipelago
-Dirt Barrier (2) -> Scene : Archipelago
-Dirt Barrier (3) -> Scene : Archipelago
-Dirt Barrier (4) -> Scene : Archipelago
-Dirt Barrier (5) -> Scene : Archipelago
-Dirt Barrier (6) -> Scene : Archipelago
-Dirt Barrier (7) -> Scene : Archipelago
-Dirt Barrier (8) -> Scene : Archipelago
-Dirt Barrier (9) -> Scene : Archipelago
-Dirt Barrier (10) -> Scene : Archipelago
-Dirt Barrier (11) -> Scene : Archipelago
-Dirt Barrier (12) -> Scene : Archipelago
-Dirt Barrier (13) -> Scene : Archipelago
-Dirt Barrier (14) -> Scene : Archipelago
-Dirt Barrier (15) -> Scene : Archipelago
-Dirt Barrier (16) -> Scene : Archipelago
-Dirt Barrier (17) -> Scene : Archipelago
-Dirt Barrier (18) -> Scene : Archipelago
-Dirt Barrier (19) -> Scene : Archipelago
-Dirt Barrier (20) -> Scene : Archipelago
-Dirt Barrier (21) -> Scene : Archipelago
-Dirt Barrier (22) -> Scene : Archipelago
-Dirt Barrier (23) -> Scene : Archipelago
-Dirt Barrier (24) -> Scene : Archipelago
-Dirt Barrier (25) -> Scene : Archipelago
-Dirt Barrier (26) -> Scene : Archipelago
-Dirt Barrier (27) -> Scene : Archipelago
-Dirt Barrier (28) -> Scene : Archipelago
-Dirt Barrier (29) -> Scene : Archipelago
-Dirt Barrier (30) -> Scene : Archipelago
-Dirt Barrier (31) -> Scene : Archipelago
-Dirt Barrier (32) -> Scene : Archipelago
-Dirt Barrier (33) -> Scene : Archipelago
-Dirt Barrier (34) -> Scene : Archipelago
-Dirt Barrier (35) -> Scene : Archipelago
-Dirt Barrier (36) -> Scene : Archipelago
-Dirt Barrier (37) -> Scene : Archipelago
-Dirt Barrier (38) -> Scene : Archipelago
-Dirt Barrier (39) -> Scene : Archipelago
-Dirt Barrier (40) -> Scene : Archipelago
-Dirt Barrier (41) -> Scene : Archipelago
-Dirt Barrier (42) -> Scene : Archipelago
-Dirt Barrier (43) -> Scene : Archipelago
-Dirt Barrier (44) -> Scene : Archipelago
-Dirt Barrier (45) -> Scene : Archipelago
-Dirt Barrier (46) -> Scene : Archipelago
-Dirt Barrier (47) -> Scene : Archipelago
-Dirt Barrier (48) -> Scene : Archipelago
-Dirt Barrier (49) -> Scene : Archipelago
-Dirt Barrier (50) -> Scene : Archipelago
-Dirt Barrier (51) -> Scene : Archipelago
-Dirt Barrier (52) -> Scene : Archipelago
-Dirt Barrier (53) -> Scene : Archipelago
-Dirt Barrier (54) -> Scene : Archipelago
-Dirt Barrier (55) -> Scene : Archipelago
-Dirt Barrier (56) -> Scene : Archipelago
-Dirt Barrier (57) -> Scene : Archipelago
-Dirt Barrier (58) -> Scene : Archipelago
-Dirt Barrier (59) -> Scene : Archipelago
-Dirt Barrier (60) -> Scene : Archipelago
-Dirt Barrier (61) -> Scene : Archipelago
-Dirt Barrier (62) -> Scene : Archipelago
-Dirt Barrier (63) -> Scene : Archipelago
-Dirt Barrier (64) -> Scene : Archipelago
-Dirt Barrier (65) -> Scene : Archipelago
-Dirt Barrier (66) -> Scene : Archipelago
-Dirt Barrier (67) -> Scene : Archipelago
-Dirt Barrier (68) -> Scene : Archipelago
-Dirt Barrier (69) -> Scene : Archipelago
-Dirt Barrier (70) -> Scene : Archipelago
-Dirt Barrier (71) -> Scene : Archipelago
-Dirt Barrier (72) -> Scene : Archipelago
-Dirt Barrier (73) -> Scene : Archipelago
-Dirt Barrier (74) -> Scene : Archipelago
-Dirt Barrier (75) -> Scene : Archipelago
-Dirt Barrier (76) -> Scene : Archipelago
-Dirt Barrier (77) -> Scene : Archipelago
-Dirt Barrier (78) -> Scene : Archipelago
-Dirt Barrier (79) -> Scene : Archipelago
-Dirt Barrier (80) -> Scene : Archipelago
-Dirt Barrier (81) -> Scene : Archipelago
-Dirt Barrier (82) -> Scene : Archipelago
-Dirt Barrier (83) -> Scene : Archipelago
-Dirt Barrier (84) -> Scene : Archipelago
-Dirt Barrier (85) -> Scene : Archipelago
-Dirt Barrier (86) -> Scene : Archipelago
-Dirt Barrier (87) -> Scene : Archipelago
-Dirt Barrier (88) -> Scene : Archipelago
-Dirt Barrier (89) -> Scene : Archipelago
-Dirt Barrier (90) -> Scene : Archipelago
-Dirt Barrier -> Scene : Archipelago
-Disable On Death -> Scene : Archipelago
-Dock Concrete (1) -> Scene : Archipelago
-Dock Concrete (2) -> Scene : Archipelago
-Dock Concrete (3) -> Scene : Archipelago
-Dock Concrete Large (1) -> Scene : Archipelago
-Dock Concrete Large (2) -> Scene : Archipelago
-Dock Concrete Large (3) -> Scene : Archipelago
-Dock Concrete Large (5) -> Scene : Archipelago
-Dock Concrete Large (6) -> Scene : Archipelago
-Dock Concrete Large -> Scene : Archipelago
-Dock Ramp -> Scene : Archipelago
-Drag Apply Point (1) -> Scene : Archipelago
-Drag Apply Position -> Scene : Archipelago
-Drag Point -> Scene : Archipelago
-Draw Distance -> Scene : DontDestroyOnLoad
-Driver Camera -> Scene : Archipelago
-Driver Seat -> Scene : Archipelago
-Dropdown -> Scene : DontDestroyOnLoad
-Edge_Marking -> Scene : Archipelago
-Effect UI -> Scene : Archipelago
-Elevators -> Scene : Archipelago
-Elevators Parent -> Scene : Archipelago
-Engine Extra Audio -> Scene : Archipelago
-Engine_Room_Catwalk -> Scene : Archipelago
-EventSystem -> Scene : Archipelago
-Explosion Arms (1) -> Scene : Archipelago
-Explosion Arms (2) -> Scene : Archipelago
-Explosion Arms -> Scene : Archipelago
-Explosion Debris -> Scene : Archipelago
-Explosion Particle System (1) -> Scene : Archipelago
-Explosion Particle System -> Scene : Archipelago
-Explosion Quick Smoke -> Scene : Archipelago
-Explosion Sparks -> Scene : Archipelago
-Field Of View -> Scene : DontDestroyOnLoad
-Field Of View Label -> Scene : DontDestroyOnLoad
-Fill -> Scene : DontDestroyOnLoad
-Fill Area -> Scene : DontDestroyOnLoad
-Fire -> Scene : DontDestroyOnLoad
-Fire Mode -> Scene : DontDestroyOnLoad
-Fire Particle System (1) -> Scene : Archipelago
-Fire Particle System -> Scene : Archipelago
-First Person Camera -> Scene : Archipelago
-First Person Model Camera -> Scene : Archipelago
-Flag Parent -> Scene : Archipelago
-Flag Root -> Scene : Archipelago
-Flap -> Scene : Archipelago
-Flap L Parent -> Scene : Archipelago
-Flap R Parent -> Scene : Archipelago
-Flap_L -> Scene : Archipelago
-Flap_R -> Scene : Archipelago
-Flare Sparks -> Scene : Archipelago
-Flare Trail -> Scene : Archipelago
-Floating Sampler (1) -> Scene : Archipelago
-Floating Sampler (2) -> Scene : Archipelago
-Floating Sampler (3) -> Scene : Archipelago
-Floating Sampler (4) -> Scene : Archipelago
-Floating Sampler (5) -> Scene : Archipelago
-Floating Sampler (6) -> Scene : Archipelago
-Floating Sampler (7) -> Scene : Archipelago
-Floating Sampler -> Scene : Archipelago
-Footsteps Sound Source (1) -> Scene : DontDestroyOnLoad
-Footsteps Sound Source (2) -> Scene : DontDestroyOnLoad
-Footsteps Sound Source (3) -> Scene : DontDestroyOnLoad
-Footsteps Sound Source (4) -> Scene : DontDestroyOnLoad
-Footsteps Sound Source (5) -> Scene : DontDestroyOnLoad
-Footsteps Sound Source (6) -> Scene : DontDestroyOnLoad
-Footsteps Sound Source (7) -> Scene : DontDestroyOnLoad
-Footsteps Sound Source -> Scene : DontDestroyOnLoad
-Footsteps Sound Sources -> Scene : DontDestroyOnLoad
-Force Player Orders Toggle -> Scene : Archipelago
-FP Camera -> Scene : Archipelago
-FP Camera Parent -> Scene : Archipelago
-FP Camera Root -> Scene : Archipelago
-Front Light -> Scene : Archipelago
-Front_Wheel_L -> Scene : Archipelago
-Front_Wheel_R -> Scene : Archipelago
-fuel_tank (1) -> Scene : Archipelago
-fuel_tank (2) -> Scene : Archipelago
-fuel_tank -> Scene : Archipelago
-Full Screen -> Scene : DontDestroyOnLoad
-Game Mode Level Layout -> Scene : Archipelago
-Game Panel -> Scene : DontDestroyOnLoad
-Game Tab -> Scene : DontDestroyOnLoad
-Game Tab Canvas -> Scene : DontDestroyOnLoad
-GameObject (1) -> Scene : Archipelago
-GameObject (2) -> Scene : Archipelago
-GameObject -> Scene : Archipelago
-Gear 1 Button -> Scene : Archipelago
-Gear 2 Button -> Scene : Archipelago
-Gear 3 Button -> Scene : Archipelago
-Gear_B -> Scene : Archipelago
-Gear_L -> Scene : Archipelago
-Gear_R -> Scene : Archipelago
-Glass -> Scene : Archipelago
-Graph Link (1) -> Scene : Archipelago
-Graph Link (2) -> Scene : Archipelago
-Graph Link (3) -> Scene : Archipelago
-Graph Link (4) -> Scene : Archipelago
-Graph Link (5) -> Scene : Archipelago
-Graph Link (6) -> Scene : Archipelago
-Graph Link (7) -> Scene : Archipelago
-Graph Link (8) -> Scene : Archipelago
-Graph Link (9) -> Scene : Archipelago
-Graph Link (10) -> Scene : Archipelago
-Graph Link (11) -> Scene : Archipelago
-Graph Link (12) -> Scene : Archipelago
-Graph Link (13) -> Scene : Archipelago
-Graph Link (14) -> Scene : Archipelago
-Graph Link (15) -> Scene : Archipelago
-Graph Link -> Scene : Archipelago
-Graph Link Infantry (1) -> Scene : Archipelago
-Graph Link Infantry (2) -> Scene : Archipelago
-Graph Link Infantry (3) -> Scene : Archipelago
-Graph Link Infantry (4) -> Scene : Archipelago
-Graph Link Infantry (5) -> Scene : Archipelago
-Graph Link Infantry -> Scene : Archipelago
-Gun -> Scene : Archipelago
-Gun Bearing Parent -> Scene : Archipelago
-Gun Pitch Parent -> Scene : Archipelago
-Gun Turret Parent 2 -> Scene : Archipelago
-Gun Turret Parent -> Scene : Archipelago
-Gun Turret Tower Parent -> Scene : Archipelago
-Gun_Turret -> Scene : Archipelago
-Gun_Turret_Tower -> Scene : Archipelago
-Gunner Seat -> Scene : Archipelago
-Hand Target L -> Scene : Archipelago
-Hand Target Position Bearing -> Scene : Archipelago
-Hand Target Position Pitch -> Scene : Archipelago
-Hand Target R -> Scene : Archipelago
-Handle -> Scene : Archipelago
-Handle -> Scene : DontDestroyOnLoad
-Handle Slide Area -> Scene : DontDestroyOnLoad
-Handlebar Parent -> Scene : Archipelago
-Harbor -> Scene : Archipelago
-Head Hitbox -> Scene : Archipelago
-Header Panel -> Scene : Archipelago
-Health Image -> Scene : Archipelago
-Health Text -> Scene : Archipelago
-Heavy Damage Audio (1) -> Scene : Archipelago
-Heavy Damage Audio -> Scene : Archipelago
-Heli Pitch -> Scene : DontDestroyOnLoad
-Heli Roll -> Scene : DontDestroyOnLoad
-Heli Sensitivity -> Scene : DontDestroyOnLoad
-Heli Throttle -> Scene : DontDestroyOnLoad
-Heli Turn -> Scene : DontDestroyOnLoad
-Helicopter Landing Zone -> Scene : Archipelago
-helicopter(Clone) -> Scene : Archipelago
-Hinge -> Scene : Archipelago
-Hinge Parent -> Scene : Archipelago
-Hitbox (1) -> Scene : Archipelago
-Hitbox (2) -> Scene : Archipelago
-Hitbox (3) -> Scene : Archipelago
-Hitbox (4) -> Scene : Archipelago
-Hitbox -> Scene : Archipelago
-Hitbox Cans -> Scene : Archipelago
-Hitbox Wheel 2 -> Scene : Archipelago
-Hitbox Wheel -> Scene : Archipelago
-Hitbox Windshield -> Scene : Archipelago
-Hitmarker -> Scene : Archipelago
-Hitmarkers -> Scene : DontDestroyOnLoad
-House 1x1 Balcony -> Scene : Archipelago
-House 1x1 Orange (1) -> Scene : Archipelago
-House 1x1 Orange -> Scene : Archipelago
-House 1x1 Stone (1) -> Scene : Archipelago
-House 1x1 Stone -> Scene : Archipelago
-House 2x1 Orange -> Scene : Archipelago
-House 2x1 Stone -> Scene : Archipelago
-House -> Scene : Archipelago
-House Extension -> Scene : Archipelago
-House Large 3 -> Scene : Archipelago
-House No Interior Orange -> Scene : Archipelago
-House No Interior Stone (1) -> Scene : Archipelago
-House No Interior Stone (2) -> Scene : Archipelago
-House No Interior Stone (3) -> Scene : Archipelago
-House No Interior Stone (4) -> Scene : Archipelago
-House No Interior Stone (5) -> Scene : Archipelago
-House No Interior Stone -> Scene : Archipelago
-House Roof 2 -> Scene : Archipelago
-House Roof 2x1 -> Scene : Archipelago
-House Roof -> Scene : Archipelago
-House Roof Porch (1) -> Scene : Archipelago
-House Roof Porch (2) -> Scene : Archipelago
-House Roof Porch (3) -> Scene : Archipelago
-House Roof Porch -> Scene : Archipelago
-House Tower (1) -> Scene : Archipelago
-House Tower -> Scene : Archipelago
-houseRoof2_2x1 -> Scene : Archipelago
-HQ Flag -> Scene : Archipelago
-Hull -> Scene : Archipelago
-Icon -> Scene : Archipelago
-Image -> Scene : Archipelago
-Impact Decal Drawer -> Scene : DontDestroyOnLoad
-Impact Effect (1) -> Scene : Archipelago
-Impact Effect -> Scene : Archipelago
-Independent Rotation Parent -> Scene : Archipelago
-Infantry Panel -> Scene : Archipelago
-Infantry Parent (1) -> Scene : Archipelago
-Infantry Parent (2) -> Scene : Archipelago
-Infantry Parent -> Scene : Archipelago
-Ingame UI -> Scene : Archipelago
-Ingame UI Container(Clone) -> Scene : Archipelago
-Input Panel -> Scene : DontDestroyOnLoad
-Input Tab -> Scene : DontDestroyOnLoad
-Input Tab Canvas -> Scene : DontDestroyOnLoad
-Interior -> Scene : Archipelago
-Interior Sound (1) -> Scene : Archipelago
-Interior Sound -> Scene : Archipelago
-Interior_Frames_And_Beams -> Scene : Archipelago
-Interior_Side -> Scene : Archipelago
-Island Group Terrain -> Scene : Archipelago
-Item Required Text (1) -> Scene : DontDestroyOnLoad
-Item Required Text -> Scene : DontDestroyOnLoad
-Jeep -> Scene : Archipelago
-Jeep MG(Clone) -> Scene : Archipelago
-Jeep_Wheel -> Scene : Archipelago
-Jeep_Windshield -> Scene : Archipelago
-Jump -> Scene : DontDestroyOnLoad
-Kick -> Scene : DontDestroyOnLoad
-KickFoot -> Scene : Archipelago
-Kill Indicator (1) -> Scene : Archipelago
-Kill Indicator (2) -> Scene : Archipelago
-Kill Indicator -> Scene : Archipelago
-Kill Indicator Parent Panel -> Scene : Archipelago
-Kill Indicators -> Scene : DontDestroyOnLoad
-Killcam Camera -> Scene : Archipelago
-Killcam Canvas -> Scene : Archipelago
-Killcam Image -> Scene : Archipelago
-Killcam Parent -> Scene : Archipelago
-Killed By Text -> Scene : Archipelago
-Label -> Scene : Archipelago
-Label -> Scene : DontDestroyOnLoad
-Landing Zone (1) -> Scene : Archipelago
-Landing Zone (2) -> Scene : Archipelago
-Landing Zone (3) -> Scene : Archipelago
-Landing Zone (4) -> Scene : Archipelago
-Landing Zone (5) -> Scene : Archipelago
-Landing Zone (6) -> Scene : Archipelago
-Landing Zone (7) -> Scene : Archipelago
-Landing Zone (8) -> Scene : Archipelago
-Landing Zone (9) -> Scene : Archipelago
-Landing Zone (10) -> Scene : Archipelago
-Landing Zone (11) -> Scene : Archipelago
-Landing Zone (12) -> Scene : Archipelago
-Landing Zone (13) -> Scene : Archipelago
-Landing Zone -> Scene : Archipelago
-Lean Left/Right -> Scene : DontDestroyOnLoad
-Leg_L -> Scene : Archipelago
-Leg_L_001 -> Scene : Archipelago
-Leg_L_002 -> Scene : Archipelago
-Leg_R -> Scene : Archipelago
-Leg_R_001 -> Scene : Archipelago
-Leg_R_002 -> Scene : Archipelago
-Link End -> Scene : Archipelago
-Loadout Container -> Scene : Archipelago
-Loadout UI Canvas -> Scene : Archipelago
-Machine Gun -> Scene : Archipelago
-Machine Gun Mount -> Scene : Archipelago
-Main Island -> Scene : Archipelago
-Main Island Side -> Scene : Archipelago
-Menu Button -> Scene : Archipelago
-Menu UI -> Scene : Archipelago
-military crate (1) -> Scene : Archipelago
-military crate (2) -> Scene : Archipelago
-military crate (3) -> Scene : Archipelago
-military crate (4) -> Scene : Archipelago
-military crate (5) -> Scene : Archipelago
-military crate (6) -> Scene : Archipelago
-military crate (7) -> Scene : Archipelago
-military crate (8) -> Scene : Archipelago
-military crate (9) -> Scene : Archipelago
-military crate (10) -> Scene : Archipelago
-military crate (11) -> Scene : Archipelago
-military crate (12) -> Scene : Archipelago
-military crate (13) -> Scene : Archipelago
-military crate (14) -> Scene : Archipelago
-military crate (15) -> Scene : Archipelago
-military crate (16) -> Scene : Archipelago
-military crate (17) -> Scene : Archipelago
-military crate (18) -> Scene : Archipelago
-military crate (19) -> Scene : Archipelago
-military crate (20) -> Scene : Archipelago
-military crate (21) -> Scene : Archipelago
-military crate (22) -> Scene : Archipelago
-military crate (23) -> Scene : Archipelago
-military crate (24) -> Scene : Archipelago
-military crate (25) -> Scene : Archipelago
-military crate (26) -> Scene : Archipelago
-military crate (27) -> Scene : Archipelago
-military crate -> Scene : Archipelago
-Minigun (1) -> Scene : Archipelago
-Minigun -> Scene : Archipelago
-Minigun Camera -> Scene : Archipelago
-Minigun Seat -> Scene : Archipelago
-Minigun Spinup Sound (1) -> Scene : Archipelago
-Minigun Spinup Sound -> Scene : Archipelago
-Minigun_Barrel -> Scene : Archipelago
-Minigun_Body -> Scene : Archipelago
-Minigun_Stand -> Scene : Archipelago
-Minimap -> Scene : Archipelago
-Minimap Camera -> Scene : Archipelago
-Minimap Container -> Scene : Archipelago
-Minimap Parent -> Scene : Archipelago
-Minimap Sliding Container -> Scene : Archipelago
-Minimap UI -> Scene : Archipelago
-Missile Lock Canvas -> Scene : Archipelago
-Modify Scope -> Scene : DontDestroyOnLoad
-Mortar -> Scene : Archipelago
-Mortar Third Person Camera -> Scene : Archipelago
-Mount -> Scene : Archipelago
-Mount Parent -> Scene : Archipelago
-Mounted Guns -> Scene : Archipelago
-Mounted Rockets -> Scene : Archipelago
-Mouse Sensitivity -> Scene : DontDestroyOnLoad
-Move Front/Back -> Scene : DontDestroyOnLoad
-Move Left/Right -> Scene : DontDestroyOnLoad
-Music Sting Volume -> Scene : DontDestroyOnLoad
-Music Volume -> Scene : DontDestroyOnLoad
-Muzzle (1) -> Scene : Archipelago
-Muzzle -> Scene : Archipelago
-Muzzle Flash (1) -> Scene : Archipelago
-Muzzle Flash -> Scene : Archipelago
-Muzzle Flash Particles -> Scene : Archipelago
-Muzzle L 2 -> Scene : Archipelago
-Muzzle L -> Scene : Archipelago
-Muzzle R 2 -> Scene : Archipelago
-Muzzle R -> Scene : Archipelago
-Muzzle Sparks -> Scene : Archipelago
-Negative Button -> Scene : DontDestroyOnLoad
-Neverending Battles -> Scene : DontDestroyOnLoad
-New Game Object -> Scene : Archipelago
-New Quadbike(Clone) -> Scene : Archipelago
-Next Scope -> Scene : DontDestroyOnLoad
-Next Weapon -> Scene : DontDestroyOnLoad
-Night Vision Probe -> Scene : Archipelago
-nimitz -> Scene : Archipelago
-Nimitz Parent -> Scene : Archipelago
-Nimitz Pathfinding Box -> Scene : Archipelago
-Normal Probe -> Scene : Archipelago
-Nose Hitbox -> Scene : Archipelago
-Number -> Scene : Archipelago
-Ocean Background -> Scene : Archipelago
-Ocean Underwater -> Scene : Archipelago
-Open Loadout -> Scene : DontDestroyOnLoad
-Options Button -> Scene : Archipelago
-Options Canvas -> Scene : DontDestroyOnLoad
-Options Text -> Scene : DontDestroyOnLoad
-Order Image -> Scene : Archipelago
-Outpost Tower (1) -> Scene : Archipelago
-Outpost Tower -> Scene : Archipelago
-Overheat Effect -> Scene : Archipelago
-Overlay Text -> Scene : Archipelago
-Overlay UI Canvas -> Scene : Archipelago
-Panel -> Scene : Archipelago
-parachute -> Scene : Archipelago
-Parachute Parent -> Scene : Archipelago
-Parent -> Scene : Archipelago
-Passenger Camera -> Scene : Archipelago
-Passenger Seat (1) -> Scene : Archipelago
-Passenger Seat (2) -> Scene : Archipelago
-Passenger Seat (3) -> Scene : Archipelago
-Passenger Seat -> Scene : Archipelago
-Pathfinding Box Infantry Village -> Scene : Archipelago
-Pathfinding Box Main Island -> Scene : Archipelago
-Pathfinding Box Ocean -> Scene : Archipelago
-Pathfinding Box Outpost Tower -> Scene : Archipelago
-Pathfinding Relevant Point (1) -> Scene : Archipelago
-Pathfinding Relevant Point (2) -> Scene : Archipelago
-Pathfinding Relevant Point -> Scene : Archipelago
-Pile Texturer -> Scene : Archipelago
-Pilot Camera -> Scene : Archipelago
-Pilot HUD -> Scene : Archipelago
-Pitch -> Scene : Archipelago
-Plane -> Scene : Archipelago
-Plane Folded Wings (1) -> Scene : Archipelago
-Plane Folded Wings (4) -> Scene : Archipelago
-Plane Folded Wings (5) -> Scene : Archipelago
-Plane Folded Wings (6) -> Scene : Archipelago
-Plane Folded Wings (7) -> Scene : Archipelago
-Plane Folded Wings (8) -> Scene : Archipelago
-Plane Folded Wings -> Scene : Archipelago
-Plane Hangar (1) -> Scene : Archipelago
-Plane Hangar -> Scene : Archipelago
-Plane Pitch -> Scene : DontDestroyOnLoad
-Plane Roll -> Scene : DontDestroyOnLoad
-Plane Sensitivity -> Scene : DontDestroyOnLoad
-Plane Throttle -> Scene : DontDestroyOnLoad
-Plane Turn -> Scene : DontDestroyOnLoad
-plane(Clone) -> Scene : Archipelago
-Plane_001 -> Scene : Archipelago
-Plane_Body -> Scene : Archipelago
-Plane_Wing_L -> Scene : Archipelago
-Plane_Wing_R -> Scene : Archipelago
-PlaneHangarWall -> Scene : Archipelago
-Player Fps Actor(Clone) -> Scene : Archipelago
-Point Marker -> Scene : Archipelago
-Point Order(Clone) -> Scene : Archipelago
-Point Panel -> Scene : Archipelago
-Pole -> Scene : Archipelago
-Positive Button -> Scene : DontDestroyOnLoad
-Postprocessing -> Scene : Archipelago
-Preset -> Scene : DontDestroyOnLoad
-Previous Scope -> Scene : DontDestroyOnLoad
-Previous Weapon -> Scene : DontDestroyOnLoad
-Primary Button -> Scene : Archipelago
-Prone -> Scene : DontDestroyOnLoad
-Propeller Blades -> Scene : Archipelago
-Propeller Blurred -> Scene : Archipelago
-Propeller_Back 1 -> Scene : Archipelago
-Propeller_Front 1 -> Scene : Archipelago
-Propeller_Front -> Scene : Archipelago
-Propeller_Front L -> Scene : Archipelago
-Quad_Wheel -> Scene : Archipelago
-Quadbike -> Scene : Archipelago
-Quadbike_Handlebar -> Scene : Archipelago
-Quality Level -> Scene : DontDestroyOnLoad
-Quit Button -> Scene : Archipelago
-RailCorner (1) -> Scene : Archipelago
-RailCorner (2) -> Scene : Archipelago
-RailCorner (3) -> Scene : Archipelago
-RailCorner (4) -> Scene : Archipelago
-RailCorner (5) -> Scene : Archipelago
-RailCorner (6) -> Scene : Archipelago
-RailCorner (7) -> Scene : Archipelago
-RailCorner (8) -> Scene : Archipelago
-RailCorner (9) -> Scene : Archipelago
-RailCorner -> Scene : Archipelago
-Railing -> Scene : Archipelago
-Railing_Long (1) -> Scene : Archipelago
-Railing_Long (2) -> Scene : Archipelago
-Railing_Long -> Scene : Archipelago
-Railing_Medium (1) -> Scene : Archipelago
-Railing_Medium -> Scene : Archipelago
-Railing_Short (1) -> Scene : Archipelago
-Railing_Short (2) -> Scene : Archipelago
-Railing_Short (3) -> Scene : Archipelago
-Railing_Short -> Scene : Archipelago
-RawImage (1) -> Scene : Archipelago
-RawImage -> Scene : Archipelago
-Red Flag -> Scene : Archipelago
-Red Flag Label -> Scene : Archipelago
-Red Side -> Scene : Archipelago
-Red Splat Decal Drawer -> Scene : DontDestroyOnLoad
-Reflection Audio Source (1) -> Scene : DontDestroyOnLoad
-Reflection Audio Source (2) -> Scene : DontDestroyOnLoad
-Reflection Audio Source (3) -> Scene : DontDestroyOnLoad
-Reflection Audio Source (4) -> Scene : DontDestroyOnLoad
-Reflection Audio Source -> Scene : DontDestroyOnLoad
-Reflection Sound Sources -> Scene : DontDestroyOnLoad
-Regroup Button -> Scene : Archipelago
-Reload -> Scene : DontDestroyOnLoad
-Reload Audio -> Scene : Archipelago
-Reload Scripts -> Scene : DontDestroyOnLoad
-Reload Sound (1) -> Scene : Archipelago
-Reload Sound -> Scene : Archipelago
-Resolution -> Scene : DontDestroyOnLoad
-Respawn Hint Text -> Scene : Archipelago
-Respawn Time Text -> Scene : Archipelago
-Restart Button -> Scene : Archipelago
-Resume Button -> Scene : Archipelago
-Resupply Ammo -> Scene : Archipelago
-Resupply Crate (1) -> Scene : Archipelago
-Resupply Crate (2) -> Scene : Archipelago
-Resupply Crate (3) -> Scene : Archipelago
-Resupply Crate (4) -> Scene : Archipelago
-Resupply Crate (5) -> Scene : Archipelago
-Resupply Crate -> Scene : Archipelago
-Resupply Health -> Scene : Archipelago
-rhib(Clone) -> Scene : Archipelago
-Rocket Pod Alt -> Scene : Archipelago
-Rocket Pod Main -> Scene : Archipelago
-Roll Indicator -> Scene : Archipelago
-Rotor -> Scene : Archipelago
-Rotor Blurred -> Scene : Archipelago
-Rotor_Center -> Scene : Archipelago
-RS Development Header -> Scene : DontDestroyOnLoad
-Rudder -> Scene : Archipelago
-Rudder Parent -> Scene : Archipelago
-Rudder_L -> Scene : Archipelago
-Rudder_R -> Scene : Archipelago
-Sandbags (1) -> Scene : Archipelago
-Sandbags (2) -> Scene : Archipelago
-Sandbags (3) -> Scene : Archipelago
-Sandbags (4) -> Scene : Archipelago
-Sandbags (5) -> Scene : Archipelago
-Sandbags (6) -> Scene : Archipelago
-Sandbags (7) -> Scene : Archipelago
-Sandbags (8) -> Scene : Archipelago
-Sandbags (9) -> Scene : Archipelago
-Sandbags (10) -> Scene : Archipelago
-Sandbags (11) -> Scene : Archipelago
-Sandbags (12) -> Scene : Archipelago
-Sandbags (13) -> Scene : Archipelago
-Sandbags (14) -> Scene : Archipelago
-Sandbags (15) -> Scene : Archipelago
-Sandbags (16) -> Scene : Archipelago
-Sandbags (17) -> Scene : Archipelago
-Sandbags (18) -> Scene : Archipelago
-Sandbags -> Scene : Archipelago
-Save Button -> Scene : DontDestroyOnLoad
-Scenery Camera -> Scene : Archipelago
-Scoreboard Canvas -> Scene : Archipelago
-Scroll View -> Scene : Archipelago
-Scroll View -> Scene : DontDestroyOnLoad
-Scrollbar Vertical -> Scene : Archipelago
-Scrollbar Vertical -> Scene : DontDestroyOnLoad
-Seafloor -> Scene : Archipelago
-Seafloor Collider -> Scene : Archipelago
-Seat -> Scene : Archipelago
-Seat Driver -> Scene : Archipelago
-Seat Passenger -> Scene : Archipelago
-Seat_Back -> Scene : Archipelago
-Seat_Front (1) -> Scene : Archipelago
-Seat_Front -> Scene : Archipelago
-Seat_Passenger (1) -> Scene : Archipelago
-Seat_Passenger (2) -> Scene : Archipelago
-Seat_Passenger (3) -> Scene : Archipelago
-Seat_Passenger -> Scene : Archipelago
-Secondary Button -> Scene : Archipelago
-Secret Tape Sound -> Scene : DontDestroyOnLoad
-Selector -> Scene : Archipelago
-SFX Volume -> Scene : DontDestroyOnLoad
-Shifter -> Scene : Archipelago
-Shoulder Parent -> Scene : Archipelago
-Shoulder_L -> Scene : Archipelago
-Shoulder_R -> Scene : Archipelago
-Sight Text -> Scene : Archipelago
-Slider -> Scene : DontDestroyOnLoad
-Sliding Area -> Scene : Archipelago
-Sliding Area -> Scene : DontDestroyOnLoad
-Slowmotion -> Scene : DontDestroyOnLoad
-Smoke Particle System (1) -> Scene : Archipelago
-Smoke Particle System -> Scene : Archipelago
-Smoke Particles -> Scene : Archipelago
-Soldier -> Scene : Archipelago
-Spacer (1) -> Scene : DontDestroyOnLoad
-Spacer (2) -> Scene : DontDestroyOnLoad
-Spacer (3) -> Scene : DontDestroyOnLoad
-Spacer (4) -> Scene : DontDestroyOnLoad
-Spacer (5) -> Scene : DontDestroyOnLoad
-Spacer (6) -> Scene : DontDestroyOnLoad
-Spacer (7) -> Scene : DontDestroyOnLoad
-Spacer (8) -> Scene : DontDestroyOnLoad
-Spacer -> Scene : DontDestroyOnLoad
-Spare Ammo Text -> Scene : Archipelago
-Spawn Countdown Canvas -> Scene : Archipelago
-Spawnpoint Container -> Scene : Archipelago
-Sphere (1) -> Scene : Archipelago
-Sphere (2) -> Scene : Archipelago
-Sphere (3) -> Scene : Archipelago
-Sphere (4) -> Scene : Archipelago
-Sphere (5) -> Scene : Archipelago
-Sphere (6) -> Scene : Archipelago
-Sphere (7) -> Scene : Archipelago
-Sphere (8) -> Scene : Archipelago
-Sphere (9) -> Scene : Archipelago
-Sphere (10) -> Scene : Archipelago
-Sphere (11) -> Scene : Archipelago
-Sphere (12) -> Scene : Archipelago
-Sphere (13) -> Scene : Archipelago
-Sphere (14) -> Scene : Archipelago
-Sphere (15) -> Scene : Archipelago
-Sphere (16) -> Scene : Archipelago
-Sphere (17) -> Scene : Archipelago
-Sphere (18) -> Scene : Archipelago
-Sphere (19) -> Scene : Archipelago
-Sphere (20) -> Scene : Archipelago
-Sphere (21) -> Scene : Archipelago
-Sphere (22) -> Scene : Archipelago
-Sphere (23) -> Scene : Archipelago
-Sphere (24) -> Scene : Archipelago
-Sphere (25) -> Scene : Archipelago
-Sphere (26) -> Scene : Archipelago
-Sphere (27) -> Scene : Archipelago
-Sphere (28) -> Scene : Archipelago
-Sphere (29) -> Scene : Archipelago
-Sphere (30) -> Scene : Archipelago
-Sphere (31) -> Scene : Archipelago
-Sphere (32) -> Scene : Archipelago
-Sphere (33) -> Scene : Archipelago
-Sphere (34) -> Scene : Archipelago
-Sphere (35) -> Scene : Archipelago
-Sphere (36) -> Scene : Archipelago
-Sphere (37) -> Scene : Archipelago
-Sphere (38) -> Scene : Archipelago
-Sphere (39) -> Scene : Archipelago
-Sphere (40) -> Scene : Archipelago
-Sphere (41) -> Scene : Archipelago
-Sphere (42) -> Scene : Archipelago
-Sphere (43) -> Scene : Archipelago
-Sphere (44) -> Scene : Archipelago
-Sphere (45) -> Scene : Archipelago
-Sphere (46) -> Scene : Archipelago
-Sphere (47) -> Scene : Archipelago
-Sphere (48) -> Scene : Archipelago
-Sphere (49) -> Scene : Archipelago
-Sphere -> Scene : Archipelago
-Sphere_001 -> Scene : Archipelago
-Splat Background -> Scene : Archipelago
-Splat Mask -> Scene : Archipelago
-Spray Particles (1) -> Scene : Archipelago
-Spray Particles -> Scene : Archipelago
-Sprint -> Scene : DontDestroyOnLoad
-Squad Attack Button -> Scene : Archipelago
-Squad Defend Button -> Scene : Archipelago
-Squad Enter Button -> Scene : Archipelago
-Squad Leader Kit -> Scene : DontDestroyOnLoad
-Squad Move Button -> Scene : Archipelago
-Squad Order Marker -> Scene : Archipelago
-Squad Orders -> Scene : DontDestroyOnLoad
-Squad Point UI Canvas -> Scene : Archipelago
-Squad Text -> Scene : Archipelago
-Staircase (1) -> Scene : Archipelago
-Staircase (2) -> Scene : Archipelago
-Staircase (3) -> Scene : Archipelago
-Staircase (4) -> Scene : Archipelago
-Staircase (5) -> Scene : Archipelago
-Staircase (6) -> Scene : Archipelago
-Staircase (7) -> Scene : Archipelago
-Staircase -> Scene : Archipelago
-Stairs (1) -> Scene : Archipelago
-Stairs (2) -> Scene : Archipelago
-Stairs -> Scene : Archipelago
-Stairs_Edges -> Scene : Archipelago
-Stand Target -> Scene : Archipelago
-StandTarget -> Scene : Archipelago
-SteelInput Keyboard Alt Flight Preset -> Scene : DontDestroyOnLoad
-SteelInput Keyboard Preset -> Scene : DontDestroyOnLoad
-SteelInput Steam Controller Preset -> Scene : DontDestroyOnLoad
-SteelInput Xbox Preset -> Scene : DontDestroyOnLoad
-Steering_Wheel -> Scene : Archipelago
-Stick -> Scene : Archipelago
-Stick Parent -> Scene : Archipelago
-Strategy Panel -> Scene : Archipelago
-Strategy UI Canvas -> Scene : Archipelago
-Sunlight -> Scene : Archipelago
-Suspension Audio (1) -> Scene : Archipelago
-Suspension Audio -> Scene : Archipelago
-Tab Panel -> Scene : DontDestroyOnLoad
-Tactics Button -> Scene : Archipelago
-Tactics Panel -> Scene : Archipelago
-Tail Hitbox -> Scene : Archipelago
-Tail Rotor 2 -> Scene : Archipelago
-Tail Rotor Parent -> Scene : Archipelago
-Tail_Rotor -> Scene : Archipelago
-Tail_Rotor Center -> Scene : Archipelago
-Tank Trap (1) -> Scene : Archipelago
-Tank Trap (2) -> Scene : Archipelago
-Tank Trap (3) -> Scene : Archipelago
-Tank Trap (4) -> Scene : Archipelago
-Tank Trap (5) -> Scene : Archipelago
-Tank Trap (6) -> Scene : Archipelago
-Tank Trap (7) -> Scene : Archipelago
-Tank Trap (8) -> Scene : Archipelago
-Tank Trap (9) -> Scene : Archipelago
-Tank Trap (10) -> Scene : Archipelago
-Tank Trap (11) -> Scene : Archipelago
-Tank Trap (12) -> Scene : Archipelago
-Tank Trap (13) -> Scene : Archipelago
-Tank Trap (14) -> Scene : Archipelago
-Tank Trap (15) -> Scene : Archipelago
-Tank Trap (16) -> Scene : Archipelago
-Tank Trap (17) -> Scene : Archipelago
-Tank Trap (18) -> Scene : Archipelago
-Tank Trap -> Scene : Archipelago
-Team Panel (1) -> Scene : Archipelago
-Team Panel -> Scene : Archipelago
-Terrain Quality -> Scene : DontDestroyOnLoad
-Text -> Scene : Archipelago
-Text -> Scene : DontDestroyOnLoad
-Text D -> Scene : Archipelago
-Text F -> Scene : Archipelago
-Text K -> Scene : Archipelago
-Text Mask -> Scene : Archipelago
-Text Parent -> Scene : Archipelago
-Text Team -> Scene : Archipelago
-Text V -> Scene : Archipelago
-Third Person Camera -> Scene : Archipelago
-Third Person Camera Swivel Parent -> Scene : Archipelago
-Thruster -> Scene : Archipelago
-Toggle -> Scene : DontDestroyOnLoad
-Toggle Aim -> Scene : DontDestroyOnLoad
-Toggle Console -> Scene : DontDestroyOnLoad
-Toggle Crouch -> Scene : DontDestroyOnLoad
-Toggle Night Vision -> Scene : DontDestroyOnLoad
-Top Bar -> Scene : Archipelago
-TOW(Clone) -> Scene : Archipelago
-TOW_Stand -> Scene : Archipelago
-Tower_Beam (1) -> Scene : Archipelago
-Tower_Beam (2) -> Scene : Archipelago
-Tower_Beam (3) -> Scene : Archipelago
-Tower_Beam (4) -> Scene : Archipelago
-Tower_Beam (5) -> Scene : Archipelago
-Tower_Beam (6) -> Scene : Archipelago
-Tower_Beam (7) -> Scene : Archipelago
-Tower_Beam (8) -> Scene : Archipelago
-Tower_Beam (9) -> Scene : Archipelago
-Tower_Beam (10) -> Scene : Archipelago
-Tower_Beam (11) -> Scene : Archipelago
-Tower_Beam (12) -> Scene : Archipelago
-Tower_Beam (13) -> Scene : Archipelago
-Tower_Beam (14) -> Scene : Archipelago
-Tower_Beam (15) -> Scene : Archipelago
-Tower_Beam (16) -> Scene : Archipelago
-Tower_Beam (17) -> Scene : Archipelago
-Tower_Beam (18) -> Scene : Archipelago
-Tower_Beam (19) -> Scene : Archipelago
-Tower_Beam (20) -> Scene : Archipelago
-Tower_Beam (21) -> Scene : Archipelago
-Tower_Beam (22) -> Scene : Archipelago
-Tower_Beam (23) -> Scene : Archipelago
-Tower_Beam (24) -> Scene : Archipelago
-Tower_Beam (25) -> Scene : Archipelago
-Tower_Beam -> Scene : Archipelago
-Tower_Floor_Full -> Scene : Archipelago
-Tower_Floor_Half -> Scene : Archipelago
-Tower_Strut (1) -> Scene : Archipelago
-Tower_Strut (2) -> Scene : Archipelago
-Tower_Strut (3) -> Scene : Archipelago
-Tower_Strut (4) -> Scene : Archipelago
-Tower_Strut (5) -> Scene : Archipelago
-Tower_Strut (6) -> Scene : Archipelago
-Tower_Strut (7) -> Scene : Archipelago
-Tower_Strut (8) -> Scene : Archipelago
-Tower_Strut -> Scene : Archipelago
-Tower_Strut_Tall (1) -> Scene : Archipelago
-Tower_Strut_Tall (2) -> Scene : Archipelago
-Tower_Strut_Tall (3) -> Scene : Archipelago
-Tower_Strut_Tall (4) -> Scene : Archipelago
-Tower_Strut_Tall -> Scene : Archipelago
-Tower_Wall -> Scene : Archipelago
-Tower_Wall_Door (1) -> Scene : Archipelago
-Tower_Wall_Half (1) -> Scene : Archipelago
-Tower_Wall_Half (3) -> Scene : Archipelago
-Tower_Wall_Half -> Scene : Archipelago
-Tower_Wall_Opening (1) -> Scene : Archipelago
-Tower_Wall_Opening (2) -> Scene : Archipelago
-Tower_Wall_Opening (3) -> Scene : Archipelago
-Tower_Wall_Opening -> Scene : Archipelago
-Tower_Wall_To_Walkway -> Scene : Archipelago
-TP Camera -> Scene : Archipelago
-TP Weapon Parent -> Scene : Archipelago
-Tube -> Scene : Archipelago
-Turrect Camera -> Scene : Archipelago
-Turret -> Scene : Archipelago
-Turret Hitbox -> Scene : Archipelago
-Turret Independent Rotation -> Scene : Archipelago
-Turret Parent -> Scene : Archipelago
-Turret Seat -> Scene : Archipelago
-Turret Spawner (1) -> Scene : Archipelago
-Turret Spawner (2) -> Scene : Archipelago
-Turret Spawner (3) -> Scene : Archipelago
-Turret Spawner (4) -> Scene : Archipelago
-Turret Spawner (6) -> Scene : Archipelago
-Turret Spawner -> Scene : Archipelago
-Turret Third Person Camera -> Scene : Archipelago
-Turret_Barrels -> Scene : Archipelago
-Use -> Scene : DontDestroyOnLoad
-Vegetation Density -> Scene : DontDestroyOnLoad
-Vegetation Distance -> Scene : DontDestroyOnLoad
-Vehicle Countermeasures -> Scene : DontDestroyOnLoad
-Vehicle Health -> Scene : Archipelago
-Vehicle Health Background -> Scene : Archipelago
-Vehicle Spawner (1) -> Scene : Archipelago
-Vehicle Spawner (2) -> Scene : Archipelago
-Vehicle Spawner (3) -> Scene : Archipelago
-Vehicle Spawner (4) -> Scene : Archipelago
-Vehicle Spawner (5) -> Scene : Archipelago
-Vehicle Spawner (6) -> Scene : Archipelago
-Vehicle Spawner (7) -> Scene : Archipelago
-Vehicle Spawner (8) -> Scene : Archipelago
-Vehicle Spawner (9) -> Scene : Archipelago
-Vehicle Spawner (10) -> Scene : Archipelago
-Vehicle Spawner (11) -> Scene : Archipelago
-Vehicle Spawner (12) -> Scene : Archipelago
-Vehicle Spawner (13) -> Scene : Archipelago
-Vehicle Spawner (14) -> Scene : Archipelago
-Vehicle Spawner (15) -> Scene : Archipelago
-Vehicle Spawner -> Scene : Archipelago
-Vehicle Third Person -> Scene : DontDestroyOnLoad
-Victory UI Canvas -> Scene : Archipelago
-Video Panel -> Scene : DontDestroyOnLoad
-Video Tab -> Scene : DontDestroyOnLoad
-Video Tab Canvas -> Scene : DontDestroyOnLoad
-View Map -> Scene : DontDestroyOnLoad
-View Scoreboard -> Scene : DontDestroyOnLoad
-Viewport -> Scene : Archipelago
-Viewport -> Scene : DontDestroyOnLoad
-VSync -> Scene : DontDestroyOnLoad
-Walkable Water Plane -> Scene : Archipelago
-Walkway_Corner (1) -> Scene : Archipelago
-Walkway_Corner -> Scene : Archipelago
-Walkway_Railing_Full (1) -> Scene : Archipelago
-Walkway_Railing_Full -> Scene : Archipelago
-Walkway_Railing_Part -> Scene : Archipelago
-Water -> Scene : Archipelago
-Water Plane -> Scene : Archipelago
-Water Planing Back -> Scene : Archipelago
-Water Planing Front -> Scene : Archipelago
-Water Ripple Particles (1) -> Scene : Archipelago
-Water Ripple Particles -> Scene : Archipelago
-Water Speed Sound -> Scene : Archipelago
-Weapon 1 -> Scene : DontDestroyOnLoad
-Weapon 2 -> Scene : DontDestroyOnLoad
-Weapon 3 -> Scene : DontDestroyOnLoad
-Weapon 4 -> Scene : DontDestroyOnLoad
-Weapon 5 -> Scene : DontDestroyOnLoad
-Weapon Image -> Scene : Archipelago
-Weapon Parent -> Scene : Archipelago
-Weather Effects -> Scene : DontDestroyOnLoad
-Wheel (1) -> Scene : Archipelago
-Wheel (2) -> Scene : Archipelago
-Wheel (3) -> Scene : Archipelago
-Wheel (4) -> Scene : Archipelago
-Wheel (5) -> Scene : Archipelago
-Wheel -> Scene : Archipelago
-Wheel B -> Scene : Archipelago
-Wheel Collider (1) -> Scene : Archipelago
-Wheel Collider -> Scene : Archipelago
-Wheel L -> Scene : Archipelago
-Wheel LB -> Scene : Archipelago
-Wheel LF -> Scene : Archipelago
-Wheel Model Parent -> Scene : Archipelago
-Wheel Parent -> Scene : Archipelago
-Wheel R -> Scene : Archipelago
-Wheel RB -> Scene : Archipelago
-Wheel RF -> Scene : Archipelago
-Wheel_Bearing -> Scene : Archipelago
-Wheel_Pitch -> Scene : Archipelago
-WindZone -> Scene : Archipelago
-Wing L -> Scene : Archipelago
-Wing R -> Scene : Archipelago
+2 floor house 2 -> Root: 2 floor house 2
+2 floor house -> Root: 2 floor house
+!ftraceLightmaps -> Root: !ftraceLightmaps
+_LevelTester -> Root: _LevelTester
+_Managers(Clone) -> Root: _Managers(Clone)
+_Neighbor Manager -> Root: _Neighbor Manager
+_Pathfinding -> Root: _Pathfinding
+_Reflection Probe -> Root: _Reflection Probe
+_Throttle -> Root: plane(Clone)
+_TimeOfDay -> Root: _TimeOfDay
+Access Stairs (1) -> Root: Nimitz Parent
+Access Stairs (2) -> Root: Nimitz Parent
+Access Stairs (3) -> Root: Nimitz Parent
+Access Stairs (4) -> Root: Nimitz Parent
+Access Stairs -> Root: Nimitz Parent
+Actor Blip Sightcone(Clone) -> Root: Ingame UI Container(Clone)
+Actor Blip(Clone) -> Root: Ingame UI Container(Clone)
+Actor Parent -> Root: Player Fps Actor(Clone)
+Aileron_L -> Root: Bomber(Clone)
+Aileron_R -> Root: Bomber(Clone)
+Aim Down Sights -> Root: _Managers(Clone)
+Aim Left/Right -> Root: _Managers(Clone)
+Aim Up/Down -> Root: _Managers(Clone)
+Air Avoidance Plateau -> Root: Nimitz Parent
+Air Avoidance Pyramid -> Root: Nimitz Parent
+Allow Joystick Binds -> Root: _Managers(Clone)
+Ambience -> Root: _TimeOfDay
+Anti Air Gun -> Root: Anti Air Gun(Clone)
+Anti Air Gun -> Root: Nimitz Parent
+Anti Air Gun(Clone) -> Root: Anti Air Gun(Clone)
+Anti Air Gun(Clone) -> Root: Nimitz Parent
+Apc Camera -> Root: APC(Clone)
+APC(Clone) -> Root: APC(Clone)
+APC_Autocannon -> Root: APC(Clone)
+APC_Body -> Root: APC(Clone)
+APC_Wheel -> Root: APC(Clone)
+Apply Feedback -> Root: _Managers(Clone)
+Archipelago Window 2 (1) -> Root: 2 floor house
+Archipelago Window 2 (1) -> Root: House
+Archipelago Window 2 (1) -> Root: House 1x1 Stone
+Archipelago Window 2 (1) -> Root: House 2x1 Stone
+Archipelago Window 2 (1) -> Root: House Large 3
+Archipelago Window 2 (1) -> Root: House Tower
+Archipelago Window 2 (1) -> Root: House Tower (1)
+Archipelago Window 2 -> Root: 2 floor house
+Archipelago Window 2 -> Root: House
+Archipelago Window 2 -> Root: House 1x1 Stone
+Archipelago Window 2 -> Root: House 2x1 Stone
+Archipelago Window 2 -> Root: House Large 3
+Archipelago Window 2 -> Root: House Tower
+Archipelago Window 2 -> Root: House Tower (1)
+Archipelago Window (1) -> Root: House 1x1 Orange
+Archipelago Window (1) -> Root: House 1x1 Orange (1)
+Archipelago Window (1) -> Root: House 2x1 Orange
+Archipelago Window (1) -> Root: House Tower (1)
+Archipelago Window (2) -> Root: 2 floor house
+Archipelago Window (2) -> Root: 2 floor house 2
+Archipelago Window (2) -> Root: House 1x1 Balcony
+Archipelago Window -> Root: House 1x1 Orange
+Archipelago Window -> Root: House 1x1 Orange (1)
+Archipelago Window -> Root: House 2x1 Orange
+Archipelago Window -> Root: House Tower (1)
+Archipelago_House -> Root: 2 floor house
+Archipelago_House -> Root: 2 floor house 2
+Archipelago_House -> Root: House
+Archipelago_House -> Root: House 1x1 Balcony
+Archipelago_House -> Root: House 1x1 Orange
+Archipelago_House -> Root: House 1x1 Orange (1)
+Archipelago_House -> Root: House 1x1 Stone
+Archipelago_House -> Root: House 2x1 Orange
+Archipelago_House -> Root: House 2x1 Stone
+Archipelago_House -> Root: House Large 3
+Archipelago_House -> Root: House Tower
+Archipelago_House -> Root: House Tower (1)
+Archipelago_House_Details -> Root: 2 floor house
+Archipelago_House_Details -> Root: 2 floor house 2
+Archipelago_House_Details -> Root: House
+Archipelago_House_Details -> Root: House 1x1 Balcony
+Archipelago_House_Details -> Root: House 1x1 Orange
+Archipelago_House_Details -> Root: House 1x1 Orange (1)
+Archipelago_House_Details -> Root: House 1x1 Stone
+Archipelago_House_Details -> Root: House 2x1 Orange
+Archipelago_House_Details -> Root: House 2x1 Stone
+Archipelago_House_Details -> Root: House Large 3
+Archipelago_House_Details -> Root: House Tower
+Archipelago_House_Details -> Root: House Tower (1)
+Arm_L_001 -> Root: Player Fps Actor(Clone)
+Arm_L_002 -> Root: Player Fps Actor(Clone)
+Arm_L_003 -> Root: Player Fps Actor(Clone)
+Arm_R_001 -> Root: Player Fps Actor(Clone)
+Arm_R_002 -> Root: Player Fps Actor(Clone)
+Arm_R_003 -> Root: Player Fps Actor(Clone)
+Armament Hitbox -> Root: helicopter(Clone)
+Armature -> Root: Jeep MG(Clone)
+Armature -> Root: Player Fps Actor(Clone)
+Arrow -> Root: _Managers(Clone)
+Attack Boat(Clone) -> Root: Attack Boat(Clone)
+Audio Listener -> Root: Player Fps Actor(Clone)
+Auto Load Vehicle Mod -> Root: _Managers(Clone)
+Auto Reload -> Root: _Managers(Clone)
+Autocannon Independent Rotation Parent -> Root: Attack Boat(Clone)
+Autocannon Parent 2 -> Root: APC(Clone)
+Autocannon Parent -> Root: APC(Clone)
+Autocannon Parent -> Root: Attack Boat(Clone)
+Autocannon Third Person Camera -> Root: Attack Boat(Clone)
+Autocannon Tower Parent -> Root: APC(Clone)
+Autocannon_Barrel -> Root: APC(Clone)
+Autocannon_Tower -> Root: APC(Clone)
+Back_Wheel -> Root: Bomber(Clone)
+Background -> Root: _Managers(Clone)
+Background -> Root: Ingame UI Container(Clone)
+Background Camera -> Root: Player Fps Actor(Clone)
+Background Panel -> Root: Ingame UI Container(Clone)
+Backlight -> Root: Ingame UI Container(Clone)
+Balcony -> Root: 2 floor house
+Balcony -> Root: 2 floor house 2
+Balcony -> Root: House 1x1 Balcony
+Balcony -> Root: House Tower
+Battle Game Mode(Clone) -> Root: Battle Game Mode(Clone)
+Bearing -> Root: Blackhawk(Clone)
+Bearing -> Root: Nimitz Parent
+Bearing Parent -> Root: Nimitz Parent
+Blackhawk -> Root: Blackhawk(Clone)
+Blackhawk(Clone) -> Root: Blackhawk(Clone)
+Blackhawk_001 -> Root: Blackhawk(Clone)
+Blast_Door_003 -> Root: Nimitz Parent
+Blast_Door_Interior_Frame -> Root: Nimitz Parent
+Bloom -> Root: _Managers(Clone)
+Blue Flag -> Root: Battle Game Mode(Clone)
+Blue Flag Label -> Root: Battle Game Mode(Clone)
+Blue Side -> Root: Battle Game Mode(Clone)
+Blue Splat Decal Drawer -> Root: _Managers(Clone)
+Blurred Rotor (1) -> Root: Blackhawk(Clone)
+Blurred Rotor -> Root: Blackhawk(Clone)
+Boat Vehicle Spawner (6) -> Root: Boat Vehicle Spawner (6)
+Boat Vehicle Spawner (7) -> Root: Boat Vehicle Spawner (7)
+Boat Vehicle Spawner (7) -> Root: Island Group Terrain
+Boat Vehicle Spawner (8) -> Root: Boat Vehicle Spawner (8)
+Boat Vehicle Spawner (8) -> Root: Island Group Terrain
+Boat Vehicle Spawner (9) -> Root: Boat Vehicle Spawner (9)
+Boat_Hull -> Root: Attack Boat(Clone)
+Boat_Hull_001 -> Root: rhib(Clone)
+Boat_Propeller -> Root: rhib(Clone)
+Boat_Propeller_001 -> Root: rhib(Clone)
+Bomb Camera -> Root: Bomber(Clone)
+Bomb Dropper -> Root: Bomber(Clone)
+Bomber(Clone) -> Root: Bomber(Clone)
+Bone -> Root: Jeep MG(Clone)
+Bone -> Root: Player Fps Actor(Clone)
+Bone_001 -> Root: Jeep MG(Clone)
+Bone_001 -> Root: Player Fps Actor(Clone)
+Bone_002 -> Root: Jeep MG(Clone)
+Bone_002 -> Root: Player Fps Actor(Clone)
+Bone_003 -> Root: Player Fps Actor(Clone)
+Bone_004 -> Root: Player Fps Actor(Clone)
+Bot Names -> Root: _Managers(Clone)
+Box Collider (3) -> Root: plane(Clone)
+Box Collider (4) -> Root: plane(Clone)
+Box Collider -> Root: plane(Clone)
+Box Men Models -> Root: _Managers(Clone)
+Brake Audio (1) -> Root: New Quadbike(Clone)
+Brake Audio -> Root: APC(Clone)
+Brake Audio -> Root: Jeep MG(Clone)
+Bridge Parent (1) -> Root: Bridge Parent (1)
+Bridge Parent (2) -> Root: Bridge Parent (2)
+Bridge Parent (3) -> Root: Bridge Parent (3)
+Bridge Parent (4) -> Root: Bridge Parent (4)
+Bridge Parent -> Root: Bridge Parent
+Bridge Ramp (1) -> Root: Bridge Parent
+Bridge Ramp (1) -> Root: Bridge Parent (1)
+Bridge Ramp (1) -> Root: Bridge Parent (2)
+Bridge Ramp (1) -> Root: Bridge Parent (3)
+Bridge Ramp (1) -> Root: Bridge Parent (4)
+Bridge Ramp -> Root: Bridge Parent
+Bridge Ramp -> Root: Bridge Parent (1)
+Bridge Ramp -> Root: Bridge Parent (2)
+Bridge Ramp -> Root: Bridge Parent (3)
+Bridge Ramp -> Root: Bridge Parent (4)
+Bridge Segment (1) -> Root: Bridge Parent
+Bridge Segment (1) -> Root: Bridge Parent (1)
+Bridge Segment (1) -> Root: Bridge Parent (2)
+Bridge Segment (1) -> Root: Bridge Parent (3)
+Bridge Segment (1) -> Root: Bridge Parent (4)
+Bridge Segment (2) -> Root: Bridge Parent
+Bridge Segment (2) -> Root: Bridge Parent (1)
+Bridge Segment (2) -> Root: Bridge Parent (2)
+Bridge Segment (2) -> Root: Bridge Parent (3)
+Bridge Segment (2) -> Root: Bridge Parent (4)
+Bridge Segment -> Root: Bridge Parent
+Bridge Segment -> Root: Bridge Parent (1)
+Bridge Segment -> Root: Bridge Parent (2)
+Bridge Segment -> Root: Bridge Parent (3)
+Bridge Segment -> Root: Bridge Parent (4)
+Bullet Flyby Sound -> Root: Player Fps Actor(Clone)
+Button Panel -> Root: Ingame UI Container(Clone)
+Camera -> Root: Anti Air Gun(Clone)
+Camera -> Root: APC(Clone)
+Camera -> Root: Attack Boat(Clone)
+Camera -> Root: helicopter(Clone)
+Camera -> Root: Jeep MG(Clone)
+Camera -> Root: Nimitz Parent
+Camera Aim -> Root: Blackhawk(Clone)
+Camera Aim -> Root: Jeep MG(Clone)
+Camera Idle -> Root: Blackhawk(Clone)
+Camera Idle Bearing -> Root: Jeep MG(Clone)
+Camera Idle Pitch -> Root: Jeep MG(Clone)
+Camera Parent -> Root: Jeep MG(Clone)
+Canvas -> Root: Battle Game Mode(Clone)
+Capsule Collider (1) -> Root: plane(Clone)
+Capsule Collider -> Root: plane(Clone)
+Capture Point Airstrip -> Root: Capture Point Airstrip
+Capture Point Harbor -> Root: Capture Point Harbor
+Capture Point Landing -> Root: Capture Point Landing
+Capture Point Outpost -> Root: Capture Point Outpost
+Capture Point Ship Exterior -> Root: Nimitz Parent
+Capture Point Tiny Island -> Root: Island Group Terrain
+Car Forward/Backward -> Root: _Managers(Clone)
+Car Left/Right -> Root: _Managers(Clone)
+Catwalk2 -> Root: Nimitz Parent
+Catwalk -> Root: Nimitz Parent
+Catwalk_Interior -> Root: Nimitz Parent
+Center -> Root: Battle Game Mode(Clone)
+Center Label -> Root: Battle Game Mode(Clone)
+Checkmark -> Root: _Managers(Clone)
+Checkmark -> Root: Ingame UI Container(Clone)
+Close Button -> Root: Ingame UI Container(Clone)
+Cloth Physics -> Root: _Managers(Clone)
+Cockpit Hitbox -> Root: helicopter(Clone)
+Collider -> Root: New Quadbike(Clone)
+Collider -> Root: Nimitz Parent
+Collider Back -> Root: Blackhawk(Clone)
+Collider Beams (1) -> Root: rhib(Clone)
+Collider Beams (2) -> Root: rhib(Clone)
+Collider Beams (3) -> Root: rhib(Clone)
+Collider Beams -> Root: rhib(Clone)
+Collider Cockpit -> Root: Blackhawk(Clone)
+Collider Console -> Root: rhib(Clone)
+Collider Engine -> Root: rhib(Clone)
+Collider Floor -> Root: Blackhawk(Clone)
+Collider Floor -> Root: rhib(Clone)
+Collider Floor Hull (1) -> Root: rhib(Clone)
+Collider Floor Hull -> Root: rhib(Clone)
+Collider Front (1) -> Root: Blackhawk(Clone)
+Collider Front (2) -> Root: Blackhawk(Clone)
+Collider Front -> Root: Blackhawk(Clone)
+Collider Front -> Root: rhib(Clone)
+Collider Left -> Root: rhib(Clone)
+Collider Left Diagonal -> Root: rhib(Clone)
+Collider Nose -> Root: Blackhawk(Clone)
+Collider Right -> Root: rhib(Clone)
+Collider Right Diagonal -> Root: rhib(Clone)
+Collider Roof -> Root: Blackhawk(Clone)
+Collider Side (1) -> Root: Blackhawk(Clone)
+Collider Side (2) -> Root: Blackhawk(Clone)
+Collider Side (3) -> Root: Blackhawk(Clone)
+Collider Side -> Root: Blackhawk(Clone)
+Collider Tail 2 -> Root: Blackhawk(Clone)
+Collider Tail 3 -> Root: Blackhawk(Clone)
+Collider Tail -> Root: Blackhawk(Clone)
+Collider Top -> Root: rhib(Clone)
+Collision Box Wing (1) -> Root: Bomber(Clone)
+Collision Box Wing (2) -> Root: Bomber(Clone)
+Collision Box Wing (3) -> Root: Bomber(Clone)
+Collision Box Wing (4) -> Root: Bomber(Clone)
+Collision Box Wing (5) -> Root: Bomber(Clone)
+Collision Box Wing (6) -> Root: Bomber(Clone)
+Collision Box Wing -> Root: Bomber(Clone)
+Collision Capsule (1) -> Root: Bomber(Clone)
+Collision Capsule (2) -> Root: Bomber(Clone)
+Collision Capsule (3) -> Root: Bomber(Clone)
+Collision Capsule (4) Piercable -> Root: Bomber(Clone)
+Collision Capsule -> Root: Bomber(Clone)
+Collision Capsule Engine (1) -> Root: Bomber(Clone)
+Collision Capsule Engine -> Root: Bomber(Clone)
+Collision Sphere Piercable -> Root: Bomber(Clone)
+Collision_Volume -> Root: Nimitz Parent
+Color Correction -> Root: _Managers(Clone)
+Color Fade Image -> Root: Ingame UI Container(Clone)
+Container -> Root: Ingame UI Container(Clone)
+Content -> Root: _Managers(Clone)
+Content -> Root: Ingame UI Container(Clone)
+Contested Spawnpoint Container -> Root: Capture Point Airstrip
+Contested Spawnpoint Container -> Root: Capture Point Harbor
+Contested Spawnpoint Container -> Root: Capture Point Landing
+Contested Spawnpoint Container -> Root: Capture Point Outpost
+Contested Spawnpoint Container -> Root: Island Group Terrain
+Contested Spawnpoint Container -> Root: Nimitz Parent
+Countermeasure Flares Left -> Root: Blackhawk(Clone)
+Countermeasure Flares Left -> Root: Bomber(Clone)
+Countermeasure Flares Left -> Root: helicopter(Clone)
+Countermeasure Flares Left -> Root: plane(Clone)
+Countermeasure Flares Right -> Root: Blackhawk(Clone)
+Countermeasure Flares Right -> Root: Bomber(Clone)
+Countermeasure Flares Right -> Root: helicopter(Clone)
+Countermeasure Flares Right -> Root: plane(Clone)
+Countermeasure Particles -> Root: Blackhawk(Clone)
+Countermeasure Particles -> Root: Bomber(Clone)
+Countermeasure Particles -> Root: helicopter(Clone)
+Countermeasure Particles -> Root: plane(Clone)
+Countermeasures Audio -> Root: APC(Clone)
+Cover Point -> Root: _Pathfinding
+Crosshair -> Root: helicopter(Clone)
+Crouch -> Root: _Managers(Clone)
+Cube -> Root: 2 floor house
+Cube -> Root: 2 floor house 2
+Cube -> Root: Attack Boat(Clone)
+Cube -> Root: Blackhawk(Clone)
+Cube -> Root: Bridge Parent
+Cube -> Root: Bridge Parent (1)
+Cube -> Root: Bridge Parent (2)
+Cube -> Root: Bridge Parent (3)
+Cube -> Root: Bridge Parent (4)
+Cube -> Root: House
+Cube -> Root: House Large 3
+Cube -> Root: House Tower (1)
+Cube -> Root: Nimitz Parent
+Cube_001 -> Root: Attack Boat(Clone)
+Cube_001 -> Root: Jeep MG(Clone)
+Cube_001 -> Root: Nimitz Parent
+Cube_002 -> Root: Nimitz Parent
+Cube_003 -> Root: Nimitz Parent
+Cube_004 -> Root: Nimitz Parent
+Cube_005 -> Root: Nimitz Parent
+Cube_006 -> Root: Nimitz Parent
+Cube_007 -> Root: Nimitz Parent
+Cube_009 -> Root: Nimitz Parent
+Cube_014 -> Root: Nimitz Parent
+Cube_018 -> Root: Nimitz Parent
+Cube_019 -> Root: Nimitz Parent
+Cube_020 -> Root: Nimitz Parent
+Cube_022 -> Root: Nimitz Parent
+Current Ammo Text -> Root: Ingame UI Container(Clone)
+Custom Bot Names Info -> Root: _Managers(Clone)
+Cylinder -> Root: Jeep MG(Clone)
+Damage Indicator Mask -> Root: Ingame UI Container(Clone)
+Damage Particle System (1) -> Root: New Quadbike(Clone)
+Damage Particle System -> Root: APC(Clone)
+Damage Particle System -> Root: Attack Boat(Clone)
+Damage Particle System -> Root: Blackhawk(Clone)
+Damage Particle System -> Root: helicopter(Clone)
+Damage Particle System -> Root: Jeep MG(Clone)
+Damage Particle System -> Root: plane(Clone)
+Damage Particle System -> Root: rhib(Clone)
+Damage Vignette -> Root: Ingame UI Container(Clone)
+Day -> Root: _TimeOfDay
+Deck_Markings -> Root: Nimitz Parent
+Deck_Markings_2 -> Root: Nimitz Parent
+Deploy Button -> Root: Ingame UI Container(Clone)
+Deployment Button -> Root: Ingame UI Container(Clone)
+Description text -> Root: _Managers(Clone)
+Details -> Root: Bridge Parent
+Details -> Root: Bridge Parent (1)
+Details -> Root: Bridge Parent (2)
+Details -> Root: Bridge Parent (3)
+Details -> Root: Bridge Parent (4)
+Difficulty -> Root: _Managers(Clone)
+Direction -> Root: helicopter(Clone)
+Dirt Barrier (1) -> Root: Dirt Barrier (1)
+Dirt Barrier (2) -> Root: Dirt Barrier (2)
+Dirt Barrier (3) -> Root: Dirt Barrier (3)
+Dirt Barrier (4) -> Root: Dirt Barrier (4)
+Dirt Barrier (5) -> Root: Dirt Barrier (5)
+Dirt Barrier (6) -> Root: Dirt Barrier (6)
+Dirt Barrier (7) -> Root: Dirt Barrier (7)
+Dirt Barrier (8) -> Root: Dirt Barrier (8)
+Dirt Barrier (9) -> Root: Dirt Barrier (9)
+Dirt Barrier (10) -> Root: Dirt Barrier (10)
+Dirt Barrier (11) -> Root: Dirt Barrier (11)
+Dirt Barrier (12) -> Root: Dirt Barrier (12)
+Dirt Barrier (13) -> Root: Dirt Barrier (13)
+Dirt Barrier (14) -> Root: Dirt Barrier (14)
+Dirt Barrier (15) -> Root: Dirt Barrier (15)
+Dirt Barrier (16) -> Root: Dirt Barrier (16)
+Dirt Barrier (17) -> Root: Dirt Barrier (17)
+Dirt Barrier (18) -> Root: Dirt Barrier (18)
+Dirt Barrier (19) -> Root: Dirt Barrier (19)
+Dirt Barrier (20) -> Root: Dirt Barrier (20)
+Dirt Barrier (21) -> Root: Dirt Barrier (21)
+Dirt Barrier (22) -> Root: Dirt Barrier (22)
+Dirt Barrier (23) -> Root: Dirt Barrier (23)
+Dirt Barrier (24) -> Root: Dirt Barrier (24)
+Dirt Barrier (25) -> Root: Dirt Barrier (25)
+Dirt Barrier (26) -> Root: Dirt Barrier (26)
+Dirt Barrier (27) -> Root: Dirt Barrier (27)
+Dirt Barrier (28) -> Root: Dirt Barrier (28)
+Dirt Barrier (29) -> Root: Dirt Barrier (29)
+Dirt Barrier (30) -> Root: Dirt Barrier (30)
+Dirt Barrier (31) -> Root: Dirt Barrier (31)
+Dirt Barrier (32) -> Root: Dirt Barrier (32)
+Dirt Barrier (33) -> Root: Dirt Barrier (33)
+Dirt Barrier (34) -> Root: Dirt Barrier (34)
+Dirt Barrier (35) -> Root: Dirt Barrier (35)
+Dirt Barrier (36) -> Root: Dirt Barrier (36)
+Dirt Barrier (37) -> Root: Dirt Barrier (37)
+Dirt Barrier (38) -> Root: Dirt Barrier (38)
+Dirt Barrier (39) -> Root: Dirt Barrier (39)
+Dirt Barrier (40) -> Root: Dirt Barrier (40)
+Dirt Barrier (41) -> Root: Dirt Barrier (41)
+Dirt Barrier (42) -> Root: Dirt Barrier (42)
+Dirt Barrier (43) -> Root: Dirt Barrier (43)
+Dirt Barrier (44) -> Root: Dirt Barrier (44)
+Dirt Barrier (45) -> Root: Dirt Barrier (45)
+Dirt Barrier (46) -> Root: Dirt Barrier (46)
+Dirt Barrier (47) -> Root: Dirt Barrier (47)
+Dirt Barrier (48) -> Root: Dirt Barrier (48)
+Dirt Barrier (49) -> Root: Dirt Barrier (49)
+Dirt Barrier (50) -> Root: Dirt Barrier (50)
+Dirt Barrier (51) -> Root: Dirt Barrier (51)
+Dirt Barrier (52) -> Root: Dirt Barrier (52)
+Dirt Barrier (53) -> Root: Dirt Barrier (53)
+Dirt Barrier (54) -> Root: Dirt Barrier (54)
+Dirt Barrier (55) -> Root: Dirt Barrier (55)
+Dirt Barrier (56) -> Root: Dirt Barrier (56)
+Dirt Barrier (57) -> Root: Dirt Barrier (57)
+Dirt Barrier (58) -> Root: Dirt Barrier (58)
+Dirt Barrier (59) -> Root: Dirt Barrier (59)
+Dirt Barrier (60) -> Root: Dirt Barrier (60)
+Dirt Barrier (61) -> Root: Dirt Barrier (61)
+Dirt Barrier (62) -> Root: Dirt Barrier (62)
+Dirt Barrier (63) -> Root: Dirt Barrier (63)
+Dirt Barrier (64) -> Root: Dirt Barrier (64)
+Dirt Barrier (65) -> Root: Dirt Barrier (65)
+Dirt Barrier (66) -> Root: Dirt Barrier (66)
+Dirt Barrier (67) -> Root: Dirt Barrier (67)
+Dirt Barrier (68) -> Root: Dirt Barrier (68)
+Dirt Barrier (69) -> Root: Dirt Barrier (69)
+Dirt Barrier (70) -> Root: Dirt Barrier (70)
+Dirt Barrier (71) -> Root: Dirt Barrier (71)
+Dirt Barrier (72) -> Root: Dirt Barrier (72)
+Dirt Barrier (73) -> Root: Dirt Barrier (73)
+Dirt Barrier (74) -> Root: Dirt Barrier (74)
+Dirt Barrier (75) -> Root: Dirt Barrier (75)
+Dirt Barrier (76) -> Root: Dirt Barrier (76)
+Dirt Barrier (77) -> Root: Dirt Barrier (77)
+Dirt Barrier (78) -> Root: Dirt Barrier (78)
+Dirt Barrier (79) -> Root: Dirt Barrier (79)
+Dirt Barrier (80) -> Root: Dirt Barrier (80)
+Dirt Barrier (81) -> Root: Dirt Barrier (81)
+Dirt Barrier (82) -> Root: Dirt Barrier (82)
+Dirt Barrier (83) -> Root: Dirt Barrier (83)
+Dirt Barrier (84) -> Root: Dirt Barrier (84)
+Dirt Barrier (85) -> Root: Dirt Barrier (85)
+Dirt Barrier (86) -> Root: Dirt Barrier (86)
+Dirt Barrier (87) -> Root: Dirt Barrier (87)
+Dirt Barrier (88) -> Root: Dirt Barrier (88)
+Dirt Barrier (89) -> Root: Dirt Barrier (89)
+Dirt Barrier (90) -> Root: Dirt Barrier (90)
+Dirt Barrier -> Root: Dirt Barrier
+Disable On Death -> Root: plane(Clone)
+Dock Concrete (1) -> Root: Harbor
+Dock Concrete (2) -> Root: Harbor
+Dock Concrete (3) -> Root: Harbor
+Dock Concrete Large (1) -> Root: Harbor
+Dock Concrete Large (2) -> Root: Harbor
+Dock Concrete Large (3) -> Root: Harbor
+Dock Concrete Large (5) -> Root: Harbor
+Dock Concrete Large (6) -> Root: Harbor
+Dock Concrete Large -> Root: Harbor
+Dock Ramp -> Root: Harbor
+Drag Apply Point (1) -> Root: rhib(Clone)
+Drag Apply Position -> Root: Attack Boat(Clone)
+Drag Point -> Root: helicopter(Clone)
+Draw Distance -> Root: _Managers(Clone)
+Driver Camera -> Root: rhib(Clone)
+Driver Seat -> Root: APC(Clone)
+Driver Seat -> Root: Attack Boat(Clone)
+Driver Seat -> Root: Jeep MG(Clone)
+Driver Seat -> Root: rhib(Clone)
+Dropdown -> Root: _Managers(Clone)
+Edge_Marking -> Root: Nimitz Parent
+Effect UI -> Root: Ingame UI Container(Clone)
+Elevators -> Root: Bomber(Clone)
+Elevators -> Root: plane(Clone)
+Elevators Parent -> Root: plane(Clone)
+Engine Extra Audio -> Root: APC(Clone)
+Engine Extra Audio -> Root: Jeep MG(Clone)
+Engine Extra Audio -> Root: New Quadbike(Clone)
+Engine_Room_Catwalk -> Root: Nimitz Parent
+EventSystem -> Root: Ingame UI Container(Clone)
+Explosion Arms (1) -> Root: Blackhawk(Clone)
+Explosion Arms (1) -> Root: Bomber(Clone)
+Explosion Arms (1) -> Root: helicopter(Clone)
+Explosion Arms (1) -> Root: plane(Clone)
+Explosion Arms (2) -> Root: Blackhawk(Clone)
+Explosion Arms (2) -> Root: Bomber(Clone)
+Explosion Arms (2) -> Root: helicopter(Clone)
+Explosion Arms (2) -> Root: plane(Clone)
+Explosion Arms -> Root: APC(Clone)
+Explosion Arms -> Root: Attack Boat(Clone)
+Explosion Arms -> Root: Blackhawk(Clone)
+Explosion Arms -> Root: Bomber(Clone)
+Explosion Arms -> Root: helicopter(Clone)
+Explosion Arms -> Root: Jeep MG(Clone)
+Explosion Arms -> Root: New Quadbike(Clone)
+Explosion Arms -> Root: plane(Clone)
+Explosion Arms -> Root: rhib(Clone)
+Explosion Debris -> Root: APC(Clone)
+Explosion Debris -> Root: Attack Boat(Clone)
+Explosion Debris -> Root: Blackhawk(Clone)
+Explosion Debris -> Root: Bomber(Clone)
+Explosion Debris -> Root: helicopter(Clone)
+Explosion Debris -> Root: Jeep MG(Clone)
+Explosion Debris -> Root: New Quadbike(Clone)
+Explosion Debris -> Root: plane(Clone)
+Explosion Debris -> Root: rhib(Clone)
+Explosion Particle System (1) -> Root: Bomber(Clone)
+Explosion Particle System (1) -> Root: New Quadbike(Clone)
+Explosion Particle System -> Root: APC(Clone)
+Explosion Particle System -> Root: Attack Boat(Clone)
+Explosion Particle System -> Root: Blackhawk(Clone)
+Explosion Particle System -> Root: helicopter(Clone)
+Explosion Particle System -> Root: Jeep MG(Clone)
+Explosion Particle System -> Root: plane(Clone)
+Explosion Particle System -> Root: rhib(Clone)
+Explosion Quick Smoke -> Root: APC(Clone)
+Explosion Quick Smoke -> Root: Attack Boat(Clone)
+Explosion Quick Smoke -> Root: Blackhawk(Clone)
+Explosion Quick Smoke -> Root: Bomber(Clone)
+Explosion Quick Smoke -> Root: helicopter(Clone)
+Explosion Quick Smoke -> Root: Jeep MG(Clone)
+Explosion Quick Smoke -> Root: New Quadbike(Clone)
+Explosion Quick Smoke -> Root: plane(Clone)
+Explosion Quick Smoke -> Root: rhib(Clone)
+Explosion Sparks -> Root: APC(Clone)
+Explosion Sparks -> Root: Attack Boat(Clone)
+Explosion Sparks -> Root: Blackhawk(Clone)
+Explosion Sparks -> Root: Bomber(Clone)
+Explosion Sparks -> Root: helicopter(Clone)
+Explosion Sparks -> Root: Jeep MG(Clone)
+Explosion Sparks -> Root: New Quadbike(Clone)
+Explosion Sparks -> Root: plane(Clone)
+Explosion Sparks -> Root: rhib(Clone)
+Field Of View -> Root: _Managers(Clone)
+Field Of View Label -> Root: _Managers(Clone)
+Fill -> Root: _Managers(Clone)
+Fill Area -> Root: _Managers(Clone)
+Fire -> Root: _Managers(Clone)
+Fire Mode -> Root: _Managers(Clone)
+Fire Particle System (1) -> Root: Bomber(Clone)
+Fire Particle System -> Root: APC(Clone)
+Fire Particle System -> Root: Attack Boat(Clone)
+Fire Particle System -> Root: Blackhawk(Clone)
+Fire Particle System -> Root: helicopter(Clone)
+Fire Particle System -> Root: plane(Clone)
+First Person Camera -> Root: Bomber(Clone)
+First Person Camera -> Root: helicopter(Clone)
+First Person Camera -> Root: plane(Clone)
+First Person Model Camera -> Root: Player Fps Actor(Clone)
+Flag Parent -> Root: Capture Point Airstrip
+Flag Parent -> Root: Capture Point Harbor
+Flag Parent -> Root: Capture Point Landing
+Flag Parent -> Root: Capture Point Outpost
+Flag Parent -> Root: Island Group Terrain
+Flag Parent -> Root: Nimitz Parent
+Flag Root -> Root: Capture Point Airstrip
+Flag Root -> Root: Capture Point Harbor
+Flag Root -> Root: Capture Point Landing
+Flag Root -> Root: Capture Point Outpost
+Flag Root -> Root: Island Group Terrain
+Flag Root -> Root: Nimitz Parent
+Flap -> Root: Outpost Tower
+Flap -> Root: Outpost Tower (1)
+Flap L Parent -> Root: plane(Clone)
+Flap R Parent -> Root: plane(Clone)
+Flap_L -> Root: plane(Clone)
+Flap_R -> Root: plane(Clone)
+Flare Sparks -> Root: Blackhawk(Clone)
+Flare Sparks -> Root: Bomber(Clone)
+Flare Sparks -> Root: helicopter(Clone)
+Flare Sparks -> Root: plane(Clone)
+Flare Trail -> Root: Blackhawk(Clone)
+Flare Trail -> Root: Bomber(Clone)
+Flare Trail -> Root: helicopter(Clone)
+Flare Trail -> Root: plane(Clone)
+Floating Sampler (1) -> Root: APC(Clone)
+Floating Sampler (1) -> Root: Attack Boat(Clone)
+Floating Sampler (2) -> Root: APC(Clone)
+Floating Sampler (2) -> Root: Attack Boat(Clone)
+Floating Sampler (3) -> Root: APC(Clone)
+Floating Sampler (3) -> Root: Attack Boat(Clone)
+Floating Sampler (4) -> Root: Attack Boat(Clone)
+Floating Sampler (4) -> Root: rhib(Clone)
+Floating Sampler (5) -> Root: rhib(Clone)
+Floating Sampler (6) -> Root: rhib(Clone)
+Floating Sampler (7) -> Root: rhib(Clone)
+Floating Sampler -> Root: APC(Clone)
+Floating Sampler -> Root: Attack Boat(Clone)
+Footsteps Sound Source (1) -> Root: _Managers(Clone)
+Footsteps Sound Source (2) -> Root: _Managers(Clone)
+Footsteps Sound Source (3) -> Root: _Managers(Clone)
+Footsteps Sound Source (4) -> Root: _Managers(Clone)
+Footsteps Sound Source (5) -> Root: _Managers(Clone)
+Footsteps Sound Source (6) -> Root: _Managers(Clone)
+Footsteps Sound Source (7) -> Root: _Managers(Clone)
+Footsteps Sound Source -> Root: _Managers(Clone)
+Footsteps Sound Sources -> Root: _Managers(Clone)
+Force Player Orders Toggle -> Root: Ingame UI Container(Clone)
+FP Camera -> Root: Player Fps Actor(Clone)
+FP Camera Parent -> Root: Player Fps Actor(Clone)
+FP Camera Root -> Root: Player Fps Actor(Clone)
+Front Light -> Root: Ingame UI Container(Clone)
+Front_Wheel_L -> Root: Bomber(Clone)
+Front_Wheel_R -> Root: Bomber(Clone)
+fuel_tank (1) -> Root: Nimitz Parent
+fuel_tank (2) -> Root: Nimitz Parent
+fuel_tank -> Root: Nimitz Parent
+Full Screen -> Root: _Managers(Clone)
+Game Mode Level Layout -> Root: Game Mode Level Layout
+Game Panel -> Root: _Managers(Clone)
+Game Tab -> Root: _Managers(Clone)
+Game Tab Canvas -> Root: _Managers(Clone)
+GameObject (1) -> Root: House
+GameObject (2) -> Root: House
+GameObject -> Root: GameObject
+GameObject -> Root: House
+Gear 1 Button -> Root: Ingame UI Container(Clone)
+Gear 2 Button -> Root: Ingame UI Container(Clone)
+Gear 3 Button -> Root: Ingame UI Container(Clone)
+Gear_B -> Root: plane(Clone)
+Gear_L -> Root: plane(Clone)
+Gear_R -> Root: plane(Clone)
+Glass -> Root: plane(Clone)
+Graph Link (1) -> Root: Graph Link (1)
+Graph Link (2) -> Root: Graph Link (2)
+Graph Link (3) -> Root: Graph Link (3)
+Graph Link (4) -> Root: Graph Link (4)
+Graph Link (5) -> Root: Graph Link (5)
+Graph Link (6) -> Root: Graph Link (6)
+Graph Link (7) -> Root: Graph Link (7)
+Graph Link (8) -> Root: Graph Link (8)
+Graph Link (9) -> Root: Graph Link (9)
+Graph Link (10) -> Root: Graph Link (10)
+Graph Link (11) -> Root: Graph Link (11)
+Graph Link (12) -> Root: Graph Link (12)
+Graph Link (13) -> Root: Graph Link (13)
+Graph Link (14) -> Root: Graph Link (14)
+Graph Link (15) -> Root: Graph Link (15)
+Graph Link -> Root: Graph Link
+Graph Link Infantry (1) -> Root: Nimitz Parent
+Graph Link Infantry (2) -> Root: Nimitz Parent
+Graph Link Infantry (3) -> Root: Nimitz Parent
+Graph Link Infantry (4) -> Root: Nimitz Parent
+Graph Link Infantry (5) -> Root: Nimitz Parent
+Graph Link Infantry -> Root: Nimitz Parent
+Gun -> Root: Anti Air Gun(Clone)
+Gun -> Root: Nimitz Parent
+Gun Bearing Parent -> Root: Jeep MG(Clone)
+Gun Pitch Parent -> Root: Jeep MG(Clone)
+Gun Turret Parent 2 -> Root: APC(Clone)
+Gun Turret Parent -> Root: APC(Clone)
+Gun Turret Tower Parent -> Root: APC(Clone)
+Gun_Turret -> Root: APC(Clone)
+Gun_Turret_Tower -> Root: APC(Clone)
+Gunner Seat -> Root: APC(Clone)
+Gunner Seat -> Root: Bomber(Clone)
+Gunner Seat -> Root: Jeep MG(Clone)
+Hand Target L -> Root: Anti Air Gun(Clone)
+Hand Target L -> Root: Blackhawk(Clone)
+Hand Target L -> Root: Jeep MG(Clone)
+Hand Target L -> Root: New Quadbike(Clone)
+Hand Target L -> Root: Nimitz Parent
+Hand Target L -> Root: plane(Clone)
+Hand Target L -> Root: rhib(Clone)
+Hand Target Position Bearing -> Root: Anti Air Gun(Clone)
+Hand Target Position Bearing -> Root: Nimitz Parent
+Hand Target Position Pitch -> Root: Anti Air Gun(Clone)
+Hand Target Position Pitch -> Root: Nimitz Parent
+Hand Target R -> Root: Anti Air Gun(Clone)
+Hand Target R -> Root: Blackhawk(Clone)
+Hand Target R -> Root: Jeep MG(Clone)
+Hand Target R -> Root: New Quadbike(Clone)
+Hand Target R -> Root: Nimitz Parent
+Hand Target R -> Root: plane(Clone)
+Hand Target R -> Root: rhib(Clone)
+Handle -> Root: _Managers(Clone)
+Handle -> Root: Ingame UI Container(Clone)
+Handle Slide Area -> Root: _Managers(Clone)
+Handlebar Parent -> Root: New Quadbike(Clone)
+Harbor -> Root: Harbor
+Head Hitbox -> Root: Player Fps Actor(Clone)
+Header Panel -> Root: Ingame UI Container(Clone)
+Health Image -> Root: Ingame UI Container(Clone)
+Health Text -> Root: Ingame UI Container(Clone)
+Heavy Damage Audio (1) -> Root: Bomber(Clone)
+Heavy Damage Audio -> Root: APC(Clone)
+Heavy Damage Audio -> Root: Attack Boat(Clone)
+Heavy Damage Audio -> Root: Blackhawk(Clone)
+Heavy Damage Audio -> Root: helicopter(Clone)
+Heavy Damage Audio -> Root: Jeep MG(Clone)
+Heavy Damage Audio -> Root: plane(Clone)
+Heli Pitch -> Root: _Managers(Clone)
+Heli Roll -> Root: _Managers(Clone)
+Heli Sensitivity -> Root: _Managers(Clone)
+Heli Throttle -> Root: _Managers(Clone)
+Heli Turn -> Root: _Managers(Clone)
+Helicopter Landing Zone -> Root: Capture Point Airstrip
+Helicopter Landing Zone -> Root: Capture Point Harbor
+Helicopter Landing Zone -> Root: Capture Point Landing
+Helicopter Landing Zone -> Root: Capture Point Outpost
+Helicopter Landing Zone -> Root: Island Group Terrain
+Helicopter Landing Zone -> Root: Nimitz Parent
+helicopter(Clone) -> Root: helicopter(Clone)
+Hinge -> Root: Blackhawk(Clone)
+Hinge Parent -> Root: Blackhawk(Clone)
+Hitbox (1) -> Root: APC(Clone)
+Hitbox (2) -> Root: APC(Clone)
+Hitbox (3) -> Root: APC(Clone)
+Hitbox (4) -> Root: APC(Clone)
+Hitbox -> Root: APC(Clone)
+Hitbox -> Root: Jeep MG(Clone)
+Hitbox Cans -> Root: Jeep MG(Clone)
+Hitbox Wheel 2 -> Root: Jeep MG(Clone)
+Hitbox Wheel -> Root: Jeep MG(Clone)
+Hitbox Windshield -> Root: Jeep MG(Clone)
+Hitmarker -> Root: Ingame UI Container(Clone)
+Hitmarkers -> Root: _Managers(Clone)
+House 1x1 Balcony -> Root: 2 floor house
+House 1x1 Balcony -> Root: 2 floor house 2
+House 1x1 Balcony -> Root: House 1x1 Balcony
+House 1x1 Orange (1) -> Root: House 1x1 Orange (1)
+House 1x1 Orange -> Root: House 1x1 Orange
+House 1x1 Stone (1) -> Root: House Tower (1)
+House 1x1 Stone -> Root: 2 floor house
+House 1x1 Stone -> Root: House
+House 1x1 Stone -> Root: House 1x1 Stone
+House 1x1 Stone -> Root: House Large 3
+House 1x1 Stone -> Root: House Tower
+House 2x1 Orange -> Root: House 2x1 Orange
+House 2x1 Orange -> Root: House Tower (1)
+House 2x1 Stone -> Root: 2 floor house
+House 2x1 Stone -> Root: House 2x1 Stone
+House -> Root: House
+House Extension -> Root: 2 floor house
+House Extension -> Root: 2 floor house 2
+House Extension -> Root: House Large 3
+House Large 3 -> Root: House Large 3
+House No Interior Orange -> Root: House Tower
+House No Interior Stone (1) -> Root: 2 floor house 2
+House No Interior Stone (1) -> Root: House
+House No Interior Stone (1) -> Root: House Large 3
+House No Interior Stone (1) -> Root: House Tower (1)
+House No Interior Stone (2) -> Root: House
+House No Interior Stone (2) -> Root: House Tower (1)
+House No Interior Stone (3) -> Root: House Large 3
+House No Interior Stone (3) -> Root: House Tower (1)
+House No Interior Stone (4) -> Root: House Tower (1)
+House No Interior Stone (5) -> Root: House Tower (1)
+House No Interior Stone -> Root: 2 floor house 2
+House No Interior Stone -> Root: House
+House No Interior Stone -> Root: House 1x1 Balcony
+House No Interior Stone -> Root: House Large 3
+House No Interior Stone -> Root: House Tower
+House No Interior Stone -> Root: House Tower (1)
+House Roof 2 -> Root: 2 floor house
+House Roof 2 -> Root: House
+House Roof 2 -> Root: House 1x1 Stone
+House Roof 2 -> Root: House Large 3
+House Roof 2 -> Root: House Tower
+House Roof 2x1 -> Root: House 2x1 Orange
+House Roof 2x1 -> Root: House Tower (1)
+House Roof -> Root: 2 floor house
+House Roof -> Root: 2 floor house 2
+House Roof -> Root: House 1x1 Balcony
+House Roof -> Root: House 1x1 Orange
+House Roof -> Root: House 1x1 Orange (1)
+House Roof -> Root: House Tower
+House Roof Porch (1) -> Root: House
+House Roof Porch (1) -> Root: House Tower (1)
+House Roof Porch (2) -> Root: House Tower (1)
+House Roof Porch (3) -> Root: House Tower (1)
+House Roof Porch -> Root: 2 floor house
+House Roof Porch -> Root: 2 floor house 2
+House Roof Porch -> Root: House
+House Roof Porch -> Root: House Large 3
+House Roof Porch -> Root: House Tower (1)
+House Tower (1) -> Root: House Tower (1)
+House Tower -> Root: House Tower
+houseRoof2_2x1 -> Root: House 2x1 Stone
+HQ Flag -> Root: Capture Point Airstrip
+HQ Flag -> Root: Capture Point Harbor
+HQ Flag -> Root: Capture Point Landing
+HQ Flag -> Root: Capture Point Outpost
+HQ Flag -> Root: Island Group Terrain
+HQ Flag -> Root: Nimitz Parent
+Hull -> Root: helicopter(Clone)
+Icon -> Root: Battle Game Mode(Clone)
+Image -> Root: Ingame UI Container(Clone)
+Impact Decal Drawer -> Root: _Managers(Clone)
+Impact Effect (1) -> Root: Bomber(Clone)
+Impact Effect -> Root: APC(Clone)
+Impact Effect -> Root: Attack Boat(Clone)
+Impact Effect -> Root: Blackhawk(Clone)
+Impact Effect -> Root: helicopter(Clone)
+Impact Effect -> Root: Jeep MG(Clone)
+Impact Effect -> Root: New Quadbike(Clone)
+Impact Effect -> Root: plane(Clone)
+Impact Effect -> Root: rhib(Clone)
+Independent Rotation Parent -> Root: helicopter(Clone)
+Infantry Panel -> Root: Battle Game Mode(Clone)
+Infantry Parent (1) -> Root: Battle Game Mode(Clone)
+Infantry Parent (2) -> Root: Battle Game Mode(Clone)
+Infantry Parent -> Root: Battle Game Mode(Clone)
+Ingame UI -> Root: Ingame UI Container(Clone)
+Ingame UI Container(Clone) -> Root: Ingame UI Container(Clone)
+Input Panel -> Root: _Managers(Clone)
+Input Tab -> Root: _Managers(Clone)
+Input Tab Canvas -> Root: _Managers(Clone)
+Interior -> Root: Nimitz Parent
+Interior Sound (1) -> Root: Bomber(Clone)
+Interior Sound -> Root: APC(Clone)
+Interior Sound -> Root: Blackhawk(Clone)
+Interior Sound -> Root: helicopter(Clone)
+Interior Sound -> Root: plane(Clone)
+Interior_Frames_And_Beams -> Root: Nimitz Parent
+Interior_Side -> Root: Nimitz Parent
+Island Group Terrain -> Root: Island Group Terrain
+Item Required Text (1) -> Root: _Managers(Clone)
+Item Required Text -> Root: _Managers(Clone)
+Jeep -> Root: Jeep MG(Clone)
+Jeep MG(Clone) -> Root: Jeep MG(Clone)
+Jeep_Wheel -> Root: Jeep MG(Clone)
+Jeep_Windshield -> Root: Jeep MG(Clone)
+Jump -> Root: _Managers(Clone)
+Kick -> Root: _Managers(Clone)
+KickFoot -> Root: Player Fps Actor(Clone)
+Kill Indicator (1) -> Root: Ingame UI Container(Clone)
+Kill Indicator (2) -> Root: Ingame UI Container(Clone)
+Kill Indicator -> Root: Ingame UI Container(Clone)
+Kill Indicator Parent Panel -> Root: Ingame UI Container(Clone)
+Kill Indicators -> Root: _Managers(Clone)
+Killcam Camera -> Root: Ingame UI Container(Clone)
+Killcam Camera -> Root: Player Fps Actor(Clone)
+Killcam Canvas -> Root: Ingame UI Container(Clone)
+Killcam Image -> Root: Ingame UI Container(Clone)
+Killcam Parent -> Root: Ingame UI Container(Clone)
+Killed By Text -> Root: Ingame UI Container(Clone)
+Label -> Root: _Managers(Clone)
+Label -> Root: Ingame UI Container(Clone)
+Landing Zone (1) -> Root: Landing Zone (1)
+Landing Zone (2) -> Root: Landing Zone (2)
+Landing Zone (2) -> Root: Nimitz Parent
+Landing Zone (3) -> Root: Landing Zone (3)
+Landing Zone (4) -> Root: Landing Zone (4)
+Landing Zone (5) -> Root: Landing Zone (5)
+Landing Zone (6) -> Root: Landing Zone (6)
+Landing Zone (7) -> Root: Landing Zone (7)
+Landing Zone (8) -> Root: Landing Zone (8)
+Landing Zone (9) -> Root: Landing Zone (9)
+Landing Zone (10) -> Root: Landing Zone (10)
+Landing Zone (11) -> Root: Landing Zone (11)
+Landing Zone (12) -> Root: Landing Zone (12)
+Landing Zone (13) -> Root: Landing Zone (13)
+Landing Zone -> Root: Landing Zone
+Lean Left/Right -> Root: _Managers(Clone)
+Leg_L -> Root: Player Fps Actor(Clone)
+Leg_L_001 -> Root: Player Fps Actor(Clone)
+Leg_L_002 -> Root: Player Fps Actor(Clone)
+Leg_R -> Root: Player Fps Actor(Clone)
+Leg_R_001 -> Root: Player Fps Actor(Clone)
+Leg_R_002 -> Root: Player Fps Actor(Clone)
+Link End -> Root: Graph Link
+Link End -> Root: Graph Link (1)
+Link End -> Root: Graph Link (2)
+Link End -> Root: Graph Link (3)
+Link End -> Root: Graph Link (4)
+Link End -> Root: Graph Link (5)
+Link End -> Root: Graph Link (6)
+Link End -> Root: Graph Link (7)
+Link End -> Root: Graph Link (8)
+Link End -> Root: Graph Link (9)
+Link End -> Root: Graph Link (10)
+Link End -> Root: Graph Link (11)
+Link End -> Root: Graph Link (12)
+Link End -> Root: Graph Link (13)
+Link End -> Root: Graph Link (14)
+Link End -> Root: Graph Link (15)
+Link End -> Root: Nimitz Parent
+Loadout Container -> Root: Ingame UI Container(Clone)
+Loadout UI Canvas -> Root: Ingame UI Container(Clone)
+Machine Gun -> Root: Jeep MG(Clone)
+Machine Gun Mount -> Root: Jeep MG(Clone)
+Main Island -> Root: Main Island
+Main Island Side -> Root: Main Island Side
+Menu Button -> Root: Ingame UI Container(Clone)
+Menu UI -> Root: Ingame UI Container(Clone)
+military crate (1) -> Root: Nimitz Parent
+military crate (2) -> Root: Nimitz Parent
+military crate (3) -> Root: Nimitz Parent
+military crate (4) -> Root: Nimitz Parent
+military crate (5) -> Root: Nimitz Parent
+military crate (6) -> Root: Nimitz Parent
+military crate (7) -> Root: Nimitz Parent
+military crate (8) -> Root: Nimitz Parent
+military crate (9) -> Root: Nimitz Parent
+military crate (10) -> Root: Nimitz Parent
+military crate (11) -> Root: Nimitz Parent
+military crate (12) -> Root: Nimitz Parent
+military crate (13) -> Root: Nimitz Parent
+military crate (14) -> Root: Nimitz Parent
+military crate (15) -> Root: Nimitz Parent
+military crate (16) -> Root: Nimitz Parent
+military crate (17) -> Root: Nimitz Parent
+military crate (18) -> Root: Nimitz Parent
+military crate (19) -> Root: Nimitz Parent
+military crate (20) -> Root: Nimitz Parent
+military crate (21) -> Root: Nimitz Parent
+military crate (22) -> Root: Nimitz Parent
+military crate (23) -> Root: Nimitz Parent
+military crate (24) -> Root: Nimitz Parent
+military crate (25) -> Root: Nimitz Parent
+military crate (26) -> Root: Nimitz Parent
+military crate (27) -> Root: Nimitz Parent
+military crate -> Root: Nimitz Parent
+Minigun (1) -> Root: Blackhawk(Clone)
+Minigun -> Root: Blackhawk(Clone)
+Minigun Camera -> Root: Blackhawk(Clone)
+Minigun Seat -> Root: Blackhawk(Clone)
+Minigun Spinup Sound (1) -> Root: Blackhawk(Clone)
+Minigun Spinup Sound -> Root: Blackhawk(Clone)
+Minigun_Barrel -> Root: Blackhawk(Clone)
+Minigun_Body -> Root: Blackhawk(Clone)
+Minigun_Stand -> Root: Blackhawk(Clone)
+Minimap -> Root: Ingame UI Container(Clone)
+Minimap Camera -> Root: Minimap Camera
+Minimap Container -> Root: Ingame UI Container(Clone)
+Minimap Parent -> Root: Ingame UI Container(Clone)
+Minimap Sliding Container -> Root: Ingame UI Container(Clone)
+Minimap UI -> Root: Ingame UI Container(Clone)
+Missile Lock Canvas -> Root: helicopter(Clone)
+Modify Scope -> Root: _Managers(Clone)
+Mortar -> Root: Attack Boat(Clone)
+Mortar Third Person Camera -> Root: Attack Boat(Clone)
+Mount -> Root: Anti Air Gun(Clone)
+Mount -> Root: Nimitz Parent
+Mount Parent -> Root: Anti Air Gun(Clone)
+Mount Parent -> Root: Nimitz Parent
+Mounted Guns -> Root: Bomber(Clone)
+Mounted Guns -> Root: plane(Clone)
+Mounted Rockets -> Root: plane(Clone)
+Mouse Sensitivity -> Root: _Managers(Clone)
+Move Front/Back -> Root: _Managers(Clone)
+Move Left/Right -> Root: _Managers(Clone)
+Music Sting Volume -> Root: _Managers(Clone)
+Music Volume -> Root: _Managers(Clone)
+Muzzle (1) -> Root: Bomber(Clone)
+Muzzle -> Root: Anti Air Gun(Clone)
+Muzzle -> Root: APC(Clone)
+Muzzle -> Root: Attack Boat(Clone)
+Muzzle -> Root: Blackhawk(Clone)
+Muzzle -> Root: Bomber(Clone)
+Muzzle -> Root: Jeep MG(Clone)
+Muzzle -> Root: Nimitz Parent
+Muzzle Flash (1) -> Root: APC(Clone)
+Muzzle Flash -> Root: APC(Clone)
+Muzzle Flash -> Root: helicopter(Clone)
+Muzzle Flash Particles -> Root: Anti Air Gun(Clone)
+Muzzle Flash Particles -> Root: APC(Clone)
+Muzzle Flash Particles -> Root: Blackhawk(Clone)
+Muzzle Flash Particles -> Root: Bomber(Clone)
+Muzzle Flash Particles -> Root: helicopter(Clone)
+Muzzle Flash Particles -> Root: Jeep MG(Clone)
+Muzzle Flash Particles -> Root: Nimitz Parent
+Muzzle L 2 -> Root: plane(Clone)
+Muzzle L -> Root: Bomber(Clone)
+Muzzle L -> Root: plane(Clone)
+Muzzle R 2 -> Root: plane(Clone)
+Muzzle R -> Root: Bomber(Clone)
+Muzzle R -> Root: plane(Clone)
+Muzzle Sparks -> Root: Bomber(Clone)
+Muzzle Sparks -> Root: helicopter(Clone)
+Negative Button -> Root: _Managers(Clone)
+Neverending Battles -> Root: _Managers(Clone)
+New Game Object -> Root: New Game Object
+New Quadbike(Clone) -> Root: New Quadbike(Clone)
+Next Scope -> Root: _Managers(Clone)
+Next Weapon -> Root: _Managers(Clone)
+Night Vision Probe -> Root: _Reflection Probe
+nimitz -> Root: Nimitz Parent
+Nimitz Parent -> Root: Nimitz Parent
+Nimitz Pathfinding Box -> Root: Nimitz Parent
+Normal Probe -> Root: _Reflection Probe
+Nose Hitbox -> Root: helicopter(Clone)
+Number -> Root: Ingame UI Container(Clone)
+Ocean Background -> Root: Water
+Ocean Underwater -> Root: Water
+Open Loadout -> Root: _Managers(Clone)
+Options Button -> Root: Ingame UI Container(Clone)
+Options Canvas -> Root: _Managers(Clone)
+Options Text -> Root: _Managers(Clone)
+Order Image -> Root: Anti Air Gun(Clone)
+Order Image -> Root: APC(Clone)
+Order Image -> Root: Attack Boat(Clone)
+Order Image -> Root: Blackhawk(Clone)
+Order Image -> Root: Bomber(Clone)
+Order Image -> Root: Capture Point Airstrip
+Order Image -> Root: Capture Point Harbor
+Order Image -> Root: Capture Point Landing
+Order Image -> Root: Capture Point Outpost
+Order Image -> Root: helicopter(Clone)
+Order Image -> Root: Island Group Terrain
+Order Image -> Root: Jeep MG(Clone)
+Order Image -> Root: New Quadbike(Clone)
+Order Image -> Root: Nimitz Parent
+Order Image -> Root: plane(Clone)
+Order Image -> Root: rhib(Clone)
+Outpost Tower (1) -> Root: Outpost Tower (1)
+Outpost Tower -> Root: Outpost Tower
+Overheat Effect -> Root: Blackhawk(Clone)
+Overheat Effect -> Root: Jeep MG(Clone)
+Overlay Text -> Root: Ingame UI Container(Clone)
+Overlay UI Canvas -> Root: Ingame UI Container(Clone)
+Panel -> Root: Battle Game Mode(Clone)
+Panel -> Root: Ingame UI Container(Clone)
+parachute -> Root: Player Fps Actor(Clone)
+Parachute Parent -> Root: Player Fps Actor(Clone)
+Parent -> Root: Ingame UI Container(Clone)
+Passenger Camera -> Root: APC(Clone)
+Passenger Seat (1) -> Root: APC(Clone)
+Passenger Seat (1) -> Root: rhib(Clone)
+Passenger Seat (2) -> Root: APC(Clone)
+Passenger Seat (2) -> Root: rhib(Clone)
+Passenger Seat (3) -> Root: APC(Clone)
+Passenger Seat (3) -> Root: rhib(Clone)
+Passenger Seat -> Root: APC(Clone)
+Passenger Seat -> Root: Jeep MG(Clone)
+Passenger Seat -> Root: rhib(Clone)
+Pathfinding Box Infantry Village -> Root: Pathfinding Box Infantry Village
+Pathfinding Box Main Island -> Root: Pathfinding Box Main Island
+Pathfinding Box Ocean -> Root: Pathfinding Box Ocean
+Pathfinding Box Outpost Tower -> Root: Pathfinding Box Outpost Tower
+Pathfinding Relevant Point (1) -> Root: Pathfinding Relevant Point (1)
+Pathfinding Relevant Point (2) -> Root: Pathfinding Relevant Point (2)
+Pathfinding Relevant Point -> Root: Nimitz Parent
+Pathfinding Relevant Point -> Root: Pathfinding Relevant Point
+Pile Texturer -> Root: Pile Texturer
+Pilot Camera -> Root: Blackhawk(Clone)
+Pilot HUD -> Root: helicopter(Clone)
+Pitch -> Root: helicopter(Clone)
+Plane -> Root: plane(Clone)
+Plane Folded Wings (1) -> Root: Nimitz Parent
+Plane Folded Wings (4) -> Root: Nimitz Parent
+Plane Folded Wings (5) -> Root: Nimitz Parent
+Plane Folded Wings (6) -> Root: Nimitz Parent
+Plane Folded Wings (7) -> Root: Nimitz Parent
+Plane Folded Wings (8) -> Root: Nimitz Parent
+Plane Folded Wings -> Root: Nimitz Parent
+Plane Hangar (1) -> Root: Plane Hangar (1)
+Plane Hangar -> Root: Plane Hangar
+Plane Pitch -> Root: _Managers(Clone)
+Plane Roll -> Root: _Managers(Clone)
+Plane Sensitivity -> Root: _Managers(Clone)
+Plane Throttle -> Root: _Managers(Clone)
+Plane Turn -> Root: _Managers(Clone)
+plane(Clone) -> Root: plane(Clone)
+Plane_001 -> Root: Nimitz Parent
+Plane_Body -> Root: Bomber(Clone)
+Plane_Wing_L -> Root: Bomber(Clone)
+Plane_Wing_R -> Root: Bomber(Clone)
+PlaneHangarWall -> Root: Plane Hangar
+PlaneHangarWall -> Root: Plane Hangar (1)
+Player Fps Actor(Clone) -> Root: Player Fps Actor(Clone)
+Point Marker -> Root: Ingame UI Container(Clone)
+Point Order(Clone) -> Root: Anti Air Gun(Clone)
+Point Order(Clone) -> Root: APC(Clone)
+Point Order(Clone) -> Root: Attack Boat(Clone)
+Point Order(Clone) -> Root: Blackhawk(Clone)
+Point Order(Clone) -> Root: Bomber(Clone)
+Point Order(Clone) -> Root: Capture Point Airstrip
+Point Order(Clone) -> Root: Capture Point Harbor
+Point Order(Clone) -> Root: Capture Point Landing
+Point Order(Clone) -> Root: Capture Point Outpost
+Point Order(Clone) -> Root: helicopter(Clone)
+Point Order(Clone) -> Root: Island Group Terrain
+Point Order(Clone) -> Root: Jeep MG(Clone)
+Point Order(Clone) -> Root: New Quadbike(Clone)
+Point Order(Clone) -> Root: Nimitz Parent
+Point Order(Clone) -> Root: plane(Clone)
+Point Order(Clone) -> Root: rhib(Clone)
+Point Panel -> Root: Ingame UI Container(Clone)
+Pole -> Root: Capture Point Airstrip
+Pole -> Root: Capture Point Harbor
+Pole -> Root: Capture Point Landing
+Pole -> Root: Capture Point Outpost
+Pole -> Root: Island Group Terrain
+Pole -> Root: Nimitz Parent
+Positive Button -> Root: _Managers(Clone)
+Postprocessing -> Root: _TimeOfDay
+Preset -> Root: _Managers(Clone)
+Previous Scope -> Root: _Managers(Clone)
+Previous Weapon -> Root: _Managers(Clone)
+Primary Button -> Root: Ingame UI Container(Clone)
+Prone -> Root: _Managers(Clone)
+Propeller Blades -> Root: Bomber(Clone)
+Propeller Blurred -> Root: Bomber(Clone)
+Propeller Blurred -> Root: plane(Clone)
+Propeller_Back 1 -> Root: plane(Clone)
+Propeller_Front 1 -> Root: plane(Clone)
+Propeller_Front -> Root: Bomber(Clone)
+Propeller_Front L -> Root: Bomber(Clone)
+Quad_Wheel -> Root: New Quadbike(Clone)
+Quadbike -> Root: New Quadbike(Clone)
+Quadbike_Handlebar -> Root: New Quadbike(Clone)
+Quality Level -> Root: _Managers(Clone)
+Quit Button -> Root: Ingame UI Container(Clone)
+RailCorner (1) -> Root: 2 floor house
+RailCorner (1) -> Root: 2 floor house 2
+RailCorner (1) -> Root: House
+RailCorner (1) -> Root: House Large 3
+RailCorner (1) -> Root: House Tower (1)
+RailCorner (2) -> Root: 2 floor house
+RailCorner (2) -> Root: 2 floor house 2
+RailCorner (2) -> Root: House
+RailCorner (2) -> Root: House Large 3
+RailCorner (2) -> Root: House Tower (1)
+RailCorner (3) -> Root: 2 floor house
+RailCorner (3) -> Root: 2 floor house 2
+RailCorner (3) -> Root: House
+RailCorner (3) -> Root: House Large 3
+RailCorner (3) -> Root: House Tower (1)
+RailCorner (4) -> Root: 2 floor house
+RailCorner (4) -> Root: 2 floor house 2
+RailCorner (4) -> Root: House
+RailCorner (4) -> Root: House Tower (1)
+RailCorner (5) -> Root: 2 floor house
+RailCorner (5) -> Root: 2 floor house 2
+RailCorner (5) -> Root: House
+RailCorner (5) -> Root: House Large 3
+RailCorner (5) -> Root: House Tower (1)
+RailCorner (6) -> Root: 2 floor house
+RailCorner (6) -> Root: 2 floor house 2
+RailCorner (6) -> Root: House
+RailCorner (6) -> Root: House Large 3
+RailCorner (6) -> Root: House Tower (1)
+RailCorner (7) -> Root: 2 floor house
+RailCorner (7) -> Root: 2 floor house 2
+RailCorner (7) -> Root: House
+RailCorner (7) -> Root: House Large 3
+RailCorner (8) -> Root: 2 floor house
+RailCorner (8) -> Root: 2 floor house 2
+RailCorner (8) -> Root: House Large 3
+RailCorner (9) -> Root: 2 floor house
+RailCorner (9) -> Root: 2 floor house 2
+RailCorner -> Root: 2 floor house
+RailCorner -> Root: 2 floor house 2
+RailCorner -> Root: House
+RailCorner -> Root: House Large 3
+RailCorner -> Root: House Tower (1)
+Railing -> Root: Bridge Parent
+Railing -> Root: Bridge Parent (1)
+Railing -> Root: Bridge Parent (2)
+Railing -> Root: Bridge Parent (3)
+Railing -> Root: Bridge Parent (4)
+Railing_Long (1) -> Root: 2 floor house
+Railing_Long (1) -> Root: House
+Railing_Long (1) -> Root: House Tower (1)
+Railing_Long (2) -> Root: House
+Railing_Long (2) -> Root: House Large 3
+Railing_Long (2) -> Root: House Tower (1)
+Railing_Long -> Root: 2 floor house
+Railing_Long -> Root: 2 floor house 2
+Railing_Long -> Root: House
+Railing_Long -> Root: House Large 3
+Railing_Long -> Root: House Tower (1)
+Railing_Medium (1) -> Root: 2 floor house 2
+Railing_Medium (1) -> Root: House
+Railing_Medium -> Root: 2 floor house
+Railing_Medium -> Root: 2 floor house 2
+Railing_Medium -> Root: House
+Railing_Medium -> Root: House Large 3
+Railing_Medium -> Root: House Tower (1)
+Railing_Short (1) -> Root: 2 floor house
+Railing_Short (1) -> Root: 2 floor house 2
+Railing_Short (1) -> Root: House
+Railing_Short (1) -> Root: House Large 3
+Railing_Short (1) -> Root: House Tower (1)
+Railing_Short (2) -> Root: 2 floor house
+Railing_Short (2) -> Root: 2 floor house 2
+Railing_Short (2) -> Root: House Large 3
+Railing_Short (3) -> Root: 2 floor house
+Railing_Short (3) -> Root: 2 floor house 2
+Railing_Short -> Root: 2 floor house
+Railing_Short -> Root: 2 floor house 2
+Railing_Short -> Root: House
+Railing_Short -> Root: House Large 3
+Railing_Short -> Root: House Tower (1)
+RawImage (1) -> Root: Ingame UI Container(Clone)
+RawImage -> Root: Ingame UI Container(Clone)
+Red Flag -> Root: Battle Game Mode(Clone)
+Red Flag Label -> Root: Battle Game Mode(Clone)
+Red Side -> Root: Battle Game Mode(Clone)
+Red Splat Decal Drawer -> Root: _Managers(Clone)
+Reflection Audio Source (1) -> Root: _Managers(Clone)
+Reflection Audio Source (2) -> Root: _Managers(Clone)
+Reflection Audio Source (3) -> Root: _Managers(Clone)
+Reflection Audio Source (4) -> Root: _Managers(Clone)
+Reflection Audio Source -> Root: _Managers(Clone)
+Reflection Sound Sources -> Root: _Managers(Clone)
+Regroup Button -> Root: Ingame UI Container(Clone)
+Reload -> Root: _Managers(Clone)
+Reload Audio -> Root: Anti Air Gun(Clone)
+Reload Audio -> Root: Attack Boat(Clone)
+Reload Audio -> Root: Bomber(Clone)
+Reload Audio -> Root: helicopter(Clone)
+Reload Audio -> Root: Nimitz Parent
+Reload Audio -> Root: plane(Clone)
+Reload Scripts -> Root: _Managers(Clone)
+Reload Sound (1) -> Root: APC(Clone)
+Reload Sound -> Root: APC(Clone)
+Resolution -> Root: _Managers(Clone)
+Respawn Hint Text -> Root: Ingame UI Container(Clone)
+Respawn Time Text -> Root: Ingame UI Container(Clone)
+Restart Button -> Root: Ingame UI Container(Clone)
+Resume Button -> Root: Ingame UI Container(Clone)
+Resupply Ammo -> Root: Ingame UI Container(Clone)
+Resupply Crate (1) -> Root: Resupply Crate (1)
+Resupply Crate (2) -> Root: Resupply Crate (2)
+Resupply Crate (3) -> Root: Resupply Crate (3)
+Resupply Crate (4) -> Root: Resupply Crate (4)
+Resupply Crate (5) -> Root: Resupply Crate (5)
+Resupply Crate -> Root: Resupply Crate
+Resupply Health -> Root: Ingame UI Container(Clone)
+rhib(Clone) -> Root: rhib(Clone)
+Rocket Pod Alt -> Root: helicopter(Clone)
+Rocket Pod Main -> Root: helicopter(Clone)
+Roll Indicator -> Root: helicopter(Clone)
+Rotor -> Root: Blackhawk(Clone)
+Rotor -> Root: helicopter(Clone)
+Rotor Blurred -> Root: helicopter(Clone)
+Rotor_Center -> Root: Blackhawk(Clone)
+RS Development Header -> Root: _Managers(Clone)
+Rudder -> Root: plane(Clone)
+Rudder Parent -> Root: plane(Clone)
+Rudder_L -> Root: Bomber(Clone)
+Rudder_R -> Root: Bomber(Clone)
+Sandbags (1) -> Root: Sandbags (1)
+Sandbags (2) -> Root: Sandbags (2)
+Sandbags (3) -> Root: Sandbags (3)
+Sandbags (4) -> Root: Sandbags (4)
+Sandbags (5) -> Root: Sandbags (5)
+Sandbags (6) -> Root: Sandbags (6)
+Sandbags (7) -> Root: Sandbags (7)
+Sandbags (8) -> Root: Sandbags (8)
+Sandbags (9) -> Root: Sandbags (9)
+Sandbags (10) -> Root: Sandbags (10)
+Sandbags (11) -> Root: Sandbags (11)
+Sandbags (12) -> Root: Sandbags (12)
+Sandbags (13) -> Root: Sandbags (13)
+Sandbags (14) -> Root: Sandbags (14)
+Sandbags (15) -> Root: Sandbags (15)
+Sandbags (16) -> Root: Sandbags (16)
+Sandbags (17) -> Root: Sandbags (17)
+Sandbags (18) -> Root: Sandbags (18)
+Sandbags -> Root: Sandbags
+Save Button -> Root: _Managers(Clone)
+Scenery Camera -> Root: Scenery Camera
+Scoreboard Canvas -> Root: Ingame UI Container(Clone)
+Scroll View -> Root: _Managers(Clone)
+Scroll View -> Root: Ingame UI Container(Clone)
+Scrollbar Vertical -> Root: _Managers(Clone)
+Scrollbar Vertical -> Root: Ingame UI Container(Clone)
+Seafloor -> Root: Seafloor
+Seafloor Collider -> Root: Seafloor Collider
+Seat -> Root: Anti Air Gun(Clone)
+Seat -> Root: Bomber(Clone)
+Seat -> Root: Nimitz Parent
+Seat -> Root: plane(Clone)
+Seat Driver -> Root: New Quadbike(Clone)
+Seat Passenger -> Root: New Quadbike(Clone)
+Seat_Back -> Root: helicopter(Clone)
+Seat_Front (1) -> Root: Blackhawk(Clone)
+Seat_Front -> Root: helicopter(Clone)
+Seat_Passenger (1) -> Root: Blackhawk(Clone)
+Seat_Passenger (2) -> Root: Blackhawk(Clone)
+Seat_Passenger (3) -> Root: Blackhawk(Clone)
+Seat_Passenger -> Root: Blackhawk(Clone)
+Secondary Button -> Root: Ingame UI Container(Clone)
+Secret Tape Sound -> Root: _Managers(Clone)
+Selector -> Root: Ingame UI Container(Clone)
+SFX Volume -> Root: _Managers(Clone)
+Shifter -> Root: Jeep MG(Clone)
+Shoulder Parent -> Root: Player Fps Actor(Clone)
+Shoulder_L -> Root: Player Fps Actor(Clone)
+Shoulder_R -> Root: Player Fps Actor(Clone)
+Sight Text -> Root: Ingame UI Container(Clone)
+Slider -> Root: _Managers(Clone)
+Sliding Area -> Root: _Managers(Clone)
+Sliding Area -> Root: Ingame UI Container(Clone)
+Slowmotion -> Root: _Managers(Clone)
+Smoke Particle System (1) -> Root: Bomber(Clone)
+Smoke Particle System -> Root: Bomber(Clone)
+Smoke Particles -> Root: Anti Air Gun(Clone)
+Smoke Particles -> Root: Blackhawk(Clone)
+Smoke Particles -> Root: Jeep MG(Clone)
+Smoke Particles -> Root: Nimitz Parent
+Soldier -> Root: Player Fps Actor(Clone)
+Spacer (1) -> Root: _Managers(Clone)
+Spacer (2) -> Root: _Managers(Clone)
+Spacer (3) -> Root: _Managers(Clone)
+Spacer (4) -> Root: _Managers(Clone)
+Spacer (5) -> Root: _Managers(Clone)
+Spacer (6) -> Root: _Managers(Clone)
+Spacer (7) -> Root: _Managers(Clone)
+Spacer (8) -> Root: _Managers(Clone)
+Spacer -> Root: _Managers(Clone)
+Spare Ammo Text -> Root: Ingame UI Container(Clone)
+Spawn Countdown Canvas -> Root: Ingame UI Container(Clone)
+Spawnpoint Container -> Root: Capture Point Airstrip
+Spawnpoint Container -> Root: Capture Point Harbor
+Spawnpoint Container -> Root: Capture Point Landing
+Spawnpoint Container -> Root: Capture Point Outpost
+Spawnpoint Container -> Root: Island Group Terrain
+Spawnpoint Container -> Root: Nimitz Parent
+Sphere (1) -> Root: Capture Point Airstrip
+Sphere (1) -> Root: Capture Point Harbor
+Sphere (1) -> Root: Capture Point Landing
+Sphere (1) -> Root: Capture Point Outpost
+Sphere (1) -> Root: Island Group Terrain
+Sphere (1) -> Root: Nimitz Parent
+Sphere (2) -> Root: Capture Point Airstrip
+Sphere (2) -> Root: Capture Point Harbor
+Sphere (2) -> Root: Capture Point Landing
+Sphere (2) -> Root: Capture Point Outpost
+Sphere (2) -> Root: Island Group Terrain
+Sphere (2) -> Root: Nimitz Parent
+Sphere (3) -> Root: Capture Point Airstrip
+Sphere (3) -> Root: Capture Point Harbor
+Sphere (3) -> Root: Capture Point Landing
+Sphere (3) -> Root: Capture Point Outpost
+Sphere (3) -> Root: Island Group Terrain
+Sphere (3) -> Root: Nimitz Parent
+Sphere (4) -> Root: Capture Point Airstrip
+Sphere (4) -> Root: Capture Point Harbor
+Sphere (4) -> Root: Capture Point Landing
+Sphere (4) -> Root: Capture Point Outpost
+Sphere (4) -> Root: Island Group Terrain
+Sphere (4) -> Root: Nimitz Parent
+Sphere (5) -> Root: Capture Point Airstrip
+Sphere (5) -> Root: Capture Point Harbor
+Sphere (5) -> Root: Capture Point Landing
+Sphere (5) -> Root: Capture Point Outpost
+Sphere (5) -> Root: Island Group Terrain
+Sphere (5) -> Root: Nimitz Parent
+Sphere (6) -> Root: Capture Point Airstrip
+Sphere (6) -> Root: Capture Point Harbor
+Sphere (6) -> Root: Capture Point Landing
+Sphere (6) -> Root: Capture Point Outpost
+Sphere (6) -> Root: Island Group Terrain
+Sphere (6) -> Root: Nimitz Parent
+Sphere (7) -> Root: Capture Point Airstrip
+Sphere (7) -> Root: Capture Point Harbor
+Sphere (7) -> Root: Capture Point Landing
+Sphere (7) -> Root: Capture Point Outpost
+Sphere (7) -> Root: Island Group Terrain
+Sphere (7) -> Root: Nimitz Parent
+Sphere (8) -> Root: Capture Point Airstrip
+Sphere (8) -> Root: Capture Point Harbor
+Sphere (8) -> Root: Capture Point Landing
+Sphere (8) -> Root: Capture Point Outpost
+Sphere (8) -> Root: Island Group Terrain
+Sphere (8) -> Root: Nimitz Parent
+Sphere (9) -> Root: Capture Point Airstrip
+Sphere (9) -> Root: Capture Point Harbor
+Sphere (9) -> Root: Capture Point Landing
+Sphere (9) -> Root: Capture Point Outpost
+Sphere (9) -> Root: Island Group Terrain
+Sphere (9) -> Root: Nimitz Parent
+Sphere (10) -> Root: Capture Point Airstrip
+Sphere (10) -> Root: Capture Point Harbor
+Sphere (10) -> Root: Capture Point Landing
+Sphere (10) -> Root: Capture Point Outpost
+Sphere (10) -> Root: Island Group Terrain
+Sphere (10) -> Root: Nimitz Parent
+Sphere (11) -> Root: Capture Point Airstrip
+Sphere (11) -> Root: Capture Point Harbor
+Sphere (11) -> Root: Capture Point Landing
+Sphere (11) -> Root: Capture Point Outpost
+Sphere (11) -> Root: Island Group Terrain
+Sphere (11) -> Root: Nimitz Parent
+Sphere (12) -> Root: Capture Point Airstrip
+Sphere (12) -> Root: Capture Point Harbor
+Sphere (12) -> Root: Capture Point Landing
+Sphere (12) -> Root: Capture Point Outpost
+Sphere (12) -> Root: Island Group Terrain
+Sphere (12) -> Root: Nimitz Parent
+Sphere (13) -> Root: Capture Point Airstrip
+Sphere (13) -> Root: Capture Point Harbor
+Sphere (13) -> Root: Capture Point Landing
+Sphere (13) -> Root: Capture Point Outpost
+Sphere (13) -> Root: Island Group Terrain
+Sphere (13) -> Root: Nimitz Parent
+Sphere (14) -> Root: Capture Point Airstrip
+Sphere (14) -> Root: Capture Point Harbor
+Sphere (14) -> Root: Capture Point Landing
+Sphere (14) -> Root: Capture Point Outpost
+Sphere (14) -> Root: Island Group Terrain
+Sphere (14) -> Root: Nimitz Parent
+Sphere (15) -> Root: Capture Point Airstrip
+Sphere (15) -> Root: Capture Point Harbor
+Sphere (15) -> Root: Capture Point Landing
+Sphere (15) -> Root: Capture Point Outpost
+Sphere (15) -> Root: Island Group Terrain
+Sphere (15) -> Root: Nimitz Parent
+Sphere (16) -> Root: Capture Point Airstrip
+Sphere (16) -> Root: Capture Point Harbor
+Sphere (16) -> Root: Capture Point Landing
+Sphere (16) -> Root: Capture Point Outpost
+Sphere (16) -> Root: Island Group Terrain
+Sphere (16) -> Root: Nimitz Parent
+Sphere (17) -> Root: Capture Point Airstrip
+Sphere (17) -> Root: Capture Point Harbor
+Sphere (17) -> Root: Capture Point Landing
+Sphere (17) -> Root: Capture Point Outpost
+Sphere (17) -> Root: Island Group Terrain
+Sphere (17) -> Root: Nimitz Parent
+Sphere (18) -> Root: Capture Point Airstrip
+Sphere (18) -> Root: Capture Point Harbor
+Sphere (18) -> Root: Capture Point Landing
+Sphere (18) -> Root: Capture Point Outpost
+Sphere (18) -> Root: Island Group Terrain
+Sphere (18) -> Root: Nimitz Parent
+Sphere (19) -> Root: Capture Point Airstrip
+Sphere (19) -> Root: Capture Point Harbor
+Sphere (19) -> Root: Capture Point Landing
+Sphere (19) -> Root: Capture Point Outpost
+Sphere (19) -> Root: Island Group Terrain
+Sphere (19) -> Root: Nimitz Parent
+Sphere (20) -> Root: Capture Point Airstrip
+Sphere (20) -> Root: Capture Point Harbor
+Sphere (20) -> Root: Capture Point Landing
+Sphere (20) -> Root: Capture Point Outpost
+Sphere (20) -> Root: Island Group Terrain
+Sphere (20) -> Root: Nimitz Parent
+Sphere (21) -> Root: Capture Point Airstrip
+Sphere (21) -> Root: Capture Point Harbor
+Sphere (21) -> Root: Capture Point Landing
+Sphere (21) -> Root: Capture Point Outpost
+Sphere (21) -> Root: Island Group Terrain
+Sphere (21) -> Root: Nimitz Parent
+Sphere (22) -> Root: Capture Point Airstrip
+Sphere (22) -> Root: Capture Point Harbor
+Sphere (22) -> Root: Capture Point Landing
+Sphere (22) -> Root: Capture Point Outpost
+Sphere (22) -> Root: Island Group Terrain
+Sphere (22) -> Root: Nimitz Parent
+Sphere (23) -> Root: Capture Point Airstrip
+Sphere (23) -> Root: Capture Point Harbor
+Sphere (23) -> Root: Capture Point Landing
+Sphere (23) -> Root: Capture Point Outpost
+Sphere (23) -> Root: Island Group Terrain
+Sphere (23) -> Root: Nimitz Parent
+Sphere (24) -> Root: Capture Point Airstrip
+Sphere (24) -> Root: Capture Point Harbor
+Sphere (24) -> Root: Capture Point Landing
+Sphere (24) -> Root: Capture Point Outpost
+Sphere (24) -> Root: Island Group Terrain
+Sphere (24) -> Root: Nimitz Parent
+Sphere (25) -> Root: Capture Point Airstrip
+Sphere (25) -> Root: Capture Point Harbor
+Sphere (25) -> Root: Capture Point Landing
+Sphere (25) -> Root: Capture Point Outpost
+Sphere (25) -> Root: Island Group Terrain
+Sphere (25) -> Root: Nimitz Parent
+Sphere (26) -> Root: Capture Point Airstrip
+Sphere (26) -> Root: Capture Point Harbor
+Sphere (26) -> Root: Capture Point Landing
+Sphere (26) -> Root: Capture Point Outpost
+Sphere (26) -> Root: Island Group Terrain
+Sphere (26) -> Root: Nimitz Parent
+Sphere (27) -> Root: Capture Point Airstrip
+Sphere (27) -> Root: Capture Point Harbor
+Sphere (27) -> Root: Capture Point Landing
+Sphere (27) -> Root: Capture Point Outpost
+Sphere (27) -> Root: Nimitz Parent
+Sphere (28) -> Root: Capture Point Airstrip
+Sphere (28) -> Root: Capture Point Harbor
+Sphere (28) -> Root: Capture Point Landing
+Sphere (28) -> Root: Capture Point Outpost
+Sphere (28) -> Root: Island Group Terrain
+Sphere (28) -> Root: Nimitz Parent
+Sphere (29) -> Root: Capture Point Airstrip
+Sphere (29) -> Root: Capture Point Harbor
+Sphere (29) -> Root: Capture Point Landing
+Sphere (29) -> Root: Capture Point Outpost
+Sphere (29) -> Root: Island Group Terrain
+Sphere (29) -> Root: Nimitz Parent
+Sphere (30) -> Root: Capture Point Airstrip
+Sphere (30) -> Root: Capture Point Harbor
+Sphere (30) -> Root: Capture Point Landing
+Sphere (30) -> Root: Capture Point Outpost
+Sphere (30) -> Root: Island Group Terrain
+Sphere (30) -> Root: Nimitz Parent
+Sphere (31) -> Root: Capture Point Airstrip
+Sphere (31) -> Root: Capture Point Harbor
+Sphere (31) -> Root: Capture Point Landing
+Sphere (31) -> Root: Capture Point Outpost
+Sphere (31) -> Root: Island Group Terrain
+Sphere (31) -> Root: Nimitz Parent
+Sphere (32) -> Root: Capture Point Airstrip
+Sphere (32) -> Root: Capture Point Harbor
+Sphere (32) -> Root: Capture Point Landing
+Sphere (32) -> Root: Capture Point Outpost
+Sphere (32) -> Root: Island Group Terrain
+Sphere (32) -> Root: Nimitz Parent
+Sphere (33) -> Root: Capture Point Airstrip
+Sphere (33) -> Root: Capture Point Harbor
+Sphere (33) -> Root: Capture Point Outpost
+Sphere (33) -> Root: Island Group Terrain
+Sphere (33) -> Root: Nimitz Parent
+Sphere (34) -> Root: Capture Point Airstrip
+Sphere (34) -> Root: Capture Point Harbor
+Sphere (34) -> Root: Capture Point Outpost
+Sphere (34) -> Root: Island Group Terrain
+Sphere (34) -> Root: Nimitz Parent
+Sphere (35) -> Root: Capture Point Airstrip
+Sphere (35) -> Root: Capture Point Harbor
+Sphere (35) -> Root: Capture Point Outpost
+Sphere (35) -> Root: Nimitz Parent
+Sphere (36) -> Root: Capture Point Airstrip
+Sphere (36) -> Root: Capture Point Harbor
+Sphere (36) -> Root: Capture Point Outpost
+Sphere (36) -> Root: Nimitz Parent
+Sphere (37) -> Root: Capture Point Airstrip
+Sphere (37) -> Root: Capture Point Outpost
+Sphere (37) -> Root: Nimitz Parent
+Sphere (38) -> Root: Capture Point Airstrip
+Sphere (38) -> Root: Nimitz Parent
+Sphere (39) -> Root: Capture Point Airstrip
+Sphere (39) -> Root: Nimitz Parent
+Sphere (40) -> Root: Capture Point Airstrip
+Sphere (40) -> Root: Nimitz Parent
+Sphere (41) -> Root: Capture Point Airstrip
+Sphere (41) -> Root: Nimitz Parent
+Sphere (42) -> Root: Capture Point Airstrip
+Sphere (42) -> Root: Nimitz Parent
+Sphere (43) -> Root: Capture Point Airstrip
+Sphere (43) -> Root: Nimitz Parent
+Sphere (44) -> Root: Capture Point Airstrip
+Sphere (44) -> Root: Nimitz Parent
+Sphere (45) -> Root: Capture Point Airstrip
+Sphere (45) -> Root: Nimitz Parent
+Sphere (46) -> Root: Nimitz Parent
+Sphere (47) -> Root: Nimitz Parent
+Sphere (48) -> Root: Nimitz Parent
+Sphere (49) -> Root: Nimitz Parent
+Sphere -> Root: Attack Boat(Clone)
+Sphere -> Root: Capture Point Airstrip
+Sphere -> Root: Capture Point Harbor
+Sphere -> Root: Capture Point Landing
+Sphere -> Root: Capture Point Outpost
+Sphere -> Root: Island Group Terrain
+Sphere -> Root: Nimitz Parent
+Sphere_001 -> Root: Attack Boat(Clone)
+Splat Background -> Root: Ingame UI Container(Clone)
+Splat Mask -> Root: Ingame UI Container(Clone)
+Spray Particles (1) -> Root: rhib(Clone)
+Spray Particles -> Root: rhib(Clone)
+Sprint -> Root: _Managers(Clone)
+Squad Attack Button -> Root: Ingame UI Container(Clone)
+Squad Defend Button -> Root: Ingame UI Container(Clone)
+Squad Enter Button -> Root: Ingame UI Container(Clone)
+Squad Leader Kit -> Root: _Managers(Clone)
+Squad Move Button -> Root: Ingame UI Container(Clone)
+Squad Order Marker -> Root: Ingame UI Container(Clone)
+Squad Orders -> Root: _Managers(Clone)
+Squad Point UI Canvas -> Root: Ingame UI Container(Clone)
+Squad Text -> Root: Ingame UI Container(Clone)
+Staircase (1) -> Root: Nimitz Parent
+Staircase (2) -> Root: Nimitz Parent
+Staircase (3) -> Root: Nimitz Parent
+Staircase (4) -> Root: Nimitz Parent
+Staircase (5) -> Root: Nimitz Parent
+Staircase (6) -> Root: Nimitz Parent
+Staircase (7) -> Root: Nimitz Parent
+Staircase -> Root: Nimitz Parent
+Stairs (1) -> Root: House 1x1 Balcony
+Stairs (1) -> Root: House Tower (1)
+Stairs (2) -> Root: House Tower
+Stairs (2) -> Root: House Tower (1)
+Stairs -> Root: 2 floor house
+Stairs -> Root: 2 floor house 2
+Stairs -> Root: House Large 3
+Stairs -> Root: House Tower (1)
+Stairs -> Root: Nimitz Parent
+Stairs -> Root: Outpost Tower
+Stairs -> Root: Outpost Tower (1)
+Stairs_Edges -> Root: Nimitz Parent
+Stand Target -> Root: Blackhawk(Clone)
+StandTarget -> Root: Jeep MG(Clone)
+SteelInput Keyboard Alt Flight Preset -> Root: _Managers(Clone)
+SteelInput Keyboard Preset -> Root: _Managers(Clone)
+SteelInput Steam Controller Preset -> Root: _Managers(Clone)
+SteelInput Xbox Preset -> Root: _Managers(Clone)
+Steering_Wheel -> Root: Jeep MG(Clone)
+Steering_Wheel -> Root: rhib(Clone)
+Stick -> Root: plane(Clone)
+Stick Parent -> Root: plane(Clone)
+Strategy Panel -> Root: Ingame UI Container(Clone)
+Strategy UI Canvas -> Root: Ingame UI Container(Clone)
+Sunlight -> Root: _TimeOfDay
+Suspension Audio (1) -> Root: New Quadbike(Clone)
+Suspension Audio -> Root: APC(Clone)
+Suspension Audio -> Root: Jeep MG(Clone)
+Tab Panel -> Root: _Managers(Clone)
+Tactics Button -> Root: Ingame UI Container(Clone)
+Tactics Panel -> Root: Ingame UI Container(Clone)
+Tail Hitbox -> Root: helicopter(Clone)
+Tail Rotor 2 -> Root: Blackhawk(Clone)
+Tail Rotor Parent -> Root: Blackhawk(Clone)
+Tail_Rotor -> Root: Blackhawk(Clone)
+Tail_Rotor Center -> Root: Blackhawk(Clone)
+Tank Trap (1) -> Root: Tank Trap (1)
+Tank Trap (2) -> Root: Tank Trap (2)
+Tank Trap (3) -> Root: Tank Trap (3)
+Tank Trap (4) -> Root: Tank Trap (4)
+Tank Trap (5) -> Root: Tank Trap (5)
+Tank Trap (6) -> Root: Tank Trap (6)
+Tank Trap (7) -> Root: Tank Trap (7)
+Tank Trap (8) -> Root: Tank Trap (8)
+Tank Trap (9) -> Root: Tank Trap (9)
+Tank Trap (10) -> Root: Tank Trap (10)
+Tank Trap (11) -> Root: Tank Trap (11)
+Tank Trap (12) -> Root: Tank Trap (12)
+Tank Trap (13) -> Root: Tank Trap (13)
+Tank Trap (14) -> Root: Tank Trap (14)
+Tank Trap (15) -> Root: Tank Trap (15)
+Tank Trap (16) -> Root: Tank Trap (16)
+Tank Trap (17) -> Root: Tank Trap (17)
+Tank Trap (18) -> Root: Tank Trap (18)
+Tank Trap -> Root: Tank Trap
+Team Panel (1) -> Root: Ingame UI Container(Clone)
+Team Panel -> Root: Ingame UI Container(Clone)
+Terrain Quality -> Root: _Managers(Clone)
+Text -> Root: _Managers(Clone)
+Text -> Root: Battle Game Mode(Clone)
+Text -> Root: Ingame UI Container(Clone)
+Text D -> Root: Ingame UI Container(Clone)
+Text F -> Root: Ingame UI Container(Clone)
+Text K -> Root: Ingame UI Container(Clone)
+Text Mask -> Root: Ingame UI Container(Clone)
+Text Parent -> Root: Ingame UI Container(Clone)
+Text Team -> Root: Ingame UI Container(Clone)
+Text V -> Root: Ingame UI Container(Clone)
+Third Person Camera -> Root: Anti Air Gun(Clone)
+Third Person Camera -> Root: Attack Boat(Clone)
+Third Person Camera -> Root: Blackhawk(Clone)
+Third Person Camera -> Root: Bomber(Clone)
+Third Person Camera -> Root: helicopter(Clone)
+Third Person Camera -> Root: Jeep MG(Clone)
+Third Person Camera -> Root: New Quadbike(Clone)
+Third Person Camera -> Root: Nimitz Parent
+Third Person Camera -> Root: plane(Clone)
+Third Person Camera -> Root: Player Fps Actor(Clone)
+Third Person Camera -> Root: rhib(Clone)
+Third Person Camera Swivel Parent -> Root: Bomber(Clone)
+Thruster -> Root: Bomber(Clone)
+Thruster -> Root: plane(Clone)
+Toggle -> Root: _Managers(Clone)
+Toggle Aim -> Root: _Managers(Clone)
+Toggle Console -> Root: _Managers(Clone)
+Toggle Crouch -> Root: _Managers(Clone)
+Toggle Night Vision -> Root: _Managers(Clone)
+Top Bar -> Root: Battle Game Mode(Clone)
+TOW(Clone) -> Root: Nimitz Parent
+TOW_Stand -> Root: Nimitz Parent
+Tower_Beam (1) -> Root: Outpost Tower
+Tower_Beam (1) -> Root: Outpost Tower (1)
+Tower_Beam (2) -> Root: Outpost Tower
+Tower_Beam (2) -> Root: Outpost Tower (1)
+Tower_Beam (3) -> Root: Outpost Tower
+Tower_Beam (3) -> Root: Outpost Tower (1)
+Tower_Beam (4) -> Root: Outpost Tower
+Tower_Beam (4) -> Root: Outpost Tower (1)
+Tower_Beam (5) -> Root: Outpost Tower
+Tower_Beam (5) -> Root: Outpost Tower (1)
+Tower_Beam (6) -> Root: Outpost Tower
+Tower_Beam (6) -> Root: Outpost Tower (1)
+Tower_Beam (7) -> Root: Outpost Tower
+Tower_Beam (7) -> Root: Outpost Tower (1)
+Tower_Beam (8) -> Root: Outpost Tower
+Tower_Beam (8) -> Root: Outpost Tower (1)
+Tower_Beam (9) -> Root: Outpost Tower
+Tower_Beam (9) -> Root: Outpost Tower (1)
+Tower_Beam (10) -> Root: Outpost Tower
+Tower_Beam (10) -> Root: Outpost Tower (1)
+Tower_Beam (11) -> Root: Outpost Tower
+Tower_Beam (11) -> Root: Outpost Tower (1)
+Tower_Beam (12) -> Root: Outpost Tower
+Tower_Beam (12) -> Root: Outpost Tower (1)
+Tower_Beam (13) -> Root: Outpost Tower
+Tower_Beam (13) -> Root: Outpost Tower (1)
+Tower_Beam (14) -> Root: Outpost Tower
+Tower_Beam (14) -> Root: Outpost Tower (1)
+Tower_Beam (15) -> Root: Outpost Tower
+Tower_Beam (15) -> Root: Outpost Tower (1)
+Tower_Beam (16) -> Root: Outpost Tower
+Tower_Beam (16) -> Root: Outpost Tower (1)
+Tower_Beam (17) -> Root: Outpost Tower
+Tower_Beam (17) -> Root: Outpost Tower (1)
+Tower_Beam (18) -> Root: Outpost Tower
+Tower_Beam (18) -> Root: Outpost Tower (1)
+Tower_Beam (19) -> Root: Outpost Tower
+Tower_Beam (19) -> Root: Outpost Tower (1)
+Tower_Beam (20) -> Root: Outpost Tower
+Tower_Beam (20) -> Root: Outpost Tower (1)
+Tower_Beam (21) -> Root: Outpost Tower
+Tower_Beam (21) -> Root: Outpost Tower (1)
+Tower_Beam (22) -> Root: Outpost Tower
+Tower_Beam (22) -> Root: Outpost Tower (1)
+Tower_Beam (23) -> Root: Outpost Tower
+Tower_Beam (23) -> Root: Outpost Tower (1)
+Tower_Beam (24) -> Root: Outpost Tower
+Tower_Beam (24) -> Root: Outpost Tower (1)
+Tower_Beam (25) -> Root: Outpost Tower
+Tower_Beam (25) -> Root: Outpost Tower (1)
+Tower_Beam -> Root: Outpost Tower
+Tower_Beam -> Root: Outpost Tower (1)
+Tower_Floor_Full -> Root: Outpost Tower
+Tower_Floor_Full -> Root: Outpost Tower (1)
+Tower_Floor_Half -> Root: Outpost Tower
+Tower_Floor_Half -> Root: Outpost Tower (1)
+Tower_Strut (1) -> Root: Outpost Tower
+Tower_Strut (1) -> Root: Outpost Tower (1)
+Tower_Strut (2) -> Root: Outpost Tower
+Tower_Strut (2) -> Root: Outpost Tower (1)
+Tower_Strut (3) -> Root: Outpost Tower
+Tower_Strut (3) -> Root: Outpost Tower (1)
+Tower_Strut (4) -> Root: Outpost Tower
+Tower_Strut (4) -> Root: Outpost Tower (1)
+Tower_Strut (5) -> Root: Outpost Tower
+Tower_Strut (5) -> Root: Outpost Tower (1)
+Tower_Strut (6) -> Root: Outpost Tower
+Tower_Strut (6) -> Root: Outpost Tower (1)
+Tower_Strut (7) -> Root: Outpost Tower
+Tower_Strut (7) -> Root: Outpost Tower (1)
+Tower_Strut (8) -> Root: Outpost Tower
+Tower_Strut (8) -> Root: Outpost Tower (1)
+Tower_Strut -> Root: Outpost Tower
+Tower_Strut -> Root: Outpost Tower (1)
+Tower_Strut_Tall (1) -> Root: Outpost Tower
+Tower_Strut_Tall (1) -> Root: Outpost Tower (1)
+Tower_Strut_Tall (2) -> Root: Outpost Tower
+Tower_Strut_Tall (2) -> Root: Outpost Tower (1)
+Tower_Strut_Tall (3) -> Root: Outpost Tower
+Tower_Strut_Tall (3) -> Root: Outpost Tower (1)
+Tower_Strut_Tall (4) -> Root: Outpost Tower
+Tower_Strut_Tall (4) -> Root: Outpost Tower (1)
+Tower_Strut_Tall -> Root: Outpost Tower
+Tower_Strut_Tall -> Root: Outpost Tower (1)
+Tower_Wall -> Root: Outpost Tower (1)
+Tower_Wall_Door (1) -> Root: Outpost Tower (1)
+Tower_Wall_Half (1) -> Root: Outpost Tower
+Tower_Wall_Half (1) -> Root: Outpost Tower (1)
+Tower_Wall_Half (3) -> Root: Outpost Tower
+Tower_Wall_Half (3) -> Root: Outpost Tower (1)
+Tower_Wall_Half -> Root: Outpost Tower
+Tower_Wall_Half -> Root: Outpost Tower (1)
+Tower_Wall_Opening (1) -> Root: Outpost Tower (1)
+Tower_Wall_Opening (2) -> Root: Outpost Tower
+Tower_Wall_Opening (2) -> Root: Outpost Tower (1)
+Tower_Wall_Opening (3) -> Root: Outpost Tower (1)
+Tower_Wall_Opening -> Root: Outpost Tower
+Tower_Wall_Opening -> Root: Outpost Tower (1)
+Tower_Wall_To_Walkway -> Root: Outpost Tower
+Tower_Wall_To_Walkway -> Root: Outpost Tower (1)
+TP Camera -> Root: APC(Clone)
+TP Weapon Parent -> Root: Player Fps Actor(Clone)
+Tube -> Root: Nimitz Parent
+Turrect Camera -> Root: Bomber(Clone)
+Turret -> Root: Bomber(Clone)
+Turret -> Root: helicopter(Clone)
+Turret -> Root: Nimitz Parent
+Turret Hitbox -> Root: helicopter(Clone)
+Turret Independent Rotation -> Root: Bomber(Clone)
+Turret Parent -> Root: helicopter(Clone)
+Turret Seat -> Root: Attack Boat(Clone)
+Turret Spawner (1) -> Root: Nimitz Parent
+Turret Spawner (1) -> Root: Turret Spawner (1)
+Turret Spawner (2) -> Root: Nimitz Parent
+Turret Spawner (2) -> Root: Turret Spawner (2)
+Turret Spawner (3) -> Root: Nimitz Parent
+Turret Spawner (3) -> Root: Turret Spawner (3)
+Turret Spawner (4) -> Root: Turret Spawner (4)
+Turret Spawner (6) -> Root: Turret Spawner (6)
+Turret Spawner -> Root: Nimitz Parent
+Turret Spawner -> Root: Turret Spawner
+Turret Third Person Camera -> Root: Bomber(Clone)
+Turret_Barrels -> Root: Bomber(Clone)
+Use -> Root: _Managers(Clone)
+Vegetation Density -> Root: _Managers(Clone)
+Vegetation Distance -> Root: _Managers(Clone)
+Vehicle Countermeasures -> Root: _Managers(Clone)
+Vehicle Health -> Root: Ingame UI Container(Clone)
+Vehicle Health Background -> Root: Ingame UI Container(Clone)
+Vehicle Spawner (1) -> Root: Nimitz Parent
+Vehicle Spawner (1) -> Root: Vehicle Spawner (1)
+Vehicle Spawner (2) -> Root: Nimitz Parent
+Vehicle Spawner (2) -> Root: Vehicle Spawner (2)
+Vehicle Spawner (3) -> Root: Nimitz Parent
+Vehicle Spawner (3) -> Root: Vehicle Spawner (3)
+Vehicle Spawner (4) -> Root: Nimitz Parent
+Vehicle Spawner (4) -> Root: Vehicle Spawner (4)
+Vehicle Spawner (5) -> Root: Nimitz Parent
+Vehicle Spawner (5) -> Root: Vehicle Spawner (5)
+Vehicle Spawner (6) -> Root: Nimitz Parent
+Vehicle Spawner (6) -> Root: Vehicle Spawner (6)
+Vehicle Spawner (7) -> Root: Nimitz Parent
+Vehicle Spawner (7) -> Root: Vehicle Spawner (7)
+Vehicle Spawner (8) -> Root: Nimitz Parent
+Vehicle Spawner (8) -> Root: Vehicle Spawner (8)
+Vehicle Spawner (9) -> Root: Nimitz Parent
+Vehicle Spawner (9) -> Root: Vehicle Spawner (9)
+Vehicle Spawner (10) -> Root: Vehicle Spawner (10)
+Vehicle Spawner (11) -> Root: Vehicle Spawner (11)
+Vehicle Spawner (12) -> Root: Vehicle Spawner (12)
+Vehicle Spawner (13) -> Root: Vehicle Spawner (13)
+Vehicle Spawner (14) -> Root: Vehicle Spawner (14)
+Vehicle Spawner (15) -> Root: Vehicle Spawner (15)
+Vehicle Spawner -> Root: Vehicle Spawner
+Vehicle Third Person -> Root: _Managers(Clone)
+Victory UI Canvas -> Root: Ingame UI Container(Clone)
+Video Panel -> Root: _Managers(Clone)
+Video Tab -> Root: _Managers(Clone)
+Video Tab Canvas -> Root: _Managers(Clone)
+View Map -> Root: _Managers(Clone)
+View Scoreboard -> Root: _Managers(Clone)
+Viewport -> Root: _Managers(Clone)
+Viewport -> Root: Ingame UI Container(Clone)
+VSync -> Root: _Managers(Clone)
+Walkable Water Plane -> Root: Nimitz Parent
+Walkway_Corner (1) -> Root: Outpost Tower
+Walkway_Corner (1) -> Root: Outpost Tower (1)
+Walkway_Corner -> Root: Outpost Tower
+Walkway_Corner -> Root: Outpost Tower (1)
+Walkway_Railing_Full (1) -> Root: Outpost Tower
+Walkway_Railing_Full (1) -> Root: Outpost Tower (1)
+Walkway_Railing_Full -> Root: Outpost Tower
+Walkway_Railing_Full -> Root: Outpost Tower (1)
+Walkway_Railing_Part -> Root: Outpost Tower
+Walkway_Railing_Part -> Root: Outpost Tower (1)
+Water -> Root: Water
+Water Plane -> Root: Water
+Water Planing Back -> Root: rhib(Clone)
+Water Planing Front -> Root: rhib(Clone)
+Water Ripple Particles (1) -> Root: APC(Clone)
+Water Ripple Particles (1) -> Root: Bomber(Clone)
+Water Ripple Particles (1) -> Root: Jeep MG(Clone)
+Water Ripple Particles -> Root: Attack Boat(Clone)
+Water Ripple Particles -> Root: New Quadbike(Clone)
+Water Ripple Particles -> Root: plane(Clone)
+Water Ripple Particles -> Root: rhib(Clone)
+Water Speed Sound -> Root: rhib(Clone)
+Weapon 1 -> Root: _Managers(Clone)
+Weapon 2 -> Root: _Managers(Clone)
+Weapon 3 -> Root: _Managers(Clone)
+Weapon 4 -> Root: _Managers(Clone)
+Weapon 5 -> Root: _Managers(Clone)
+Weapon Image -> Root: Ingame UI Container(Clone)
+Weapon Parent -> Root: Player Fps Actor(Clone)
+Weather Effects -> Root: _Managers(Clone)
+Wheel (1) -> Root: APC(Clone)
+Wheel (1) -> Root: Jeep MG(Clone)
+Wheel (2) -> Root: APC(Clone)
+Wheel (2) -> Root: Jeep MG(Clone)
+Wheel (3) -> Root: APC(Clone)
+Wheel (3) -> Root: Jeep MG(Clone)
+Wheel (4) -> Root: APC(Clone)
+Wheel (5) -> Root: APC(Clone)
+Wheel -> Root: APC(Clone)
+Wheel -> Root: Jeep MG(Clone)
+Wheel B -> Root: helicopter(Clone)
+Wheel Collider (1) -> Root: Blackhawk(Clone)
+Wheel Collider -> Root: Blackhawk(Clone)
+Wheel L -> Root: helicopter(Clone)
+Wheel LB -> Root: New Quadbike(Clone)
+Wheel LF -> Root: New Quadbike(Clone)
+Wheel Model Parent -> Root: Jeep MG(Clone)
+Wheel Model Parent -> Root: New Quadbike(Clone)
+Wheel Parent -> Root: APC(Clone)
+Wheel R -> Root: helicopter(Clone)
+Wheel RB -> Root: New Quadbike(Clone)
+Wheel RF -> Root: New Quadbike(Clone)
+Wheel_Bearing -> Root: Anti Air Gun(Clone)
+Wheel_Bearing -> Root: Nimitz Parent
+Wheel_Pitch -> Root: Anti Air Gun(Clone)
+Wheel_Pitch -> Root: Nimitz Parent
+WindZone -> Root: _TimeOfDay
+Wing L -> Root: plane(Clone)
+Wing R -> Root: plane(Clone)
