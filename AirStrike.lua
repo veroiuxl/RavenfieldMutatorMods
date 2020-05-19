@@ -53,6 +53,8 @@ function AirStrike:Fly()
 	--local forceToApply = Vector3(0,0,50)
 	--jetRigidbody.AddForce(forceToApply,ForceMode.Impulse)
 	jetRigidbody.velocity = Vector3.forward * 30
+	coroutine.yield(WaitForSeconds(8))
+	GameObject.Destroy(jetInstance)
 
 
 end
@@ -88,7 +90,7 @@ function AirStrike:Launch()
 			coroutine.yield(WaitForSeconds(DelayBetweenBombs))
 		end
 		self.particleSystem.Stop()
-		Destroy(jetInstance)
+		
 		print("Stopped AirStrike")
 	end
 
