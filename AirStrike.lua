@@ -78,8 +78,6 @@ function AirStrike:Launch()
 		self.scriptvar.StartCoroutine("Fly")
 		
 		
-	--	PlaneAnimation.Play("Jet")
-	--	jet.transform.position = Vector3.MoveTowards(jetStartPosition,jetTargetPosition,Time.deltaTime * 5)
 		for i = BombCount,1,-1 do
 			local pos2 = Vector3(jetInstance.transform.position.x + Random.Range(-AirStrikeSquareX2,AirStrikeSquareX2),jetInstance.transform.position.y, jetInstance.transform.position.z + Random.Range(-AirStrikeSquareY2,AirStrikeSquareY2))
 			print(pos2)
