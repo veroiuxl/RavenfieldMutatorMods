@@ -3,6 +3,7 @@ local behaviourModOptions
 function YourBehaviour:Start()
 -- SETUP YOUR UI
 self.script.StartCoroutine("AddOption")
+self.canvasit.gameObject.SetActive(false) 
 end
 
 function YourBehaviour:AddOption()
@@ -13,7 +14,7 @@ if mutatorOptions == nil then
 else 
     behaviourModOptions = ScriptedBehaviour.GetScript(mutatorOptions)
 	local yourOwnButton = behaviourModOptions:AddMutatorOption("<YourMutatorModName>") 
-	self.canvasit.gameObject.SetActive(false) 
+	
 	yourOwnButton.onClick.AddListener(self,"onModOptionPress")
 	print("Done")
 end
