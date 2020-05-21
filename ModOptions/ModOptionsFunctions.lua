@@ -5,7 +5,7 @@ function YourBehaviour:Start()
 self.script.StartCoroutine("AddOption")
 end
 
-function InfiniteThingsModOptions:AddOption()
+function YourBehaviour:AddOption()
 coroutine.yield(WaitForSeconds(0.1)) 
 local mutatorOptions = GameObject.Find("ModOptionsScript(Clone)") 
 if mutatorOptions == nil then 
@@ -19,7 +19,7 @@ else
 end
 end
 
-function InfiniteThingsModOptions:onModOptionPress()  
+function YourBehaviour:onModOptionPress()  
 	behaviourModOptions:OpenCanvas(self.targets.canvasit)
 end
 end
