@@ -21,7 +21,7 @@ function InfiniteThings:Start()
 	local tNF = self.targets.toggleAntiFall.GetComponent(Toggle)
 	local tNR = self.targets.toggleNoRecoil.GetComponent(Toggle)
 	
-
+self.canvasit.gameObject.SetActive(false) -- Disable your canvas so it doesn't show up all the time
 	self.script.StartCoroutine("AddOption") -- MOD OPTIONS
 end
 function InfiniteThings:AddOption() -- MOD OPTIONS
@@ -32,7 +32,6 @@ if mutatorOptions == nil then
 else 
     behaviourModOptions = ScriptedBehaviour.GetScript(mutatorOptions) -- Get the ScriptedBehaviour of the found Go
 	local yourOwnButton = behaviourModOptions:AddMutatorOption("<YourMutatorModName>") -- Add your button the the Mutator Settings Tab
-	self.canvasit.gameObject.SetActive(false) -- Disable your canvas so it doesn't show up all the time
 	yourOwnButton.onClick.AddListener(self,"onModOptionPress") -- Add a button listener when the button is pressed
 	print("Done")
 end
