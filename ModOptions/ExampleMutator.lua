@@ -1,6 +1,5 @@
 -- Register the behaviour
--- Example for how to add your own section to the ModOptions Mutator Mod
-behaviour("InfiniteThingsModOptions")
+behaviour("InfiniteThings")
 local actor
 local weapon
 local AntiFall
@@ -8,9 +7,10 @@ local InfiniteHealth
 local isInfiniteHealth
 local isInfiniteVehicleHealth
 local isFlying
+local NoRecoil
 local canvasit
 local behaviourModOptions -- MOD OPTIONS
-function InfiniteThingsModOptions:Start()
+function InfiniteThings:Start()
 	-- Run when behaviour is created
 	self.canvasit = self.targets.canvasit -- chance the target of canvasit to your own canvas!
 	
@@ -19,11 +19,12 @@ function InfiniteThingsModOptions:Start()
 	local tia = self.targets.toggleInfiniteAmmo.GetComponent(Toggle)
 	local tvh = self.targets.toggleVehicleHealth.GetComponent(Toggle)
 	local tNF = self.targets.toggleAntiFall.GetComponent(Toggle)
+	local tNR = self.targets.toggleNoRecoil.GetComponent(Toggle)
 	
-	self.canvasit.gameObject.SetActive(false) -- Disable your canvas so it doesn't show up all the time
+
 	self.script.StartCoroutine("AddOption") -- MOD OPTIONS
 end
-function InfiniteThingsModOptions:AddOption() -- MOD OPTIONS
+function InfiniteThings:AddOption() -- MOD OPTIONS
 coroutine.yield(WaitForSeconds(0.1)) -- To ensure that the ModOptions Mutator is loaded first
 local mutatorOptions = GameObject.Find("ModOptionsScript(Clone)") -- Find the ModOptionsScript GameObject
 if mutatorOptions == nil then 
@@ -31,22 +32,22 @@ if mutatorOptions == nil then
 else 
     behaviourModOptions = ScriptedBehaviour.GetScript(mutatorOptions) -- Get the ScriptedBehaviour of the found Go
 	local yourOwnButton = behaviourModOptions:AddMutatorOption("<YourMutatorModName>") -- Add your button the the Mutator Settings Tab
-	
+	self.canvasit.gameObject.SetActive(false) -- Disable your canvas so it doesn't show up all the time
 	yourOwnButton.onClick.AddListener(self,"onModOptionPress") -- Add a button listener when the button is pressed
 	print("Done")
 end
 end
 
-function InfiniteThingsModOptions:onModOptionPress()  
+function InfiniteThings:onModOptionPress()  
 	behaviourModOptions:OpenCanvas(self.targets.canvasit) -- Opens your canvas
 end
 
 
 
-function InfiniteThingsModOptions:ToggleIH(change)
+function InfiniteThings:ToggleIH(change)
 	InfiniteHealth = change.isOn
 end
-function InfiniteThingsModOptions:ToggleIA(change) -- Events didn't work well, that why I had to put it in Update()
+function InfiniteThings:ToggleIA(change)
 	if not Player.actor.isDead then
 	local ammoBeforeToggle = Player.actor.activeWeapon.ammo
 	if change.isOn then
@@ -56,18 +57,22 @@ function InfiniteThingsModOptions:ToggleIA(change) -- Events didn't work well, t
 	end
 end
 end
-function InfiniteThingsModOptions:ToggleVH(change)
+function InfiniteThings:ToggleVH(change)
 	isInfiniteVehicleHealth = change.isOn
 end
-function InfiniteThingsModOptions:ToggleNF(change)
+function InfiniteThings:ToggleNF(change)
 	AntiFall = change.isOn
 end
-function InfiniteThingsModOptions:Update()
+function InfiniteThings:ToggleNR(change)
+	NoRecoil = change.isOn
+end
+function InfiniteThings:Update()
 	if self.targets.canvasit.gameObject.activeSelf then
 		self:ToggleIH(self.targets.toggleInfiniteHealth.GetComponent(Toggle))
 		self:ToggleIA( self.targets.toggleInfiniteAmmo.GetComponent(Toggle))
 		self:ToggleVH(self.targets.toggleVehicleHealth.GetComponent(Toggle))
 		self:ToggleNF(self.targets.toggleAntiFall.GetComponent(Toggle))
+		self:ToggleNR(self.targets.toggleNoRecoil.GetComponent(Toggle))
 	end
 -- Ammo Stuff
 	if Input.GetKeyDown(KeyCode.U) then
@@ -81,6 +86,9 @@ function InfiniteThingsModOptions:Update()
 		if Player.actor.isSeated then
 		Player.actor.activeVehicle.Repair(9999)
 		end
+	end
+	if NoRecoil then
+		PlayerCamera.ResetRecoil()
 	end
 	if AntiFall == true then
 		
