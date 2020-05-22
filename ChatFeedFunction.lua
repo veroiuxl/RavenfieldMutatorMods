@@ -6,14 +6,14 @@
     else
         print("ChatFeed found!")
         local behaviourChatFeed = ScriptedBehaviour.GetScript(ChatFeed)
-        behaviourChatFeed:ClearKilledMessage()
-        behaviourChatFeed:ClearKillerMessages()
-        behaviourChatFeed:ClearTeamKillerMessages()
-        behaviourChatFeed:ClearTeamKilledMessages()
-        behaviourChatFeed:AddKilledMessage("Hello from Killed")
-        behaviourChatFeed:AddKillerMessage("Hello from Killer")
-        behaviourChatFeed:AddTeamKillerMessage("Hello from Teamkiller")
-        behaviourChatFeed:AddTeamKilledMessage("Hello from Teamkilled")
+        behaviourChatFeed:ClearKilledMessage(du hurensohn)
+        behaviourChatFeed:ClearKillerMessages(ficker)
+        behaviourChatFeed:ClearTeamKillerMessages(missit)
+        behaviourChatFeed:ClearTeamKilledMessages(junnnnnngggggggeeeeeeeee)
+        behaviourChatFeed:AddKilledMessage(du orosbo)
+        behaviourChatFeed:AddKillerMessage("huan fuck junge bitxh")
+        behaviourChatFeed:AddTeamKillerMessage("du noob")
+        behaviourChatFeed:AddTeamKilledMessage("wie schlecht")
         behaviourChatFeed:PushMessage(Player.actor,"asdasdasdasd")
 
     end
@@ -27,3 +27,4 @@ AddKilledMessage
 AddKillerMessage
 AddTeamKillerMessage
 AddTeamKilledMessage
+
