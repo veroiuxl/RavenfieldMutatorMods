@@ -1,5 +1,5 @@
--- This is my AutoTurret Script. It automatically targets Vehicles/Infantry without being controlled by a bot.  
-behaviour("AutoTurret") -- unmanned turrets
+-- This is my AutoTurret Script. It automatically targets Vehicles/Infantry without being controlled by a bot. WIP
+behaviour("AutoTurret")
 local rotateableTurretTreePath = "Anti Air Gun/Mount Parent/Mount Bearing" -- Change these
 local rotateableTurretGunTreePath = "Anti Air Gun/Mount Parent/Mount Bearing/Mount/Gun" -- Change these
 local GunMuzzleTreePath = "Anti Air Gun/Mount Parent/Mount Bearing/Mount/Gun/Muzzle" -- Change these
