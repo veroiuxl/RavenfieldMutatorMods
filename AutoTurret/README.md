@@ -1,9 +1,9 @@
-Create a Scripted Behaviour Component
 ![]( Screenshot_171.png)
-Add the AutoTurret Script to it
+Create a Scripted Behaviour Component
 ![](Screenshot_170.png)
-Adjust the config
+Add the AutoTurret Script to it
 ![]( Screenshot_172.png)
+Adjust the config
 
 
 
