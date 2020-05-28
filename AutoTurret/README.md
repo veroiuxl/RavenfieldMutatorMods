@@ -1,4 +1,4 @@
- 	![alt text](https://raw.githubusercontent.com/veroiuxl/RavenfieldMutatorMods/master/AutoTurret/Screenshot_170.png?raw=true)
+ 	![](https://github.com/veroiuxl/RavenfieldMutatorMods/blob/master/AutoTurret/Screenshot_170.png?raw=true)
 
 
 
