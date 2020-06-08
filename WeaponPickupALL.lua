@@ -1,4 +1,4 @@
--- Register the behaviour
+-- Licensed under the Boost Software License, Version 1.0
 behaviour("WeaponPickupALL")
 function WeaponPickupALL:Start()
 	print("Despawn time: " .. tostring(self.script.mutator.GetConfigurationInt("despawnTime")))
