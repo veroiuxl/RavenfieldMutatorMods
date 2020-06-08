@@ -175,7 +175,7 @@ function WeaponPickupALL:DestroyWithDelay(gameObject,delay)
 
 	return function()
 		coroutine.yield(WaitForSeconds(delay))
-		if gameObject == nil then -- This hurts inside
+		if gameObject == nil then
 			return
 		end
 		local destroyGO = gameObject.gameObject
@@ -202,21 +202,21 @@ function WeaponPickupALL:DestroyWithDelaySimple(gameObject,delay)
 	end
 
 end
-function WeaponPickupALL:tablefindInTable2(tab,el) -- Because Lua sucks
+function WeaponPickupALL:tablefindInTable2(tab,el) 
     for index, value in pairs(tab) do
         if value[2] == el then
             return index
         end
     end
 end
-function WeaponPickupALL:tablefindInTable1(tab,el) -- Because Lua sucks
+function WeaponPickupALL:tablefindInTable1(tab,el) 
     for index, value in pairs(tab) do
         if value[1] == el then
             return index
         end
     end
 end
-function WeaponPickupALL:tablefind(tab,el) -- Because Lua sucks
+function WeaponPickupALL:tablefind(tab,el) 
     for index, value in pairs(tab) do
         if value == el then
             return index
@@ -234,23 +234,23 @@ function WeaponPickupALL:Update()
 		    	if weaponApply.slot == WeaponSlot.Primary then
 				Player.actor.RemoveWeapon(0)
 				Player.actor.EquipNewWeaponEntry(weaponApply, 0, true)
-				print("Selected weapon in primary")
+				
 				end
 
 				if weaponApply.slot == WeaponSlot.Secondary and not offline then
 				Player.actor.RemoveWeapon(1)
 				Player.actor.EquipNewWeaponEntry(weaponApply, 1, true)
-				print("Selected weapon in secondary")
+			
 				end
 				if weaponApply.slot == WeaponSlot.Gear and not offline then
 				Player.actor.RemoveWeapon(2)
 				Player.actor.EquipNewWeaponEntry(weaponApply, 2, true)
-				print("Selected weapon in gear")
+				
 				end
 				if weaponApply.slot == WeaponSlot.LargeGear and not offline then
 				Player.actor.RemoveWeapon(3)
 				Player.actor.EquipNewWeaponEntry(weaponApply, 3, true)
-				print("Selected weapon in largeGear")
+				
 				end
 				
 				GameObject.Destroy(spawnedWeaponGo)
@@ -263,10 +263,10 @@ function WeaponPickupALL:Update()
 end
 	if self.script.mutator.GetConfigurationDropdown("versionSelected") == 0 then
 	if Input.GetKeyBindButtonDown(KeyBinds.Use) then
-		--Overlay.ShowMessage("<color=#34abeb>Switched</color>")
+		
 		local ray = Ray(PlayerCamera.activeCamera.main.transform.position + PlayerCamera.activeCamera.main.transform.forward * 1, PlayerCamera.activeCamera.main.transform.forward)
 		local raycast = Physics.Raycast(ray,7, RaycastTarget.Default)
-		if raycast ~= nil then	-- C# raycast != null
+		if raycast ~= nil then
 			if string.find(raycast.transform.gameObject.name,"SpawnedWeapon") then
 				local parentGO = raycast.transform.parent.gameObject
 				local weaponApply
