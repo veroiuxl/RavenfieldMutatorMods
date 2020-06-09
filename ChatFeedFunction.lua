@@ -15,8 +15,8 @@
         behaviourChatFeed:AddTeamKillerMessage("Hello from Teamkiller")
         behaviourChatFeed:AddTeamKilledMessage("Hello from Teamkilled")
         behaviourChatFeed:PushMessage(Player.actor,"asdasdasdasd")
-        behaviourChatFeed:PushMessageAfterDelay(from, message, delay)
-        behaviourChatFeed:PushMessageWithDelayChance(Player.actor,"Hello",6,1)
+        behaviourChatFeed:PushMessageAfterDelay(Player.actor, "Hello", 1)
+        behaviourChatFeed:PushMessageWithDelayChance(Player.actor,"Hello",10,1)
     end
     -- Functions
 ClearKilledMessage
