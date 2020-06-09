@@ -17,6 +17,7 @@
         behaviourChatFeed:PushMessage(Player.actor,"asdasdasdasd")
         behaviourChatFeed:PushMessageAfterDelay(Player.actor, "Hello", 1)
         behaviourChatFeed:PushLineWithDelayChance("Hello",10,0.5)
+        behaviourChatFeed:PushMessageWithDelayChance(from,message,delay,Chance)
     end
     -- Functions
 ClearKilledMessage
