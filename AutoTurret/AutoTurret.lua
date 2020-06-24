@@ -244,8 +244,8 @@ function AutoTurret:Update()
 	local lookPos1
 	local lookPos2
 	if targetMode == 0 then 
-	 lookPos1 = (currentTarget.position ) - rotateableTurret.transform.position 
-	 lookPos2 = (currentTarget.position ) - rotateableTurretGun.transform.position
+	 lookPos1 = currentTarget.position - rotateableTurret.transform.position 
+	 lookPos2 = currentTarget.position - rotateableTurretGun.transform.position
 	if currentTarget.isFallenOver then
 		 lookPos1 = currentTarget.GetHumanoidTransformRagdoll(HumanBodyBones.Hips).position - rotateableTurretGun.transform.position 
 		 lookPos2 = currentTarget.GetHumanoidTransformRagdoll(HumanBodyBones.Hips).position - rotateableTurretGun.transform.position 
