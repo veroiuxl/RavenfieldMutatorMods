@@ -1,4 +1,4 @@
--- This is my AutoTurret Script. It automatically targets Vehicles/Infantry without being controlled by a bot. WIP
+-- Outdated and flawed
 behaviour("AutoTurret")
 
 function AutoTurret:Start()
