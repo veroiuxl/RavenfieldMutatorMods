@@ -23,11 +23,16 @@ self.hitBox = self.targets.hitbox -- Cause that apparently is sometimes nil??
 self.projectileLimit = 0
 self.projectileLimitReached = false
 self.isMovingBot = false
+self.PlayerFpParent = GameObject.Find("Shoulder Parent")
+if(self.PlayerFpParent == nil) then
+	print("Shoulder Parent is nil!")
+end
 self.maxProjectiles = self.script.mutator.GetConfigurationRange("maxProjectiles")
 self.maxProjectilesAT = self.maxProjectiles / 2 
 self.isMovingProjectile = false
 self.cooldownStart = 0
-self.infiniteAmmoWhenFrozen = self.script.mutator.GetConfigurationBool("infiniteAmmoWhileFrozen")
+
+self.infiniteAmmoWhenFrozen = true
 self.applyForceAtPosition = self.script.mutator.GetConfigurationBool("forceAtPosition")
 self.currentActor = nil
 self.currentRigidbody = nil
@@ -115,7 +120,7 @@ end
 function TimeFreeze:SetLineRendererEnd(lineRenderer,endP,raycastR)
 	self.currentLineRendererStart = lineRenderer.GetPosition(0)
 	if(raycastR) then
-	self.currentLineRendererEnd = endP + Vector3(0,2,0)
+	self.currentLineRendererEnd = endP + Vector3(0,1,0)
 	self.currentPosByRaycastPoint = true
 	else
 	self.currentLineRendererEnd = endP
@@ -136,7 +141,7 @@ function TimeFreeze:SetLineRendererFinal(lineRenderer,endP)
 	
 	lineRenderer.positionCount = 2
 	if(self.currentPosByRaycastPoint) then
-	lineRenderer.SetPosition(1,endP - Vector3(0,2,0))
+	lineRenderer.SetPosition(1,endP - Vector3(0,1,0))
 	else
 	lineRenderer.SetPosition(1,endP)
 	end
@@ -149,7 +154,7 @@ function TimeFreeze:SetLineRendererFinal(lineRenderer,endP)
 	-- self.currentRigidbody.AddForce(Vector3(0,50,0),ForceMode.Impulse)
 	local dir
 	if(self.currentisActor) then
-		print("Actor detected")
+	--	print("Actor detected")
 			dir = (self.currentLineRendererEnd) - self.currentLineRendererStart
 
 	
@@ -171,7 +176,7 @@ function TimeFreeze:SetLineRendererFinal(lineRenderer,endP)
 		return
 	end
 	local dir = self.currentLineRendererEnd - self.currentLineRendererStart
-	print(tostring(dir.magnitude))
+	--print(tostring(dir.magnitude))
 	local useMass
 	if(self.currentRigidbody.mass == 0) then
 		useMass = 1
@@ -181,11 +186,11 @@ function TimeFreeze:SetLineRendererFinal(lineRenderer,endP)
 	local vehicle
 	local mtpl = 1
 	if(self.currentRigidbody.transform.root.gameObject.GetComponent(Vehicle) ~= nil) then
-		print("Got vehicle")
+	--	print("Got vehicle")
 		vehicle = self.currentRigidbody.transform.root.gameObject.GetComponent(Vehicle)
 		if(vehicle.isAircraft) then
 			mtpl = 1
-			dir = (self.currentLineRendererEnd - Vector3(0,2,0))- self.currentLineRendererStart
+			dir = ((self.currentLineRendererEnd - Vector3(0,1,0))) - self.currentLineRendererStart
 		else
 			mtpl = 1.5
 		end
@@ -227,6 +232,10 @@ function TimeFreeze:tablefind(tab,el) -- Because Lua sucks
 end
 
 function TimeFreeze:Update()
+	if self.PlayerFpParent == nil then
+		self.PlayerFpParent = GameObject.Find("Shoulder Parent")
+		return
+	end
 	if(Input.GetKeyDown(KeyCode.End) and self.isFrozen) then
 		self.isHidden = not self.isHidden
 		if(self.isHidden) then
@@ -242,14 +251,15 @@ function TimeFreeze:Update()
 		for i,y in ipairs(Player.actor.weaponSlots) do
 			y.LockWeapon()
 		end
-		-- self:GetAllProjectiles()
-		-- for z,p in ipairs(self.projectilesInLevel) do 
+		-- self:GetAllProjectiles() -- Fuck this
+		-- for z,p in ipairs(self.projectilesInLevel) do -- Fuck that
 		-- 	self:SpawnInvHitBox(p)
 		-- end
 		self.canvas.gameObject.SetActive(true)
 		self.isHidden = false
 		self.maxProjectileText.color = Color(1,0,0,0)
 		PlayerCamera.ResetRecoil()
+		self.PlayerFpParent.transform.localEulerAngles = Vector3(0,0,0)
 		self.targets.forceLineInfoTextAnimator.SetBool("fadeOut",true)
 		Time.timeScale = 0.000001
 		else
@@ -258,11 +268,11 @@ function TimeFreeze:Update()
 		PlayerCamera.ResetRecoil()
 		if(self.isDrawing) then
 			self:RemoveCurrentLineRenderer()
-			print("Player was still drawing line")
+			--print("Player was still drawing line")
 			self.isDrawing = false
 			self.currentLineRenderer = nil
 		end
-		-- self:ClearSpawnedHitboxInstanceList()
+		-- self:ClearSpawnedHitboxInstanceList() -- This doesn't fucking matter if it doesn't work
 		-- self:ClearProjectileList()
 		for i,y in ipairs(Player.actor.weaponSlots) do
 			y.UnlockWeapon()
@@ -283,7 +293,7 @@ function TimeFreeze:Update()
 		for k in pairs (self.savedLineRenderer) do
 			self.savedLineRenderer [k] = nil
 		end
-		print("Cleared list and destoryed objects")
+	--	print("Cleared list and destoryed objects")
 		self.targets.forceLineInfoTextAnimator.SetBool("fadeOut",false)
 		
 		self.projectileLimitReached = false
@@ -379,7 +389,6 @@ function TimeFreeze:Update()
 				if(self.projectileLimit > self.maxProjectiles) then
 					self.projectileLimitReached = true
 					self.maxProjectileText.color = Color(1,0,0,1)
-					print("Enabled animator")
 					return
 				else if self.projectileLimit > self.maxProjectilesAT and Player.actor.activeWeapon.weaponEntry.type == LoadoutType.AntiArmor then
 					self.projectileLimitReached = true
@@ -465,7 +474,7 @@ function TimeFreeze:Update()
 		-- 	-- 		for k in pairs (self.projectileParticleSystemActive) do
 		-- 	-- 			self.projectileParticleSystemActive [k] = nil
 		-- 	-- 		end
-		-- 	-- 		self.selectedMove.GetComponentInChildren(Projectile).velocity = directionBetweenPlayerAndPoint.normalized * previoursMagn-- "argument 'rhs' is nil" very fucking precise
+		-- 	-- 		self.selectedMove.GetComponentInChildren(Projectile).velocity = directionBetweenPlayerAndPoint.normalized * previoursMagn-- "argument 'rhs' is nil" very fucking precises you useless shit 
 		-- 	-- 	end
 		-- 	-- 	self.isMovingBot = false 
 		-- 	-- 	self.isMovingProjectile = false
@@ -537,7 +546,7 @@ function TimeFreeze:Update()
 			self.isMovingBot = false 
 			self.selectedMove = nil
 			self.isMovingProjectile = false
-			print("Set to false")
+		--	print("Set to false")
 			return
 		end
 	
@@ -555,12 +564,12 @@ function TimeFreeze:Update()
 				local actor = raycast.transform.root.gameObject.GetComponent(Actor)
 				self.selectedMove = actor.transform.gameObject
 				self.isMovingBot = true
-				print("Set actor")
+			--	print("Set actor")
 
 			else if(raycast.transform.gameObject.GetComponent(Rigidbody) ~= nil) then
 				self.selectedMove = raycast.transform.gameObject
 				self.isMovingBot = true
-				print("Set rigidbody")
+			--	print("Set rigidbody")
 		
 			end
 			end
@@ -593,16 +602,16 @@ function TimeFreeze:Update()
 						self:SetLineRendererStart(lineRendererRaycast,raycast.point)
 						self.isDrawing = true
 					else
-						print("No actors on vehicle")
+				--		print("No actors on vehicle")
 						end
 						return
 					else
 						self.currentisActor = false
 					end
 					end
-					if( raycast.transform.root.gameObject.GetComponent(Actor) ~= nil) then 
+					if( raycast.transform.root.gameObject.GetComponent(Actor) ~= nil) then -- root is the reason why bots won't be affected by force when on a vehicle
 						local actor = raycast.transform.root.gameObject.GetComponent(Actor)
-						print("Actor selected")
+					--	print("Actor selected")
 						
 						self.currentisActor = true
 						self.currentActor = actor
@@ -622,7 +631,7 @@ function TimeFreeze:Update()
 					self.isDrawing = true
 
 					else
-						print(raycast.transform.gameObject.name .. " doesn't have a rigidbody")
+					--	print(raycast.transform.gameObject.name .. " doesn't have a rigidbody")
 					end
 				end
 		end
