@@ -5,8 +5,6 @@ local savedVelocity = {}
 function TimeFreeze:Start()
 
 GameEvents.onActorSpawn.AddListener(self,"onActorSpawn")
-
-
 self.savedAmmoWeapons = {}
 self.savedLineRenderer = {}
 self.isFrozen = false
@@ -19,7 +17,7 @@ self.projectilesInLevel = {}
 self.projectileParticleSystemActive = {}
 self.maxProjectileText = self.targets.maxProjectileReached.GetComponent(Text)
 self.spawnedHitboxInstance = {}
-self.hitBox = self.targets.hitbox -- Cause that apparently is sometimes nil??
+self.hitBox = self.targets.hitbox
 self.projectileLimit = 0
 self.projectileLimitReached = false
 self.isMovingBot = false
@@ -223,7 +221,7 @@ local force = Vector3.Scale((dir.normalized * dir.magnitude * 5 * rigidbody.mass
 rigidbody.AddForceAtPosition(force,lineRenderer.GetPosition(0),ForceMode.Impulse)
 print("Applying " .. tostring(force) .. " to " .. rigidbody.transform.name)
 end
-function TimeFreeze:tablefind(tab,el) -- Because Lua sucks
+function TimeFreeze:tablefind(tab,el)
     for index, value in pairs(tab) do
         if value[1] == el then
             return index
@@ -251,8 +249,8 @@ function TimeFreeze:Update()
 		for i,y in ipairs(Player.actor.weaponSlots) do
 			y.LockWeapon()
 		end
-		-- self:GetAllProjectiles() -- Fuck this
-		-- for z,p in ipairs(self.projectilesInLevel) do -- Fuck that
+		-- self:GetAllProjectiles()
+		-- for z,p in ipairs(self.projectilesInLevel) do 
 		-- 	self:SpawnInvHitBox(p)
 		-- end
 		self.canvas.gameObject.SetActive(true)
@@ -272,7 +270,7 @@ function TimeFreeze:Update()
 			self.isDrawing = false
 			self.currentLineRenderer = nil
 		end
-		-- self:ClearSpawnedHitboxInstanceList() -- This doesn't fucking matter if it doesn't work
+		-- self:ClearSpawnedHitboxInstanceList() 
 		-- self:ClearProjectileList()
 		for i,y in ipairs(Player.actor.weaponSlots) do
 			y.UnlockWeapon()
@@ -609,7 +607,7 @@ function TimeFreeze:Update()
 						self.currentisActor = false
 					end
 					end
-					if( raycast.transform.root.gameObject.GetComponent(Actor) ~= nil) then -- root is the reason why bots won't be affected by force when on a vehicle
+					if( raycast.transform.root.gameObject.GetComponent(Actor) ~= nil) then
 						local actor = raycast.transform.root.gameObject.GetComponent(Actor)
 					--	print("Actor selected")
 						
