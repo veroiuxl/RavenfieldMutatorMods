@@ -242,8 +242,8 @@ function TimeFreeze:Update()
 		for i,y in ipairs(Player.actor.weaponSlots) do
 			y.LockWeapon()
 		end
-		-- self:GetAllProjectiles() -- Fuck this
-		-- for z,p in ipairs(self.projectilesInLevel) do -- Fuck that
+		-- self:GetAllProjectiles()
+		-- for z,p in ipairs(self.projectilesInLevel) do 
 		-- 	self:SpawnInvHitBox(p)
 		-- end
 		self.canvas.gameObject.SetActive(true)
@@ -262,7 +262,7 @@ function TimeFreeze:Update()
 			self.isDrawing = false
 			self.currentLineRenderer = nil
 		end
-		-- self:ClearSpawnedHitboxInstanceList() -- This doesn't fucking matter if it doesn't work
+		-- self:ClearSpawnedHitboxInstanceList()
 		-- self:ClearProjectileList()
 		for i,y in ipairs(Player.actor.weaponSlots) do
 			y.UnlockWeapon()
@@ -465,7 +465,7 @@ function TimeFreeze:Update()
 		-- 	-- 		for k in pairs (self.projectileParticleSystemActive) do
 		-- 	-- 			self.projectileParticleSystemActive [k] = nil
 		-- 	-- 		end
-		-- 	-- 		self.selectedMove.GetComponentInChildren(Projectile).velocity = directionBetweenPlayerAndPoint.normalized * previoursMagn-- "argument 'rhs' is nil" very fucking precises you useless shit 
+		-- 	-- 		self.selectedMove.GetComponentInChildren(Projectile).velocity = directionBetweenPlayerAndPoint.normalized * previoursMagn-- "argument 'rhs' is nil" very fucking precise
 		-- 	-- 	end
 		-- 	-- 	self.isMovingBot = false 
 		-- 	-- 	self.isMovingProjectile = false
@@ -600,7 +600,7 @@ function TimeFreeze:Update()
 						self.currentisActor = false
 					end
 					end
-					if( raycast.transform.root.gameObject.GetComponent(Actor) ~= nil) then -- root is the reason why bots won't be affected by force when on a vehicle
+					if( raycast.transform.root.gameObject.GetComponent(Actor) ~= nil) then 
 						local actor = raycast.transform.root.gameObject.GetComponent(Actor)
 						print("Actor selected")
 						
