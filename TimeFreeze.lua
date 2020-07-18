@@ -472,7 +472,7 @@ function TimeFreeze:Update()
 		-- 	-- 		for k in pairs (self.projectileParticleSystemActive) do
 		-- 	-- 			self.projectileParticleSystemActive [k] = nil
 		-- 	-- 		end
-		-- 	-- 		self.selectedMove.GetComponentInChildren(Projectile).velocity = directionBetweenPlayerAndPoint.normalized * previoursMagn-- "argument 'rhs' is nil" very fucking precises you useless shit 
+		-- 	-- 		self.selectedMove.GetComponentInChildren(Projectile).velocity = directionBetweenPlayerAndPoint.normalized * previoursMagn
 		-- 	-- 	end
 		-- 	-- 	self.isMovingBot = false 
 		-- 	-- 	self.isMovingProjectile = false
