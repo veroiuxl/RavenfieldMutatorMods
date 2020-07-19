@@ -7,7 +7,7 @@ self.selectedVehicle = nil
 self.listOfTurrets = {}
 self.cstmKey = KeyCode.B
 self.listOfVehicles = {}
-	-- Run when behaviour is created
+
 self.canvasVehicleSpawner = self.targets.canvasTar
 self.dropDownMenu = self.targets.dropdownMenu.GetComponent(Dropdown)
 self.scriptvar = self.script
