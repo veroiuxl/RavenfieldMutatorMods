@@ -160,19 +160,7 @@ end
 function StealthAssist:starts_with(str, start)
 	return str:sub(1, #start) == start
 end
--- function StealthAssist:onTakeDamage(actor,source,info)
--- if(not CurrentEvent.isConsumed) then
--- if(self.timerIsRunning) then
--- 	CurrentEvent.Consume()
--- 	if(source ~= nil) then
--- 		local inverted = source.position + -source.transform.forward * 1.4
--- 		Player.actor.transform.parent.transform.position = inverted
--- 		Player.actor.TeleportTo(inverted, Quaternion.LookRotation(source.position - Player.actor.position))
--- 	end
--- end
--- end
 
--- end
 function StealthAssist:GetRandomBotInTeam(team)
 local botsonteam = {}
 for i,y in ipairs(ActorManager.GetActorsOnTeam(team)) do
@@ -260,7 +248,7 @@ function StealthAssist:FindParentWithName(childObject,name)
 	if (t.parent.transform.name == name) then
 		return t.parent.gameObject;
 	end
-	-- print(t.gameObject.name .. " does not equal " .. name)
+	
 	t = t.parent.transform
 	end
    return nil
@@ -327,9 +315,7 @@ function StealthAssist:DrawBones(renderer,lineRenderer)
 	local bones = renderer.bones;
 	lineRenderer.positionCount = self:tablelength(bones)
 	for i,B in ipairs(bones) do
-		if (B.parent == nil) then
-			
-		else
+		if (B.parent ~= nil) then
 			lineRenderer.SetPosition(i, B.position)
 			-- Debug.DrawLine(B.position, B.parent.position, Color.red,6);
 			lineRenderer.SetPosition(i + 1, B.parent.position)
