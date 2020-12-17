@@ -4,16 +4,8 @@ behaviour("StealthAssist")
 function StealthAssist:Start()
 
 		self.affectedBots = {}
-		self.meshRendererBlue = self:GetRandomBotInTeam(Team.Blue).aiController.gameObject.transform.Find("Soldier/Soldier").gameObject.GetComponent(SkinnedMeshRenderer)
-		self.meshRendererRed = self:GetRandomBotInTeam(Team.Red).aiController.gameObject.transform.Find("Soldier/Soldier").gameObject.GetComponent(SkinnedMeshRenderer)
-		self.allSkinMatBlue = self.meshRendererBlue.material
-		self.allSkinMatRed = self.meshRendererRed.material
-		self.materialOutlineRed = self.targets.outlineRed
-		if(Player.enemyTeam == Team.Blue) then
-		self.materialOutlineRed.mainTexture = self.allSkinMatBlue.mainTexture
-		else
-		self.materialOutlineRed.mainTexture = self.allSkinMatRed.mainTexture
-		end
+	
+		self.boneRendererPrefab = self.targets.boneRendererPrefab
 		-- local self.customColor = ColorScheme.GetTeamColor(Player.enemyTeam)
 		self.customColor = ColorScheme.GetTeamColor(Player.enemyTeam)
 
@@ -27,7 +19,6 @@ function StealthAssist:Start()
 		self.customColor.a = 0
 		self.startFov = PlayerCamera.activeCamera.main.fieldOfView
 		self.maxFov = PlayerCamera.activeCamera.main.fieldOfView + 10
-		self.materialOutlineRed.SetColor("_OutlineColor",self.customColor)
 		-- self.enemyOnly = self.script.mutator.GetConfigurationBool("enemyOnly")
 		self.stealthModeEnabled = false
 		self.speedMultiplier = self.script.mutator.GetConfigurationRange("speedMultiplier")
@@ -124,7 +115,7 @@ local ERandom = {
 	return Mathf.RoundToInt(Random.Range(min, max))
 end
 }
-end
+
 function StealthAssist:onActorDied(actor,source,isSilent)
 if(actor == Player.actor) then
 	self.sliderAnimator.SetBool("extended",false)
@@ -169,34 +160,19 @@ end
 function StealthAssist:starts_with(str, start)
 	return str:sub(1, #start) == start
 end
-function StealthAssist:AnimateOpacityIn(material)
-	-- for i = PlayerCamera.activeCamera.main.fieldOfView, self.maxFov,0.25 do
-	-- 	PlayerCamera.activeCamera.main.fieldOfView = i
-	-- 	self.fovLabel.text = tostring(i)
-	-- end
-return function()
-	self:DebugPrint("AnimateOpacityIn")
-	local color2 = self.customColor
-	for i = 0, 1,0.003 do 
-		color2.a = i
-		material.SetColor("_OutlineColor",color2)
-		coroutine.yield(WaitForSeconds(0.0009))
-	end
-end
+-- function StealthAssist:onTakeDamage(actor,source,info)
+-- if(not CurrentEvent.isConsumed) then
+-- if(self.timerIsRunning) then
+-- 	CurrentEvent.Consume()
+-- 	if(source ~= nil) then
+-- 		local inverted = source.position + -source.transform.forward * 1.4
+-- 		Player.actor.transform.parent.transform.position = inverted
+-- 		Player.actor.TeleportTo(inverted, Quaternion.LookRotation(source.position - Player.actor.position))
+-- 	end
+-- end
+-- end
 
-end
-
-function StealthAssist:AnimateOpacityOut(material,bot)
-return function()
-	local color1 = self.customColor
-	for i = 1, 0,-0.009 do 
-		color1.a = i
-		material.SetColor("_OutlineColor",color1)
-		coroutine.yield(WaitForSeconds(0.0003))
-	end
-	self:RemoveOutline(bot)
-end
-end
+-- end
 function StealthAssist:GetRandomBotInTeam(team)
 local botsonteam = {}
 for i,y in ipairs(ActorManager.GetActorsOnTeam(team)) do
@@ -214,7 +190,7 @@ end
 
 function StealthAssist:contains(table, element)
 	for _, value in pairs(table) do
-	  if value == element then
+	  if value[1] == element then
 		return true
 	  end
 	end
@@ -222,27 +198,25 @@ function StealthAssist:contains(table, element)
 end
 function StealthAssist:AddOutline(bot)
 return function()
+
 	self:DebugPrint("Added " .. bot.name)
-	bot.SetSkin(nil, {self.materialOutlineRed},1)
-	local material = bot.aiController.gameObject.transform.GetChild(0).gameObject.transform.GetChild(1).gameObject.GetComponent(SkinnedMeshRenderer).material
-	table.insert(self.affectedBots, bot)
-	self.script.StartCoroutine(self:AnimateOpacityIn(material))
+	-- bot.SetSkin(nil, {self.materialOutlineRed},1)
+	local skinnedMeshRenderer = bot.aiController.gameObject.transform.GetChild(0).gameObject.transform.GetChild(1).gameObject.GetComponent(SkinnedMeshRenderer)
+	local boneRenderer = GameObject.Instantiate(self.boneRendererPrefab).GetComponent(LineRenderer)
+	boneRenderer.positionCount = 0
+	table.insert(self.affectedBots, {bot,skinnedMeshRenderer,boneRenderer})
+	local lastIndex = #self.affectedBots
 	coroutine.yield(WaitForSeconds(self.spottedTime))
-	self.script.StartCoroutine(self:AnimateOpacityOut(material,bot))
+	table.remove(self.affectedBots, self:tablefind(self.affectedBots,bot))
+	GameObject.Destroy(boneRenderer)
 	end
 end
 function StealthAssist:tablefind(tab,el) 
     for index, value in pairs(tab) do
-        if value == el then
+        if value[1] == el then
             return index
         end
     end
-end
-
-function StealthAssist:RemoveOutline(bot)
-	bot.ApplyTeamSkin()
-	table.remove(self.affectedBots,self:tablefind(self.affectedBots,bot))
-	self:DebugPrint("Botname " .. bot.name)
 end
 
 
@@ -315,6 +289,23 @@ function StealthAssist:ToggleStealth(value)
 		self:SetVignetteAlpha(0,1)
 	end
 end
+-- function StealthAssist:GetClosestActor(ActorsInRange,point) 
+-- 	local bestTarget = null;
+-- 	local closestDistanceSqr = Mathf.Infinity;
+-- 	local currentPosition = point
+-- 	for i,potentialTarget in ipairs(ActorsInRange) do
+-- 		local directionToTarget = potentialTarget.transform.position - currentPosition
+-- 		local dSqrToTarget = directionToTarget.sqrMagnitude
+-- 		local raycast = Physics.Linecast(currentPosition, potentialTarget.centerPosition, RaycastTarget.Default)
+-- 		if size == nil then
+-- 			if dSqrToTarget < closestDistanceSqr then
+-- 				closestDistanceSqr = dSqrToTarget;
+-- 				bestTarget = potentialTarget;
+-- 			end
+-- 		end
+-- 	end
+-- 	return bestTarget
+-- end
 function StealthAssist:GetClosestActor(ActorsInRange,point) 
 	local bestTarget = null;
 	local closestDistanceSqr = Mathf.Infinity;
@@ -332,6 +323,22 @@ end
 function StealthAssist:Square(value)
 	return value * value
 end
+function StealthAssist:DrawBones(renderer,lineRenderer)
+	local bones = renderer.bones;
+	lineRenderer.positionCount = self:tablelength(bones)
+	for i,B in ipairs(bones) do
+		if (B.parent == nil) then
+			
+		else
+			lineRenderer.SetPosition(i, B.position)
+			-- Debug.DrawLine(B.position, B.parent.position, Color.red,6);
+			lineRenderer.SetPosition(i + 1, B.parent.position)
+		end
+
+	end
+
+
+end
 function StealthAssist:Update()
 	
 
@@ -342,18 +349,23 @@ function StealthAssist:Update()
 			if raycast ~= nil then	
 				Player.actor.transform.parent.position = raycast.point - PlayerCamera.activeCamera.main.transform.forward
 			end
-	end
+		end
 	end
 	if(Input.GetKeyDown(self.spotKeybind) ) then
 		if(self.spotMethod == 1) then
 			if(not self.spotTimerStart) then
+				
 				self.script.StartCoroutine("SpotFOV")
 			end
 		else
 			self:SpotDirect()
 		end
 	end
-	
+	for i,y in ipairs(self.affectedBots) do
+		local boneRenderer = y[3]
+		boneRenderer.transform.position = y[1].position
+		self:DrawBones(y[2],boneRenderer)
+	end
 	if(self.timerIsRunning) then
 		if(self.visionOccluder ~= nil and PlayerCamera.activeCamera.main ~= nil) then
 			Player.actor.speedMultiplier = Mathf.Lerp(Player.actor.speedMultiplier,self.targetSpeed,Time.deltaTime * 0.6) 
@@ -549,7 +561,7 @@ function StealthAssist:Update()
 				Player.actor.speedMultiplier = self.defaultSpeed
 				self:DebugPrint("Not proning")
 				self.isProning = 0
-			elseif self.isProning == 1 and self.isCrouching == 1 then -- Doesn't really work
+			elseif self.isProning == 1 and self.isCrouching == 1 then
 				self:DebugPrint("Not proning (but crouching)")
 				self.isProning = 0
 			end
@@ -591,6 +603,38 @@ function StealthAssist:SpotDirect()
 						end
 					end
 				end
+			if(Player.actor.activeWeapon == nil) then
+				return
+			end
+			local ray = Ray(Player.actor.activeWeapon.currentMuzzleTransform,Player.actor.activeWeapon.currentMuzzleTransform.forward)
+			local raycast = Physics.Raycast(ray,6500,RaycastTarget.ProjectileHit)
+
+			if(raycast ~= nil) then
+				local actor = self:GetClosestActor(ActorManager.AliveActorsInRange(raycast.point,4),raycast.point)
+				if(actor ~= nil) then
+					print(actor.name)
+					if(not self:contains(self.affectedBots,actor) and actor.team == Player.enemyTeam) then
+						if(self:starts_with(actor.name,"Lt.")) then
+							self.script.StartCoroutine(self:AddOutline(actor))
+							for i,y in ipairs(ActorManager.AliveActorsInRange(actor.position,50)) do
+								if(y.isBot and y.team == Player.enemyTeam) then
+									if(not self:contains(self.affectedBots,y) and y.team == Player.enemyTeam) then
+										self.script.StartCoroutine(self:AddOutline(y))
+										self.audioSource.pitch = Random.Range(0.9,1.2)
+										self.audioSource.PlayClipAtPoint(self.audioSource.clip,Player.actor.position,1)
+									end
+									return
+								end
+							end
+							else
+								self.audioSource.pitch = Random.Range(0.9,1.2)
+								self.audioSource.PlayClipAtPoint(self.audioSource.clip,Player.actor.position,1)
+								self.script.StartCoroutine(self:AddOutline(actor))
+							return
+							end
+						end
+					end
+			end
 		end
 end
 function StealthAssist:SpotFOV()
